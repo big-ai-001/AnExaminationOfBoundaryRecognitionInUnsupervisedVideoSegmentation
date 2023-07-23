@@ -1,0 +1,4080 @@
+1
+00:00:00,080 --> 00:00:03,030
+it will change everything deep minds ai
+
+2
+00:00:03,040 --> 00:00:05,430
+makes gigantic leap in solving protein
+
+3
+00:00:05,440 --> 00:00:06,630
+structures
+
+4
+00:00:06,640 --> 00:00:09,669
+so i guess all of you heard about this
+
+5
+00:00:09,679 --> 00:00:12,950
+uh so far or most of you and
+
+6
+00:00:12,960 --> 00:00:15,669
+uh basically uh what happened is that
+
+7
+00:00:15,679 --> 00:00:16,470
+deepmind
+
+8
+00:00:16,480 --> 00:00:19,990
+uh released published their results uh
+
+9
+00:00:20,000 --> 00:00:23,109
+on this year's protein folding challenge
+
+10
+00:00:23,119 --> 00:00:25,990
+and their method alpha fold actually the
+
+11
+00:00:26,000 --> 00:00:27,109
+second iteration of
+
+12
+00:00:27,119 --> 00:00:30,150
+their algorithm alpha fold kind of
+
+13
+00:00:30,160 --> 00:00:34,069
+ruined the the whole like like
+
+14
+00:00:34,079 --> 00:00:37,030
+beat everybody uh and got the best
+
+15
+00:00:37,040 --> 00:00:38,150
+scores
+
+16
+00:00:38,160 --> 00:00:40,630
+and we can see so this is the the blog
+
+17
+00:00:40,640 --> 00:00:41,430
+that they
+
+18
+00:00:41,440 --> 00:00:44,310
+uh published so far they still haven't
+
+19
+00:00:44,320 --> 00:00:45,510
+published the paper
+
+20
+00:00:45,520 --> 00:00:48,389
+uh the paper will come probably in maybe
+
+21
+00:00:48,399 --> 00:00:49,029
+maybe even
+
+22
+00:00:49,039 --> 00:00:52,229
+a year or something because the the last
+
+23
+00:00:52,239 --> 00:00:54,389
+paper for the alpha fold one came out in
+
+24
+00:00:54,399 --> 00:00:56,310
+december 2019
+
+25
+00:00:56,320 --> 00:00:58,470
+where the competition happened in 2018
+
+26
+00:00:58,480 --> 00:01:00,389
+so we'll have to wait some time to get
+
+27
+00:01:00,399 --> 00:01:00,950
+to that
+
+28
+00:01:00,960 --> 00:01:04,149
+uh to get the paper now basically you
+
+29
+00:01:04,159 --> 00:01:05,590
+can see the
+
+30
+00:01:05,600 --> 00:01:07,670
+uh the scores throughout the years so
+
+31
+00:01:07,680 --> 00:01:09,030
+that's a biennial
+
+32
+00:01:09,040 --> 00:01:12,310
+competition called casp and it happens
+
+33
+00:01:12,320 --> 00:01:14,789
+so it happens every every two years and
+
+34
+00:01:14,799 --> 00:01:15,910
+you can see here
+
+35
+00:01:15,920 --> 00:01:19,350
+that uh in 2018 their method alpha fault
+
+36
+00:01:19,360 --> 00:01:19,910
+one
+
+37
+00:01:19,920 --> 00:01:22,630
+also dominated the competition but this
+
+38
+00:01:22,640 --> 00:01:23,190
+year
+
+39
+00:01:23,200 --> 00:01:26,149
+they crossed the 90 on this global
+
+40
+00:01:26,159 --> 00:01:27,510
+distance test
+
+41
+00:01:27,520 --> 00:01:29,910
+metric which pretty much tells you how
+
+42
+00:01:29,920 --> 00:01:31,030
+good the
+
+43
+00:01:31,040 --> 00:01:32,469
+uh the alignment between the
+
+44
+00:01:32,479 --> 00:01:34,149
+experimentally found uh
+
+45
+00:01:34,159 --> 00:01:35,590
+protein structure and the
+
+46
+00:01:35,600 --> 00:01:37,270
+computationally found
+
+47
+00:01:37,280 --> 00:01:40,550
+protein structures are and i'll i'll
+
+48
+00:01:40,560 --> 00:01:41,030
+first
+
+49
+00:01:41,040 --> 00:01:42,789
+so the idea of this video will be to
+
+50
+00:01:42,799 --> 00:01:44,310
+first uh
+
+51
+00:01:44,320 --> 00:01:46,550
+explain you what the problem is so what
+
+52
+00:01:46,560 --> 00:01:47,830
+the what the protein
+
+53
+00:01:47,840 --> 00:01:50,550
+uh folding problem is uh give you a bit
+
+54
+00:01:50,560 --> 00:01:51,350
+about
+
+55
+00:01:51,360 --> 00:01:53,590
+like history and background of how
+
+56
+00:01:53,600 --> 00:01:55,510
+proteins work and everything
+
+57
+00:01:55,520 --> 00:01:57,990
+and then my idea is to go into the alpha
+
+58
+00:01:58,000 --> 00:01:59,590
+fold one paper because that's what we
+
+59
+00:01:59,600 --> 00:02:00,709
+have so far
+
+60
+00:02:00,719 --> 00:02:02,630
+and i'll explain how it works how the
+
+61
+00:02:02,640 --> 00:02:04,149
+deep learning method works so there'll
+
+62
+00:02:04,159 --> 00:02:05,109
+be a deep
+
+63
+00:02:05,119 --> 00:02:08,710
+in-depth uh explanation of the paper
+
+64
+00:02:08,720 --> 00:02:11,910
+and i'll give some uh
+
+65
+00:02:11,920 --> 00:02:13,510
+assumptions of what will happen with the
+
+66
+00:02:13,520 --> 00:02:15,430
+alpha fault too what the method is they
+
+67
+00:02:15,440 --> 00:02:16,869
+don't only have one chart
+
+68
+00:02:16,879 --> 00:02:19,510
+so i'll try and deduce something out of
+
+69
+00:02:19,520 --> 00:02:20,070
+it
+
+70
+00:02:20,080 --> 00:02:23,430
+so uh basically so what why this is
+
+71
+00:02:23,440 --> 00:02:24,309
+interesting
+
+72
+00:02:24,319 --> 00:02:27,430
+uh is that uh 90 is consider
+
+73
+00:02:27,440 --> 00:02:29,589
+is considered as something that's that's
+
+74
+00:02:29,599 --> 00:02:32,470
+like if you if you get to 90 or above
+
+75
+00:02:32,480 --> 00:02:35,830
+you're pretty much uh comparable to
+
+76
+00:02:35,840 --> 00:02:37,110
+experimental methods
+
+77
+00:02:37,120 --> 00:02:38,790
+the reason being they are also not
+
+78
+00:02:38,800 --> 00:02:40,869
+perfect and they they do have their
+
+79
+00:02:40,879 --> 00:02:44,630
+like measuring uncertainties uh so
+
+80
+00:02:44,640 --> 00:02:46,869
+here we can see let me zoom in a bit
+
+81
+00:02:46,879 --> 00:02:47,910
+here we can see
+
+82
+00:02:47,920 --> 00:02:50,710
+uh like what the what the problem is
+
+83
+00:02:50,720 --> 00:02:52,150
+basically the green thing
+
+84
+00:02:52,160 --> 00:02:55,670
+is the pseudo ground truth so that means
+
+85
+00:02:55,680 --> 00:02:59,030
+uh uh somebody uh found
+
+86
+00:02:59,040 --> 00:03:00,949
+that one using some of the experimental
+
+87
+00:03:00,959 --> 00:03:02,630
+methods and i'll i'll tell you a bit
+
+88
+00:03:02,640 --> 00:03:03,990
+more about those
+
+89
+00:03:04,000 --> 00:03:06,949
+and the the the blue one so the blue one
+
+90
+00:03:06,959 --> 00:03:08,550
+is a computational prediction that deep
+
+91
+00:03:08,560 --> 00:03:10,229
+minds alpha fall to
+
+92
+00:03:10,239 --> 00:03:12,710
+uh made and you can see it's pretty
+
+93
+00:03:12,720 --> 00:03:14,229
+pretty close
+
+94
+00:03:14,239 --> 00:03:16,550
+uh the results are really really good
+
+95
+00:03:16,560 --> 00:03:18,190
+and you can see 90.7
+
+96
+00:03:18,200 --> 00:03:21,509
+93.3 and these are just the names of the
+
+97
+00:03:21,519 --> 00:03:23,190
+proteins t1 0
+
+98
+00:03:23,200 --> 00:03:26,309
+4 9 whatever so let me
+
+99
+00:03:26,319 --> 00:03:28,949
+uh kind of step back a little bit here
+
+100
+00:03:28,959 --> 00:03:31,110
+and tell you something about like how
+
+101
+00:03:31,120 --> 00:03:31,990
+the problem came to
+
+102
+00:03:32,000 --> 00:03:33,509
+be so we've been trying to solve this
+
+103
+00:03:33,519 --> 00:03:36,390
+problem in biology for 50 years already
+
+104
+00:03:36,400 --> 00:03:38,390
+and so this is kind of really big big
+
+105
+00:03:38,400 --> 00:03:39,910
+thing that happened so
+
+106
+00:03:39,920 --> 00:03:43,350
+uh yeah the hype is real this time
+
+107
+00:03:43,360 --> 00:03:45,350
+first of all there's this guy called uh
+
+108
+00:03:45,360 --> 00:03:46,789
+christian anfinsen
+
+109
+00:03:46,799 --> 00:03:49,750
+and uh you can see in 1972 he gave this
+
+110
+00:03:49,760 --> 00:03:51,110
+noble uh
+
+111
+00:03:51,120 --> 00:03:54,550
+uh nobel prize lecture so he basically
+
+112
+00:03:54,560 --> 00:03:56,470
+got his nobel prize because
+
+113
+00:03:56,480 --> 00:03:59,509
+he uh he showed that
+
+114
+00:03:59,519 --> 00:04:01,910
+the function of the protein is pretty
+
+115
+00:04:01,920 --> 00:04:03,990
+much uniquely determined by its 3d
+
+116
+00:04:04,000 --> 00:04:04,949
+structure
+
+117
+00:04:04,959 --> 00:04:07,190
+which is really interesting so here is a
+
+118
+00:04:07,200 --> 00:04:12,070
+really cool example of hemoglobin a
+
+119
+00:04:12,080 --> 00:04:13,830
+small molecule with an iron atom in the
+
+120
+00:04:13,840 --> 00:04:15,750
+center that binds to oxygen
+
+121
+00:04:15,760 --> 00:04:18,390
+so basically like the structure is made
+
+122
+00:04:18,400 --> 00:04:19,270
+so that
+
+123
+00:04:19,280 --> 00:04:21,830
+this protein the hemoglobin has a small
+
+124
+00:04:21,840 --> 00:04:22,710
+pocket
+
+125
+00:04:22,720 --> 00:04:25,110
+where this molecule that has a like a
+
+126
+00:04:25,120 --> 00:04:26,629
+iron
+
+127
+00:04:26,639 --> 00:04:29,670
+atom which binds to like the oxygen and
+
+128
+00:04:29,680 --> 00:04:30,070
+thus
+
+129
+00:04:30,080 --> 00:04:32,629
+transports oxygen throughout our body
+
+130
+00:04:32,639 --> 00:04:33,430
+like just
+
+131
+00:04:33,440 --> 00:04:35,430
+that molecule fits so nicely in this
+
+132
+00:04:35,440 --> 00:04:37,030
+hemoglobin so that's a
+
+133
+00:04:37,040 --> 00:04:39,270
+really plastic example of how the
+
+134
+00:04:39,280 --> 00:04:40,230
+structure
+
+135
+00:04:40,240 --> 00:04:42,629
+uh determines the the function that's a
+
+136
+00:04:42,639 --> 00:04:43,749
+pretty obvious one
+
+137
+00:04:43,759 --> 00:04:45,270
+so there's this cool example of this
+
+138
+00:04:45,280 --> 00:04:47,189
+molecule that has this y shape
+
+139
+00:04:47,199 --> 00:04:50,230
+and the molecule attaches to bacteria or
+
+140
+00:04:50,240 --> 00:04:51,110
+viruses
+
+141
+00:04:51,120 --> 00:04:53,110
+and thus tags those cells for
+
+142
+00:04:53,120 --> 00:04:54,150
+destruction in the
+
+143
+00:04:54,160 --> 00:04:55,830
+immune system so let me give you just a
+
+144
+00:04:55,840 --> 00:04:57,749
+brief example of how the proteins are
+
+145
+00:04:57,759 --> 00:04:58,710
+are created
+
+146
+00:04:58,720 --> 00:05:01,990
+so um i like to think of this as like a
+
+147
+00:05:02,000 --> 00:05:05,430
+as like kitchen where the ribosome
+
+148
+00:05:05,440 --> 00:05:08,150
+is basically this macromolecule acts as
+
+149
+00:05:08,160 --> 00:05:08,950
+a cook
+
+150
+00:05:08,960 --> 00:05:11,029
+we have the messenger rna which is
+
+151
+00:05:11,039 --> 00:05:12,870
+pretty much the recep
+
+152
+00:05:12,880 --> 00:05:15,029
+and then we have amino acids which are
+
+153
+00:05:15,039 --> 00:05:16,390
+the ingredients
+
+154
+00:05:16,400 --> 00:05:17,990
+which are transported by this thing
+
+155
+00:05:18,000 --> 00:05:20,070
+called the transport
+
+156
+00:05:20,080 --> 00:05:22,469
+rna so basically the messenger rna
+
+157
+00:05:22,479 --> 00:05:24,550
+contains this linear sequence of
+
+158
+00:05:24,560 --> 00:05:27,670
+amino acids and it gets translated
+
+159
+00:05:27,680 --> 00:05:30,070
+so it gets so the receipt gets read by
+
+160
+00:05:30,080 --> 00:05:31,430
+this ribosome
+
+161
+00:05:31,440 --> 00:05:35,350
+and we form like a chains of of proteins
+
+162
+00:05:35,360 --> 00:05:38,150
+which slowly start folding because
+
+163
+00:05:38,160 --> 00:05:39,189
+different
+
+164
+00:05:39,199 --> 00:05:40,870
+different parts different amino acids
+
+165
+00:05:40,880 --> 00:05:42,550
+have different charges and so they
+
+166
+00:05:42,560 --> 00:05:43,350
+attract or
+
+167
+00:05:43,360 --> 00:05:45,510
+or repel and thus we get that 3d
+
+168
+00:05:45,520 --> 00:05:47,029
+structure so that's basically how
+
+169
+00:05:47,039 --> 00:05:49,110
+how the how the how the protein is
+
+170
+00:05:49,120 --> 00:05:50,629
+formed and now we're
+
+171
+00:05:50,639 --> 00:05:52,469
+trying to figure out this 3d structure
+
+172
+00:05:52,479 --> 00:05:53,830
+computationally now
+
+173
+00:05:53,840 --> 00:05:57,029
+the thing is how do we how do people uh
+
+174
+00:05:57,039 --> 00:05:59,510
+find uh the 3d structures now that we
+
+175
+00:05:59,520 --> 00:06:01,830
+know that it's really important for the
+
+176
+00:06:01,840 --> 00:06:03,590
+like the uh for figuring out the
+
+177
+00:06:03,600 --> 00:06:05,189
+function of the proteins how do we find
+
+178
+00:06:05,199 --> 00:06:06,230
+the structure
+
+179
+00:06:06,240 --> 00:06:08,550
+uh of the protein so there are three
+
+180
+00:06:08,560 --> 00:06:10,950
+methods that are used uh extensively
+
+181
+00:06:10,960 --> 00:06:12,950
+in uh different labyrinth uh in
+
+182
+00:06:12,960 --> 00:06:14,870
+different labs and those are
+
+183
+00:06:14,880 --> 00:06:17,830
+mainly x-ray diffraction uh nuclear
+
+184
+00:06:17,840 --> 00:06:19,110
+magnetic resonance
+
+185
+00:06:19,120 --> 00:06:22,150
+and this electron microscopy and as you
+
+186
+00:06:22,160 --> 00:06:22,870
+can see
+
+187
+00:06:22,880 --> 00:06:26,230
+the x-ray diffraction was so far uh had
+
+188
+00:06:26,240 --> 00:06:28,710
+the the highest amount of proteins were
+
+189
+00:06:28,720 --> 00:06:30,390
+like protein structures were determined
+
+190
+00:06:30,400 --> 00:06:31,670
+using this method
+
+191
+00:06:31,680 --> 00:06:34,070
+although it does has its own flaws it
+
+192
+00:06:34,080 --> 00:06:35,029
+cannot
+
+193
+00:06:35,039 --> 00:06:37,830
+solve so depending on the size of the
+
+194
+00:06:37,840 --> 00:06:38,550
+protein
+
+195
+00:06:38,560 --> 00:06:40,230
+it has its constraints so you can solve
+
+196
+00:06:40,240 --> 00:06:42,629
+everything now these two are getting
+
+197
+00:06:42,639 --> 00:06:45,590
+more popular lately but they are still
+
+198
+00:06:45,600 --> 00:06:46,870
+super expensive
+
+199
+00:06:46,880 --> 00:06:50,150
+and really slow methods uh to to obtain
+
+200
+00:06:50,160 --> 00:06:50,710
+the
+
+201
+00:06:50,720 --> 00:06:52,550
+the 3d structure so that's why the
+
+202
+00:06:52,560 --> 00:06:54,150
+computational uh
+
+203
+00:06:54,160 --> 00:06:56,150
+biology and this these computational
+
+204
+00:06:56,160 --> 00:06:57,589
+methods for figuring out the structure
+
+205
+00:06:57,599 --> 00:06:59,670
+were so important
+
+206
+00:06:59,680 --> 00:07:02,230
+so if we take a look at this chart here
+
+207
+00:07:02,240 --> 00:07:04,550
+we can see that the number of proteins
+
+208
+00:07:04,560 --> 00:07:07,589
+we sequenced successfully sequenced uh
+
+209
+00:07:07,599 --> 00:07:10,309
+is around 200 million now in 2020. so
+
+210
+00:07:10,319 --> 00:07:10,870
+it's been
+
+211
+00:07:10,880 --> 00:07:13,029
+rising like so those are the linear
+
+212
+00:07:13,039 --> 00:07:15,029
+sequences that are encoded in the
+
+213
+00:07:15,039 --> 00:07:17,749
+dna so but we still don't have the 3d
+
+214
+00:07:17,759 --> 00:07:18,950
+structure for all of those
+
+215
+00:07:18,960 --> 00:07:21,350
+and if we take a look at this chart we
+
+216
+00:07:21,360 --> 00:07:22,950
+can see there is this thing called a
+
+217
+00:07:22,960 --> 00:07:24,150
+protein database
+
+218
+00:07:24,160 --> 00:07:25,589
+which is really important because that's
+
+219
+00:07:25,599 --> 00:07:28,309
+the data set that's been used in the
+
+220
+00:07:28,319 --> 00:07:29,510
+alpha fold
+
+221
+00:07:29,520 --> 00:07:33,029
+uh elf fold paper and we'll get to it
+
+222
+00:07:33,039 --> 00:07:35,189
+in a couple of minutes but basically
+
+223
+00:07:35,199 --> 00:07:36,550
+here you can see that
+
+224
+00:07:36,560 --> 00:07:40,870
+um like uh we we have
+
+225
+00:07:40,880 --> 00:07:45,589
+so we have a lot of sequences being uh
+
+226
+00:07:45,599 --> 00:07:48,230
+kind of ingested into this data set but
+
+227
+00:07:48,240 --> 00:07:48,790
+the
+
+228
+00:07:48,800 --> 00:07:50,790
+the the number of structures is actually
+
+229
+00:07:50,800 --> 00:07:52,550
+a lot smaller so here
+
+230
+00:07:52,560 --> 00:07:55,589
+2020 we can see only 12 000
+
+231
+00:07:55,599 --> 00:07:58,309
+structures are are it are there but we
+
+232
+00:07:58,319 --> 00:07:58,629
+only
+
+233
+00:07:58,639 --> 00:08:01,350
+but we have like much more uh sequences
+
+234
+00:08:01,360 --> 00:08:01,749
+so
+
+235
+00:08:01,759 --> 00:08:03,909
+so that there was a motivation for why
+
+236
+00:08:03,919 --> 00:08:04,869
+we wanna
+
+237
+00:08:04,879 --> 00:08:07,670
+um why we wanna accelerate the pace of
+
+238
+00:08:07,680 --> 00:08:09,510
+uh finding three structures
+
+239
+00:08:09,520 --> 00:08:11,830
+the experimental one is slow it's really
+
+240
+00:08:11,840 --> 00:08:12,710
+expensive
+
+241
+00:08:12,720 --> 00:08:14,790
+so yeah we we need we need an
+
+242
+00:08:14,800 --> 00:08:17,749
+alternative so again why we care about
+
+243
+00:08:17,759 --> 00:08:20,150
+uh figuring out the structure the 3d
+
+244
+00:08:20,160 --> 00:08:21,909
+structure of the protein
+
+245
+00:08:21,919 --> 00:08:23,749
+is because as as you can see on
+
+246
+00:08:23,759 --> 00:08:26,150
+deepmind's blog an error in the genetic
+
+247
+00:08:26,160 --> 00:08:29,430
+recipe may result in a malformed protein
+
+248
+00:08:29,440 --> 00:08:31,909
+which could result in disease or death
+
+249
+00:08:31,919 --> 00:08:33,110
+for an organism
+
+250
+00:08:33,120 --> 00:08:34,709
+many diseases therefore are
+
+251
+00:08:34,719 --> 00:08:36,870
+fundamentally linked to proteins
+
+252
+00:08:36,880 --> 00:08:40,469
+so diseases like uh diabetes
+
+253
+00:08:40,479 --> 00:08:44,710
+uh like dementia parkinson's alzheimer's
+
+254
+00:08:44,720 --> 00:08:46,870
+cancer some of the diseases that are
+
+255
+00:08:46,880 --> 00:08:47,829
+known to be
+
+256
+00:08:47,839 --> 00:08:50,150
+like plaguing the like the human kind
+
+257
+00:08:50,160 --> 00:08:51,030
+for for
+
+258
+00:08:51,040 --> 00:08:54,550
+for decades or more uh can probably be
+
+259
+00:08:54,560 --> 00:08:56,790
+solved by just
+
+260
+00:08:56,800 --> 00:08:59,350
+us knowing the 3d structures so that's
+
+261
+00:08:59,360 --> 00:09:00,790
+why it's super important to
+
+262
+00:09:00,800 --> 00:09:02,389
+so this is that's why this problem is
+
+263
+00:09:02,399 --> 00:09:04,949
+super important aside from that also
+
+264
+00:09:04,959 --> 00:09:07,750
+we could develop much better materials
+
+265
+00:09:07,760 --> 00:09:08,310
+if we
+
+266
+00:09:08,320 --> 00:09:10,150
+if we knew how to construct and
+
+267
+00:09:10,160 --> 00:09:11,590
+understand the
+
+268
+00:09:11,600 --> 00:09:13,750
+the shapes of different proteins and we
+
+269
+00:09:13,760 --> 00:09:16,310
+could create like plastic eating enzymes
+
+270
+00:09:16,320 --> 00:09:18,550
+uh and thus reduce the pollution like on
+
+271
+00:09:18,560 --> 00:09:20,470
+the on the like global level
+
+272
+00:09:20,480 --> 00:09:22,070
+uh which is something we do care about
+
+273
+00:09:22,080 --> 00:09:23,829
+obviously so that was the background
+
+274
+00:09:23,839 --> 00:09:24,230
+story
+
+275
+00:09:24,240 --> 00:09:26,389
+it was a bit longer uh i assume most of
+
+276
+00:09:26,399 --> 00:09:27,990
+my like uh audiences
+
+277
+00:09:28,000 --> 00:09:30,230
+like machine learning uh with has
+
+278
+00:09:30,240 --> 00:09:31,590
+machine learning background
+
+279
+00:09:31,600 --> 00:09:34,310
+so i felt i need to really give you a
+
+280
+00:09:34,320 --> 00:09:36,070
+nice overview what the problem is
+
+281
+00:09:36,080 --> 00:09:38,550
+and everything that goes inside and like
+
+282
+00:09:38,560 --> 00:09:40,389
+the give you some numbers and methods
+
+283
+00:09:40,399 --> 00:09:41,030
+etc
+
+284
+00:09:41,040 --> 00:09:44,710
+so let's start exploring the alpha fold
+
+285
+00:09:44,720 --> 00:09:46,070
+one now
+
+286
+00:09:46,080 --> 00:09:48,230
+as you can see here uh this is an
+
+287
+00:09:48,240 --> 00:09:50,550
+animation that deep mind provided
+
+288
+00:09:50,560 --> 00:09:53,110
+which basically shows uh how during
+
+289
+00:09:53,120 --> 00:09:55,350
+their optimization procedure which will
+
+290
+00:09:55,360 --> 00:09:58,470
+uh get you in a sec uh like falls the
+
+291
+00:09:58,480 --> 00:09:59,269
+proteins
+
+292
+00:09:59,279 --> 00:10:01,990
+so it starts from a semi like unfolded
+
+293
+00:10:02,000 --> 00:10:02,310
+uh
+
+294
+00:10:02,320 --> 00:10:05,670
+protein uh protein strand which then
+
+295
+00:10:05,680 --> 00:10:08,710
+slowly uh takes its 3d shape
+
+296
+00:10:08,720 --> 00:10:11,910
+in space okay let's overview the
+
+297
+00:10:11,920 --> 00:10:15,430
+half a fold one paper you can see
+
+298
+00:10:15,440 --> 00:10:17,990
+so the title is alpha fold improved
+
+299
+00:10:18,000 --> 00:10:19,670
+protein structure prediction
+
+300
+00:10:19,680 --> 00:10:23,030
+using potentials from deep learning
+
+301
+00:10:23,040 --> 00:10:25,670
+uh they had like a bunch of folks uh
+
+302
+00:10:25,680 --> 00:10:27,269
+working on this project as is
+
+303
+00:10:27,279 --> 00:10:29,430
+as it's pretty common for for huge
+
+304
+00:10:29,440 --> 00:10:31,190
+projects like this one
+
+305
+00:10:31,200 --> 00:10:34,550
+um so they started in 2016 so it's
+
+306
+00:10:34,560 --> 00:10:36,389
+already been like a four year effort of
+
+307
+00:10:36,399 --> 00:10:37,990
+many smart people
+
+308
+00:10:38,000 --> 00:10:40,630
+uh so i already mentioned it's deep mind
+
+309
+00:10:40,640 --> 00:10:42,310
+they're based in london
+
+310
+00:10:42,320 --> 00:10:45,269
+and okay so the paper is pretty
+
+311
+00:10:45,279 --> 00:10:46,790
+complicated there is a lot of text
+
+312
+00:10:46,800 --> 00:10:49,509
+and a lot of domain knowledge so i'll
+
+313
+00:10:49,519 --> 00:10:51,430
+just try and extract the deep learning
+
+314
+00:10:51,440 --> 00:10:52,230
+side of it
+
+315
+00:10:52,240 --> 00:10:54,389
+and hopefully that will give you like a
+
+316
+00:10:54,399 --> 00:10:55,910
+good understanding of how the method
+
+317
+00:10:55,920 --> 00:10:56,790
+works
+
+318
+00:10:56,800 --> 00:11:00,630
+um let's start with this chart so
+
+319
+00:11:00,640 --> 00:11:04,069
+uh basically the the on this uh
+
+320
+00:11:04,079 --> 00:11:06,069
+chart here they just show that they are
+
+321
+00:11:06,079 --> 00:11:07,829
+better than other groups so
+
+322
+00:11:07,839 --> 00:11:09,910
+many other uh research groups were
+
+323
+00:11:09,920 --> 00:11:11,350
+participating in this
+
+324
+00:11:11,360 --> 00:11:14,389
+in 2018 cusp 13
+
+325
+00:11:14,399 --> 00:11:16,310
+uh challenge that that was the name of
+
+326
+00:11:16,320 --> 00:11:17,910
+the challenge um
+
+327
+00:11:17,920 --> 00:11:19,910
+and uh basically the green lines
+
+328
+00:11:19,920 --> 00:11:20,949
+represent
+
+329
+00:11:20,959 --> 00:11:23,750
+uh the like the groups uh those other
+
+330
+00:11:23,760 --> 00:11:26,069
+groups and the blue line is deepmind
+
+331
+00:11:26,079 --> 00:11:30,150
+and so on the um basically on the x-axis
+
+332
+00:11:30,160 --> 00:11:31,990
+we have something called tm score
+
+333
+00:11:32,000 --> 00:11:35,190
+so there are a bunch of metrics for uh
+
+334
+00:11:35,200 --> 00:11:37,430
+determining how good the structure
+
+335
+00:11:37,440 --> 00:11:38,310
+prediction is
+
+336
+00:11:38,320 --> 00:11:40,710
+so one is tm uh there are other scores
+
+337
+00:11:40,720 --> 00:11:42,949
+like we saw the global distance test
+
+338
+00:11:42,959 --> 00:11:43,750
+score
+
+339
+00:11:43,760 --> 00:11:47,760
+uh there are some like uh
+
+340
+00:11:48,000 --> 00:11:51,350
+idd or something yeah there are a lot of
+
+341
+00:11:51,360 --> 00:11:52,389
+different scores
+
+342
+00:11:52,399 --> 00:11:55,829
+and uh basically so fm domain
+
+343
+00:11:55,839 --> 00:11:59,190
+domain is uh some like fancy name for
+
+344
+00:11:59,200 --> 00:12:02,310
+for protein pretty much um
+
+345
+00:12:02,320 --> 00:12:05,509
+so here in this free modeling domain uh
+
+346
+00:12:05,519 --> 00:12:06,150
+we have
+
+347
+00:12:06,160 --> 00:12:09,350
+uh we had 43
+
+348
+00:12:09,360 --> 00:12:11,110
+sequences which we needed to figure the
+
+349
+00:12:11,120 --> 00:12:14,069
+structure for and you can see that
+
+350
+00:12:14,079 --> 00:12:17,110
+on average uh the the deepmind had
+
+351
+00:12:17,120 --> 00:12:20,389
+a lot higher tm score than others
+
+352
+00:12:20,399 --> 00:12:22,629
+so that's what this thing is and now i
+
+353
+00:12:22,639 --> 00:12:23,509
+should probably uh
+
+354
+00:12:23,519 --> 00:12:24,629
+tell you what what the difference
+
+355
+00:12:24,639 --> 00:12:26,389
+between free modeling and template
+
+356
+00:12:26,399 --> 00:12:27,350
+modeling is
+
+357
+00:12:27,360 --> 00:12:29,190
+so template modeling is when you're
+
+358
+00:12:29,200 --> 00:12:30,949
+trying to
+
+359
+00:12:30,959 --> 00:12:34,310
+predict the structure for a sequence uh
+
+360
+00:12:34,320 --> 00:12:36,870
+that has similar sequences whose
+
+361
+00:12:36,880 --> 00:12:38,550
+structure we already know
+
+362
+00:12:38,560 --> 00:12:41,590
+now uh the thing is once you know
+
+363
+00:12:41,600 --> 00:12:44,629
+uh some some similar sequence
+
+364
+00:12:44,639 --> 00:12:47,670
+uh you can kind of uh
+
+365
+00:12:47,680 --> 00:12:50,150
+assume that the structure of your of
+
+366
+00:12:50,160 --> 00:12:51,269
+your sequence
+
+367
+00:12:51,279 --> 00:12:53,990
+will be similar to that one so you just
+
+368
+00:12:54,000 --> 00:12:54,949
+need to find
+
+369
+00:12:54,959 --> 00:12:58,310
+where the like the sequence differs and
+
+370
+00:12:58,320 --> 00:13:01,030
+tweak uh kind of tweak the the structure
+
+371
+00:13:01,040 --> 00:13:02,550
+so starting from that maybe that
+
+372
+00:13:02,560 --> 00:13:04,310
+structure so that's a template modeling
+
+373
+00:13:04,320 --> 00:13:05,350
+so i'm
+
+374
+00:13:05,360 --> 00:13:07,269
+simplifying a little bit here but like
+
+375
+00:13:07,279 --> 00:13:09,110
+that's that's the rough notion
+
+376
+00:13:09,120 --> 00:13:12,230
+again here on this chart they
+
+377
+00:13:12,240 --> 00:13:15,350
+just displayed uh five different
+
+378
+00:13:15,360 --> 00:13:18,150
+proteins and they again showed that like
+
+379
+00:13:18,160 --> 00:13:20,389
+the blue dots that deepmind is
+
+380
+00:13:20,399 --> 00:13:23,430
+uh crushing it i mean the so these two
+
+381
+00:13:23,440 --> 00:13:24,310
+were bragging
+
+382
+00:13:24,320 --> 00:13:26,550
+charts so now now let's get to to the
+
+383
+00:13:26,560 --> 00:13:29,030
+actual uh the actual method
+
+384
+00:13:29,040 --> 00:13:31,990
+and this is how it looks like we can see
+
+385
+00:13:32,000 --> 00:13:32,389
+some
+
+386
+00:13:32,399 --> 00:13:34,870
+um neural network here of course and
+
+387
+00:13:34,880 --> 00:13:35,750
+that's actually
+
+388
+00:13:35,760 --> 00:13:39,670
+uh resnet with dilated convolutions
+
+389
+00:13:39,680 --> 00:13:42,710
+and so basically before i get into those
+
+390
+00:13:42,720 --> 00:13:44,550
+details they're they're pretty much
+
+391
+00:13:44,560 --> 00:13:48,150
+um let me see three parts of this
+
+392
+00:13:48,160 --> 00:13:49,269
+pipeline
+
+393
+00:13:49,279 --> 00:13:51,670
+so the first one is preparing uh the
+
+394
+00:13:51,680 --> 00:13:53,030
+features
+
+395
+00:13:53,040 --> 00:13:56,069
+that we'll need in order to predict the
+
+396
+00:13:56,079 --> 00:13:57,590
+structure
+
+397
+00:13:57,600 --> 00:14:01,110
+then the second part is the
+
+398
+00:14:01,120 --> 00:14:04,550
+distance and uh torsion angle
+
+399
+00:14:04,560 --> 00:14:06,310
+predictions and i'll tell you what those
+
+400
+00:14:06,320 --> 00:14:06,629
+are
+
+401
+00:14:06,639 --> 00:14:08,470
+in in a minute so there's the second
+
+402
+00:14:08,480 --> 00:14:10,069
+part of pipeline and then we have the
+
+403
+00:14:10,079 --> 00:14:10,710
+gradient
+
+404
+00:14:10,720 --> 00:14:13,590
+uh descent uh or the non-linear
+
+405
+00:14:13,600 --> 00:14:14,470
+optimization
+
+406
+00:14:14,480 --> 00:14:17,910
+part of the pipeline so in stage one
+
+407
+00:14:17,920 --> 00:14:20,629
+they uh they somehow find a way to go
+
+408
+00:14:20,639 --> 00:14:21,590
+from 1d
+
+409
+00:14:21,600 --> 00:14:23,750
+amino acid sequence that represents the
+
+410
+00:14:23,760 --> 00:14:24,870
+protein
+
+411
+00:14:24,880 --> 00:14:27,990
+to 2d uh to the map
+
+412
+00:14:28,000 --> 00:14:31,189
+and the 2d map actually contains
+
+413
+00:14:31,199 --> 00:14:34,389
+co-variations between our targeting
+
+414
+00:14:34,399 --> 00:14:37,590
+sequence and similar sequence from this
+
+415
+00:14:37,600 --> 00:14:37,990
+uh
+
+416
+00:14:38,000 --> 00:14:40,550
+huge data set of sequences and so this
+
+417
+00:14:40,560 --> 00:14:41,509
+is the this
+
+418
+00:14:41,519 --> 00:14:43,990
+thing called multi-sequence alignment so
+
+419
+00:14:44,000 --> 00:14:45,910
+you basically find
+
+420
+00:14:45,920 --> 00:14:47,829
+a group of sequences like thousand
+
+421
+00:14:47,839 --> 00:14:49,030
+sequences which
+
+422
+00:14:49,040 --> 00:14:50,949
+which are similar to your target
+
+423
+00:14:50,959 --> 00:14:52,310
+sequence which you're trying to
+
+424
+00:14:52,320 --> 00:14:55,189
+predict the structure for and you encode
+
+425
+00:14:55,199 --> 00:14:56,629
+the covariations
+
+426
+00:14:56,639 --> 00:15:00,150
+in these maps so if i take one uh
+
+427
+00:15:00,160 --> 00:15:02,790
+point on this 2d map and this is to the
+
+428
+00:15:02,800 --> 00:15:03,509
+volume so
+
+429
+00:15:03,519 --> 00:15:06,389
+this will be like like 500 or something
+
+430
+00:15:06,399 --> 00:15:07,750
+channels or more
+
+431
+00:15:07,760 --> 00:15:09,829
+there are some details down in the paper
+
+432
+00:15:09,839 --> 00:15:10,949
+so
+
+433
+00:15:10,959 --> 00:15:13,590
+one thing they encode is like the one
+
+434
+00:15:13,600 --> 00:15:14,949
+hot encoding of the
+
+435
+00:15:14,959 --> 00:15:18,389
+amino amino acid so basically
+
+436
+00:15:18,399 --> 00:15:21,750
+uh that means that if we take this point
+
+437
+00:15:21,760 --> 00:15:22,470
+so that's
+
+438
+00:15:22,480 --> 00:15:26,389
+let me zoom in so oops so basically uh
+
+439
+00:15:26,399 --> 00:15:27,430
+let's say this is
+
+440
+00:15:27,440 --> 00:15:31,749
+like uh row five and let's say this is
+
+441
+00:15:31,759 --> 00:15:32,870
+like row
+
+442
+00:15:32,880 --> 00:15:36,150
+i don't know 40. um they'll basically
+
+443
+00:15:36,160 --> 00:15:41,120
+uh encode five as as a one
+
+444
+00:15:41,440 --> 00:15:43,910
+they'll basically find what the fifth
+
+445
+00:15:43,920 --> 00:15:45,269
+amino acid is
+
+446
+00:15:45,279 --> 00:15:47,670
+and because we have only 21 amino acids
+
+447
+00:15:47,680 --> 00:15:48,389
+in human
+
+448
+00:15:48,399 --> 00:15:51,829
+in human uh genome we'll we'll we'll
+
+449
+00:15:51,839 --> 00:15:52,629
+encode
+
+450
+00:15:52,639 --> 00:15:55,829
+this let's say this is because because
+
+451
+00:15:55,839 --> 00:15:57,670
+there are 21 we can
+
+452
+00:15:57,680 --> 00:15:59,509
+represent each one with the letter from
+
+453
+00:15:59,519 --> 00:16:01,509
+the alphabet uh
+
+454
+00:16:01,519 --> 00:16:04,550
+luckily we have 26 letters so let's say
+
+455
+00:16:04,560 --> 00:16:05,350
+this one is
+
+456
+00:16:05,360 --> 00:16:07,590
+i don't know the fifth one is amino acid
+
+457
+00:16:07,600 --> 00:16:08,550
+a uh
+
+458
+00:16:08,560 --> 00:16:11,670
+this uh 40th is maybe i don't know
+
+459
+00:16:11,680 --> 00:16:14,870
+like s and they just encode this one
+
+460
+00:16:14,880 --> 00:16:16,949
+as as a one hot let's say this one will
+
+461
+00:16:16,959 --> 00:16:17,990
+be like
+
+462
+00:16:18,000 --> 00:16:20,470
+zeros and then on some spot like 13 i
+
+463
+00:16:20,480 --> 00:16:21,030
+don't know
+
+464
+00:16:21,040 --> 00:16:23,509
+they'll have one et cetera so what they
+
+465
+00:16:23,519 --> 00:16:24,150
+will do
+
+466
+00:16:24,160 --> 00:16:27,509
+is they will concatenate this one hot
+
+467
+00:16:27,519 --> 00:16:28,310
+vector
+
+468
+00:16:28,320 --> 00:16:31,430
+with one hot vector that uh corresponds
+
+469
+00:16:31,440 --> 00:16:31,990
+to
+
+470
+00:16:32,000 --> 00:16:35,030
+amino acid a and there will be
+
+471
+00:16:35,040 --> 00:16:37,670
+a part of the features they are using
+
+472
+00:16:37,680 --> 00:16:38,949
+there is a much more
+
+473
+00:16:38,959 --> 00:16:41,829
+uh like domain domain specific things
+
+474
+00:16:41,839 --> 00:16:43,030
+they're including
+
+475
+00:16:43,040 --> 00:16:44,949
+also they're including these uh
+
+476
+00:16:44,959 --> 00:16:47,189
+multi-sequence alignment things
+
+477
+00:16:47,199 --> 00:16:49,910
+and i'll probably explain those a bit a
+
+478
+00:16:49,920 --> 00:16:50,550
+bit more
+
+479
+00:16:50,560 --> 00:16:52,389
+i'll go into detail about those because
+
+480
+00:16:52,399 --> 00:16:54,710
+that's interesting a bit later
+
+481
+00:16:54,720 --> 00:16:57,910
+so that's that's how they get the this
+
+482
+00:16:57,920 --> 00:16:58,949
+uh
+
+483
+00:16:58,959 --> 00:17:02,710
+3d volume uh and now you can treat this
+
+484
+00:17:02,720 --> 00:17:05,029
+as a simple computer vision problem and
+
+485
+00:17:05,039 --> 00:17:06,549
+they pretty much use this
+
+486
+00:17:06,559 --> 00:17:09,510
+uh uh like classic uh deep learning
+
+487
+00:17:09,520 --> 00:17:11,510
+model like resnet with the dilated
+
+488
+00:17:11,520 --> 00:17:12,710
+convolutions
+
+489
+00:17:12,720 --> 00:17:14,870
+uh and treat this as a sequel like an
+
+490
+00:17:14,880 --> 00:17:15,829
+image to image
+
+491
+00:17:15,839 --> 00:17:19,510
+uh translation problem so uh the network
+
+492
+00:17:19,520 --> 00:17:20,309
+itself is
+
+493
+00:17:20,319 --> 00:17:22,630
+as you can see has kernels a site of
+
+494
+00:17:22,640 --> 00:17:24,630
+size 64 by 64.
+
+495
+00:17:24,640 --> 00:17:27,110
+so they're just actually randomly
+
+496
+00:17:27,120 --> 00:17:27,750
+sliding
+
+497
+00:17:27,760 --> 00:17:31,110
+across this volume and they end up
+
+498
+00:17:31,120 --> 00:17:33,510
+getting the distance predictions okay so
+
+499
+00:17:33,520 --> 00:17:35,190
+what is this distance map
+
+500
+00:17:35,200 --> 00:17:37,669
+and how do we get one so in order to
+
+501
+00:17:37,679 --> 00:17:38,549
+understand that
+
+502
+00:17:38,559 --> 00:17:41,909
+i have to make a small tangent here and
+
+503
+00:17:41,919 --> 00:17:45,350
+explain how the amino acids connect and
+
+504
+00:17:45,360 --> 00:17:46,390
+uh
+
+505
+00:17:46,400 --> 00:17:48,310
+which distances and torsion angles are
+
+506
+00:17:48,320 --> 00:17:49,990
+we actually measuring so
+
+507
+00:17:50,000 --> 00:17:53,270
+uh so these are all the 21 amino acids
+
+508
+00:17:53,280 --> 00:17:54,310
+we have in
+
+509
+00:17:54,320 --> 00:17:57,350
+in the human in the human genome and
+
+510
+00:17:57,360 --> 00:17:59,270
+basically
+
+511
+00:17:59,280 --> 00:18:02,150
+so as you can see this part is always
+
+512
+00:18:02,160 --> 00:18:03,029
+always the same
+
+513
+00:18:03,039 --> 00:18:05,750
+for every single amino acid no matter uh
+
+514
+00:18:05,760 --> 00:18:07,750
+the properties this group always
+
+515
+00:18:07,760 --> 00:18:10,789
+this part always remains the same so
+
+516
+00:18:10,799 --> 00:18:12,710
+uh this thing here is called something
+
+517
+00:18:12,720 --> 00:18:14,310
+called like i think
+
+518
+00:18:14,320 --> 00:18:17,590
+alpha uh alpha carbon atom this one is
+
+519
+00:18:17,600 --> 00:18:17,990
+called
+
+520
+00:18:18,000 --> 00:18:20,870
+beta carbon atom and that one is really
+
+521
+00:18:20,880 --> 00:18:21,510
+important
+
+522
+00:18:21,520 --> 00:18:24,789
+so uh let's say for the sake of argument
+
+523
+00:18:24,799 --> 00:18:26,470
+that we have a sequence
+
+524
+00:18:26,480 --> 00:18:30,710
+like r h
+
+525
+00:18:30,720 --> 00:18:34,230
+k which is pretty much these three amino
+
+526
+00:18:34,240 --> 00:18:35,029
+acids here
+
+527
+00:18:35,039 --> 00:18:37,990
+so what will happen is uh once they
+
+528
+00:18:38,000 --> 00:18:39,830
+start going through the ribosome they'll
+
+529
+00:18:39,840 --> 00:18:41,029
+start connecting
+
+530
+00:18:41,039 --> 00:18:43,909
+and so these parts will form the
+
+531
+00:18:43,919 --> 00:18:44,950
+backbone
+
+532
+00:18:44,960 --> 00:18:48,870
+so these parts and the groups
+
+533
+00:18:48,880 --> 00:18:50,950
+which is this part that goes off from
+
+534
+00:18:50,960 --> 00:18:53,190
+the from the beta carbon
+
+535
+00:18:53,200 --> 00:18:57,590
+atom those will be like for example
+
+536
+00:18:57,600 --> 00:18:59,990
+some will be positively charged maybe
+
+537
+00:19:00,000 --> 00:19:00,950
+this one
+
+538
+00:19:00,960 --> 00:19:04,390
+uh will be negatively charged
+
+539
+00:19:04,400 --> 00:19:06,630
+so what will happen is that they'll
+
+540
+00:19:06,640 --> 00:19:09,110
+start attracting
+
+541
+00:19:09,120 --> 00:19:11,990
+and that's the thing that co that causes
+
+542
+00:19:12,000 --> 00:19:12,630
+the
+
+543
+00:19:12,640 --> 00:19:15,270
+uh the protein to fold so imagine if you
+
+544
+00:19:15,280 --> 00:19:16,310
+had like a
+
+545
+00:19:16,320 --> 00:19:19,350
+protein that had 140 amino acids so
+
+546
+00:19:19,360 --> 00:19:22,310
+what what could happen is that in this
+
+547
+00:19:22,320 --> 00:19:22,950
+complex
+
+548
+00:19:22,960 --> 00:19:26,070
+um like interaction uh maybe
+
+549
+00:19:26,080 --> 00:19:29,350
+the first maybe the the the the the
+
+550
+00:19:29,360 --> 00:19:29,909
+first
+
+551
+00:19:29,919 --> 00:19:32,870
+amino acid would be like uh in the 3d
+
+552
+00:19:32,880 --> 00:19:34,590
+structure would be really close to maybe
+
+553
+00:19:34,600 --> 00:19:35,830
+127th
+
+554
+00:19:35,840 --> 00:19:37,909
+amino acid so that means we have a long
+
+555
+00:19:37,919 --> 00:19:39,590
+range dependencies
+
+556
+00:19:39,600 --> 00:19:43,270
+uh in this in this structure so now
+
+557
+00:19:43,280 --> 00:19:46,549
+uh when we are so i mentioned distance
+
+558
+00:19:46,559 --> 00:19:47,190
+map
+
+559
+00:19:47,200 --> 00:19:50,230
+so what we are actually uh looking for
+
+560
+00:19:50,240 --> 00:19:53,430
+is uh distance between beta carbon atoms
+
+561
+00:19:53,440 --> 00:19:54,310
+between different
+
+562
+00:19:54,320 --> 00:19:57,750
+amino acids so basically um
+
+563
+00:19:57,760 --> 00:19:59,270
+that's that's what that's what we're
+
+564
+00:19:59,280 --> 00:20:00,870
+looking at and then we have
+
+565
+00:20:00,880 --> 00:20:04,149
+uh torsion angles so uh phi
+
+566
+00:20:04,159 --> 00:20:07,909
+and psi angles which are um
+
+567
+00:20:07,919 --> 00:20:10,230
+basically in that 3d structure two
+
+568
+00:20:10,240 --> 00:20:11,909
+angles that we care about let me see if
+
+569
+00:20:11,919 --> 00:20:13,510
+i can
+
+570
+00:20:13,520 --> 00:20:17,270
+find a nice visualization of that
+
+571
+00:20:17,280 --> 00:20:20,549
+and you can see it here hopefully
+
+572
+00:20:20,559 --> 00:20:26,159
+let me zoom in so this is the
+
+573
+00:20:26,559 --> 00:20:29,590
+protein chain and so
+
+574
+00:20:29,600 --> 00:20:32,789
+one of the two dihedral
+
+575
+00:20:32,799 --> 00:20:35,590
+angles inside here without getting into
+
+576
+00:20:35,600 --> 00:20:37,270
+uh too much explanation
+
+577
+00:20:37,280 --> 00:20:39,590
+is two angles that we care about so for
+
+578
+00:20:39,600 --> 00:20:41,190
+the sake of argument just think
+
+579
+00:20:41,200 --> 00:20:43,190
+there are two angles we care about there
+
+580
+00:20:43,200 --> 00:20:44,310
+is third but
+
+581
+00:20:44,320 --> 00:20:46,789
+that one is almost always 180 so deep
+
+582
+00:20:46,799 --> 00:20:48,470
+deepmind kind of
+
+583
+00:20:48,480 --> 00:20:50,789
+hardcoded that one to be 180 and they're
+
+584
+00:20:50,799 --> 00:20:52,310
+just considering
+
+585
+00:20:52,320 --> 00:20:55,830
+these two so okay let me get back to the
+
+586
+00:20:55,840 --> 00:20:58,320
+onenote
+
+587
+00:20:58,960 --> 00:21:01,990
+so now that we know uh this information
+
+588
+00:21:02,000 --> 00:21:04,070
+about how we calculate distance and phi
+
+589
+00:21:04,080 --> 00:21:06,390
+and psi angles let's go back to the
+
+590
+00:21:06,400 --> 00:21:09,510
+deep learning pipeline so
+
+591
+00:21:09,520 --> 00:21:12,549
+uh basically you can see here uh we have
+
+592
+00:21:12,559 --> 00:21:16,870
+we we have um amino acids here
+
+593
+00:21:16,880 --> 00:21:19,909
+and we we have the same sequence here
+
+594
+00:21:19,919 --> 00:21:22,789
+and so this particular point maybe
+
+595
+00:21:22,799 --> 00:21:23,669
+corresponds
+
+596
+00:21:23,679 --> 00:21:27,909
+uh to uh finding the
+
+597
+00:21:27,919 --> 00:21:30,390
+so i'll actually use a different drawing
+
+598
+00:21:30,400 --> 00:21:32,070
+which will probably be a bit
+
+599
+00:21:32,080 --> 00:21:34,070
+easier to understand okay let me see if
+
+600
+00:21:34,080 --> 00:21:35,430
+i can nicely explain
+
+601
+00:21:35,440 --> 00:21:39,990
+the distance maps um so we have
+
+602
+00:21:40,000 --> 00:21:44,310
+the experimentally found
+
+603
+00:21:44,320 --> 00:21:48,310
+the pseudo ground truth uh distance map
+
+604
+00:21:48,320 --> 00:21:53,190
+for this particular amino acid sequence
+
+605
+00:21:53,200 --> 00:21:56,390
+and we have the predicted uh
+
+606
+00:21:56,400 --> 00:21:59,669
+distance map uh over here
+
+607
+00:21:59,679 --> 00:22:02,789
+so basically what they showed here is
+
+608
+00:22:02,799 --> 00:22:03,590
+they took
+
+609
+00:22:03,600 --> 00:22:05,510
+a specific amino acid from the sequence
+
+610
+00:22:05,520 --> 00:22:06,870
+like uh
+
+611
+00:22:06,880 --> 00:22:10,390
+in particular they took 29th amino acid
+
+612
+00:22:10,400 --> 00:22:13,350
+and that's uh depicted on these charts
+
+613
+00:22:13,360 --> 00:22:13,990
+by these
+
+614
+00:22:14,000 --> 00:22:17,750
+uh red uh stripes
+
+615
+00:22:17,760 --> 00:22:21,830
+and um basically uh you can see
+
+616
+00:22:21,840 --> 00:22:25,190
+that the distance between 29th
+
+617
+00:22:25,200 --> 00:22:28,789
+uh carbon uh uh beta carbon
+
+618
+00:22:28,799 --> 00:22:31,990
+and um with itself is
+
+619
+00:22:32,000 --> 00:22:35,270
+obviously zero which is this colored
+
+620
+00:22:35,280 --> 00:22:36,870
+with yellow
+
+621
+00:22:36,880 --> 00:22:40,630
+and over the whole main diagonal
+
+622
+00:22:40,640 --> 00:22:42,630
+is going to be yellow for that specific
+
+623
+00:22:42,640 --> 00:22:44,070
+for that particular reason
+
+624
+00:22:44,080 --> 00:22:46,390
+because um the distance between a beta
+
+625
+00:22:46,400 --> 00:22:48,390
+carbon and itself is always going to be
+
+626
+00:22:48,400 --> 00:22:48,870
+zero
+
+627
+00:22:48,880 --> 00:22:50,950
+so that's why we see this pattern along
+
+628
+00:22:50,960 --> 00:22:52,830
+the main diagonal
+
+629
+00:22:52,840 --> 00:22:55,830
+and what it did here is
+
+630
+00:22:55,840 --> 00:22:58,870
+uh they took they took uh
+
+631
+00:22:58,880 --> 00:23:01,909
+the neighborhood uh
+
+632
+00:23:01,919 --> 00:23:05,360
+for from the 29th
+
+633
+00:23:06,000 --> 00:23:09,270
+amino acid and they just extracted all
+
+634
+00:23:09,280 --> 00:23:11,270
+of the 41
+
+635
+00:23:11,280 --> 00:23:14,310
+distances and that's the chart on the
+
+636
+00:23:14,320 --> 00:23:14,870
+right
+
+637
+00:23:14,880 --> 00:23:17,430
+and now the thing is uh these things
+
+638
+00:23:17,440 --> 00:23:19,270
+here are not scalars
+
+639
+00:23:19,280 --> 00:23:20,549
+they're actually probability
+
+640
+00:23:20,559 --> 00:23:22,789
+distributions so if we take
+
+641
+00:23:22,799 --> 00:23:26,400
+maybe i don't know 40th
+
+642
+00:23:27,360 --> 00:23:31,190
+probability distribution 40th amino acid
+
+643
+00:23:31,200 --> 00:23:33,830
+and its corresponding probability
+
+644
+00:23:33,840 --> 00:23:35,590
+distribution
+
+645
+00:23:35,600 --> 00:23:38,549
+we end up with something like this and
+
+646
+00:23:38,559 --> 00:23:40,630
+you can see on the x-axis
+
+647
+00:23:40,640 --> 00:23:43,590
+we have the distance and on the y-axis
+
+648
+00:23:43,600 --> 00:23:44,789
+we have the probability
+
+649
+00:23:44,799 --> 00:23:48,630
+so this particular um
+
+650
+00:23:48,640 --> 00:23:51,909
+like uh position
+
+651
+00:23:51,919 --> 00:23:54,470
+has uh we can see that the distribution
+
+652
+00:23:54,480 --> 00:23:55,029
+is
+
+653
+00:23:55,039 --> 00:23:57,909
+somewhere like the peak is pretty much
+
+654
+00:23:57,919 --> 00:23:58,870
+around like
+
+655
+00:23:58,880 --> 00:24:02,070
+four angstroms where angstrom is 0.1
+
+656
+00:24:02,080 --> 00:24:05,510
+um nanometer so this is how they
+
+657
+00:24:05,520 --> 00:24:08,549
+uh symbolize the angstrom and
+
+658
+00:24:08,559 --> 00:24:11,669
+the red bar is the ground truth value so
+
+659
+00:24:11,679 --> 00:24:12,390
+the red bar
+
+660
+00:24:12,400 --> 00:24:14,630
+says i don't know like five and we
+
+661
+00:24:14,640 --> 00:24:15,669
+predicted four
+
+662
+00:24:15,679 --> 00:24:18,310
+which is pretty good if we take a look
+
+663
+00:24:18,320 --> 00:24:18,789
+at
+
+664
+00:24:18,799 --> 00:24:21,590
+because 29 is missing obviously because
+
+665
+00:24:21,600 --> 00:24:22,549
+we know that
+
+666
+00:24:22,559 --> 00:24:25,669
+is going to have a spike on the zero uh
+
+667
+00:24:25,679 --> 00:24:28,950
+distance basically if we take a look at
+
+668
+00:24:28,960 --> 00:24:30,710
+the surrounding
+
+669
+00:24:30,720 --> 00:24:33,110
+probability distributions so those are
+
+670
+00:24:33,120 --> 00:24:34,070
+those correspond
+
+671
+00:24:34,080 --> 00:24:37,669
+to this part here um basically
+
+672
+00:24:37,679 --> 00:24:40,950
+distributions are really narrow and uh
+
+673
+00:24:40,960 --> 00:24:43,110
+really precise so you can see that the
+
+674
+00:24:43,120 --> 00:24:45,029
+peak the mode of the distribution
+
+675
+00:24:45,039 --> 00:24:47,990
+corresponds perfectly to the red bars
+
+676
+00:24:48,000 --> 00:24:49,350
+here also
+
+677
+00:24:49,360 --> 00:24:52,070
+really nice as we go further apart
+
+678
+00:24:52,080 --> 00:24:53,110
+further away
+
+679
+00:24:53,120 --> 00:24:56,549
+uh we can see that um the
+
+680
+00:24:56,559 --> 00:24:59,110
+red bars don't correspond always with
+
+681
+00:24:59,120 --> 00:25:00,470
+the like with the mode of the
+
+682
+00:25:00,480 --> 00:25:01,590
+distribution
+
+683
+00:25:01,600 --> 00:25:05,350
+so say let me take an example
+
+684
+00:25:05,360 --> 00:25:08,470
+where we have some problems like here
+
+685
+00:25:08,480 --> 00:25:11,669
+like this one is a good example because
+
+686
+00:25:11,679 --> 00:25:14,950
+uh we predicted that the
+
+687
+00:25:14,960 --> 00:25:17,110
+distance is here so that's whatever this
+
+688
+00:25:17,120 --> 00:25:17,990
+value is
+
+689
+00:25:18,000 --> 00:25:21,350
+but the red bar is here so yeah um
+
+690
+00:25:21,360 --> 00:25:24,549
+by the way these black lines um
+
+691
+00:25:24,559 --> 00:25:28,789
+is the kind of uh length distance
+
+692
+00:25:28,799 --> 00:25:32,710
+uh when we consider the the the two
+
+693
+00:25:32,720 --> 00:25:35,750
+carbon um beta carbon atoms
+
+694
+00:25:35,760 --> 00:25:38,549
+to be in contact so if we are so this
+
+695
+00:25:38,559 --> 00:25:39,029
+one is
+
+696
+00:25:39,039 --> 00:25:42,230
+at eighth angstrom so if you fall below
+
+697
+00:25:42,240 --> 00:25:44,310
+eight angstrom we consider those two
+
+698
+00:25:44,320 --> 00:25:46,950
+beta carbon atoms to be in contact
+
+699
+00:25:46,960 --> 00:25:48,230
+otherwise they are
+
+700
+00:25:48,240 --> 00:25:51,590
+they are not uh in contact obviously so
+
+701
+00:25:51,600 --> 00:25:54,470
+those are basically uh so the map is
+
+702
+00:25:54,480 --> 00:25:55,909
+basically the
+
+703
+00:25:55,919 --> 00:25:59,029
+like the inter residue distances
+
+704
+00:25:59,039 --> 00:26:02,870
+for the amino sequence
+
+705
+00:26:02,880 --> 00:26:05,990
+and we want to predict obviously uh as
+
+706
+00:26:06,000 --> 00:26:07,909
+close as possible to the ground truth
+
+707
+00:26:07,919 --> 00:26:10,630
+so let me now go back to our initial
+
+708
+00:26:10,640 --> 00:26:12,149
+deploying pipeline if i can
+
+709
+00:26:12,159 --> 00:26:15,830
+get there okay we're here
+
+710
+00:26:15,840 --> 00:26:18,630
+so we we do a similar thing for for the
+
+711
+00:26:18,640 --> 00:26:19,669
+uh for torsion
+
+712
+00:26:19,679 --> 00:26:22,789
+angles and once we have those maps uh
+
+713
+00:26:22,799 --> 00:26:24,070
+what we now do
+
+714
+00:26:24,080 --> 00:26:28,230
+is we uh form a geometric model
+
+715
+00:26:28,240 --> 00:26:31,029
+of the of our sequence meaning uh we
+
+716
+00:26:31,039 --> 00:26:31,990
+basically take
+
+717
+00:26:32,000 --> 00:26:35,190
+uh like we have a geometric model and we
+
+718
+00:26:35,200 --> 00:26:36,950
+have two arguments we have
+
+719
+00:26:36,960 --> 00:26:41,350
+the phi and we have psi
+
+720
+00:26:41,360 --> 00:26:43,830
+so the torsion angles and those gives us
+
+721
+00:26:43,840 --> 00:26:44,390
+give us
+
+722
+00:26:44,400 --> 00:26:48,870
+the like 3d coordinates of those
+
+723
+00:26:48,880 --> 00:26:52,230
+beta carbon atoms in 3d space
+
+724
+00:26:52,240 --> 00:26:54,230
+so what i mean by that so if we have us
+
+725
+00:26:54,240 --> 00:26:55,990
+like a sequence of length
+
+726
+00:26:56,000 --> 00:26:59,029
+100 we'll have
+
+727
+00:26:59,039 --> 00:27:02,070
+200 parameters here
+
+728
+00:27:02,080 --> 00:27:04,630
+and uh basically for one specific
+
+729
+00:27:04,640 --> 00:27:06,230
+configuration of these
+
+730
+00:27:06,240 --> 00:27:10,070
+2l torsion angles we get a
+
+731
+00:27:10,080 --> 00:27:12,070
+we get a specific configuration in 3d
+
+732
+00:27:12,080 --> 00:27:13,350
+space like i don't know
+
+733
+00:27:13,360 --> 00:27:16,390
+like we will have some thing going on in
+
+734
+00:27:16,400 --> 00:27:18,470
+space
+
+735
+00:27:18,480 --> 00:27:21,990
+and uh so what this part does is we are
+
+736
+00:27:22,000 --> 00:27:24,389
+optimizing so we are changing
+
+737
+00:27:24,399 --> 00:27:27,990
+these two so that uh
+
+738
+00:27:28,000 --> 00:27:30,710
+the 3d coordinates or the corresponding
+
+739
+00:27:30,720 --> 00:27:31,990
+3d structure
+
+740
+00:27:32,000 --> 00:27:35,350
+gets as close as possible to
+
+741
+00:27:35,360 --> 00:27:38,710
+uh the to the gray one so that this one
+
+742
+00:27:38,720 --> 00:27:39,750
+is the native
+
+743
+00:27:39,760 --> 00:27:42,950
+experimentally found structure so
+
+744
+00:27:42,960 --> 00:27:45,990
+what happens is by tweaking these phi
+
+745
+00:27:46,000 --> 00:27:49,029
+and psi angles we are also tweaking you
+
+746
+00:27:49,039 --> 00:27:50,630
+can you can imagine like we are tweaking
+
+747
+00:27:50,640 --> 00:27:52,070
+the distance map
+
+748
+00:27:52,080 --> 00:27:54,470
+for this particular configuration so for
+
+749
+00:27:54,480 --> 00:27:55,110
+a given
+
+750
+00:27:55,120 --> 00:27:58,710
+phi and psi we have a given distance map
+
+751
+00:27:58,720 --> 00:28:01,669
+uh which which uh which we are trying to
+
+752
+00:28:01,679 --> 00:28:01,990
+uh
+
+753
+00:28:02,000 --> 00:28:05,350
+to uh to match with this one so the two
+
+754
+00:28:05,360 --> 00:28:06,710
+parts of the pipeline are pretty much
+
+755
+00:28:06,720 --> 00:28:07,750
+independent
+
+756
+00:28:07,760 --> 00:28:09,830
+the second pipeline so the second part
+
+757
+00:28:09,840 --> 00:28:10,870
+of pipeline just
+
+758
+00:28:10,880 --> 00:28:14,310
+figures out uh figures out the depth map
+
+759
+00:28:14,320 --> 00:28:16,950
+and the torsion maps and then the the
+
+760
+00:28:16,960 --> 00:28:18,389
+the third part
+
+761
+00:28:18,399 --> 00:28:21,830
+uh of the pipeline uh just tries and
+
+762
+00:28:21,840 --> 00:28:25,029
+tweaks this differentiable g model
+
+763
+00:28:25,039 --> 00:28:29,269
+so that we uh minimize the distance
+
+764
+00:28:29,279 --> 00:28:32,470
+and we can see on this chart here
+
+765
+00:28:32,480 --> 00:28:35,110
+that the tm score as we are it did i'm
+
+766
+00:28:35,120 --> 00:28:36,549
+losing my cursor my god
+
+767
+00:28:36,559 --> 00:28:40,070
+uh the team score is going uh uh down as
+
+768
+00:28:40,080 --> 00:28:40,389
+we
+
+769
+00:28:40,399 --> 00:28:42,310
+are progressing with our optimization
+
+770
+00:28:42,320 --> 00:28:44,389
+steps and uh
+
+771
+00:28:44,399 --> 00:28:48,310
+sorry that the the rmsd that's the uh
+
+772
+00:28:48,320 --> 00:28:50,310
+one one of the metrics that they use to
+
+773
+00:28:50,320 --> 00:28:52,870
+figure out whether the 3d structures are
+
+774
+00:28:52,880 --> 00:28:55,430
+are like uh getting closer together and
+
+775
+00:28:55,440 --> 00:28:56,950
+the tm score on the other
+
+776
+00:28:56,960 --> 00:29:00,630
+hand is going upwards
+
+777
+00:29:00,640 --> 00:29:02,149
+what's else interesting so they just
+
+778
+00:29:02,159 --> 00:29:03,909
+took a snapshot here
+
+779
+00:29:03,919 --> 00:29:06,230
+and we can we can see how the how it's
+
+780
+00:29:06,240 --> 00:29:08,230
+progressing and slowly getting into the
+
+781
+00:29:08,240 --> 00:29:09,990
+final shape which is really close to the
+
+782
+00:29:10,000 --> 00:29:12,310
+gray one here
+
+783
+00:29:12,320 --> 00:29:15,190
+now the interesting thing is uh the and
+
+784
+00:29:15,200 --> 00:29:16,549
+i didn't mention this
+
+785
+00:29:16,559 --> 00:29:18,870
+because those details were probably not
+
+786
+00:29:18,880 --> 00:29:20,470
+as relevant as now
+
+787
+00:29:20,480 --> 00:29:23,750
+uh so the the protein has uh something
+
+788
+00:29:23,760 --> 00:29:24,389
+called
+
+789
+00:29:24,399 --> 00:29:26,470
+the the primary the secondary the
+
+790
+00:29:26,480 --> 00:29:28,870
+tertiary and the coronary
+
+791
+00:29:28,880 --> 00:29:32,720
+like uh structure
+
+792
+00:29:32,880 --> 00:29:34,549
+the primary structure is just the amino
+
+793
+00:29:34,559 --> 00:29:36,310
+sequence the secondary structure are
+
+794
+00:29:36,320 --> 00:29:37,350
+those
+
+795
+00:29:37,360 --> 00:29:40,070
+things that form spontaneously like the
+
+796
+00:29:40,080 --> 00:29:40,789
+this thing
+
+797
+00:29:40,799 --> 00:29:44,549
+it's called alpha helix and then we have
+
+798
+00:29:44,559 --> 00:29:48,070
+uh these things here which are called
+
+799
+00:29:48,080 --> 00:29:51,669
+beta sheets and uh then those are
+
+800
+00:29:51,679 --> 00:29:53,669
+forming in these intricate
+
+801
+00:29:53,679 --> 00:29:55,909
+like shapes which are the tertiary
+
+802
+00:29:55,919 --> 00:29:57,510
+structure of the protein
+
+803
+00:29:57,520 --> 00:30:01,909
+and finally the the quarter
+
+804
+00:30:01,919 --> 00:30:04,389
+tertiary quad coronary let me actually
+
+805
+00:30:04,399 --> 00:30:05,669
+use uh
+
+806
+00:30:05,679 --> 00:30:07,110
+this shot it will be easier to
+
+807
+00:30:07,120 --> 00:30:08,470
+understand what i'm talking about so we
+
+808
+00:30:08,480 --> 00:30:08,950
+have
+
+809
+00:30:08,960 --> 00:30:11,669
+the primary structure here uh then we
+
+810
+00:30:11,679 --> 00:30:13,669
+have the secondary structures which form
+
+811
+00:30:13,679 --> 00:30:16,070
+so alpha helixes and these pleity or
+
+812
+00:30:16,080 --> 00:30:17,430
+beta sheets
+
+813
+00:30:17,440 --> 00:30:19,909
+then they form in this thing called like
+
+814
+00:30:19,919 --> 00:30:21,190
+the tertiary structure
+
+815
+00:30:21,200 --> 00:30:24,230
+and finally multiple proteins can
+
+816
+00:30:24,240 --> 00:30:26,710
+interact and that's the the coordinate
+
+817
+00:30:26,720 --> 00:30:28,070
+structure i hope i'm pronouncing
+
+818
+00:30:28,080 --> 00:30:29,269
+pronouncing that well
+
+819
+00:30:29,279 --> 00:30:32,870
+so that's about the the shapes and
+
+820
+00:30:32,880 --> 00:30:35,510
+aside from the the distance map i
+
+821
+00:30:35,520 --> 00:30:35,990
+already
+
+822
+00:30:36,000 --> 00:30:39,269
+showed you um uh this pipeline is also
+
+823
+00:30:39,279 --> 00:30:39,830
+predicting
+
+824
+00:30:39,840 --> 00:30:42,870
+uh these secondary shapes so the the
+
+825
+00:30:42,880 --> 00:30:46,149
+the blue one is the uh the the the alpha
+
+826
+00:30:46,159 --> 00:30:47,990
+helix and the red one
+
+827
+00:30:48,000 --> 00:30:51,350
+is the beta the beta
+
+828
+00:30:51,360 --> 00:30:54,789
+beta beta sheet
+
+829
+00:30:54,799 --> 00:30:57,590
+so this is the ground truth the suit of
+
+830
+00:30:57,600 --> 00:30:59,269
+ground truth
+
+831
+00:30:59,279 --> 00:31:02,549
+and these here are
+
+832
+00:31:02,559 --> 00:31:05,669
+taken is a snapshot taken from the last
+
+833
+00:31:05,679 --> 00:31:07,990
+optimization step and we can see that
+
+834
+00:31:08,000 --> 00:31:09,269
+the modes
+
+835
+00:31:09,279 --> 00:31:11,990
+uh pretty much uh we are pretty pretty
+
+836
+00:31:12,000 --> 00:31:12,549
+uh
+
+837
+00:31:12,559 --> 00:31:14,870
+well correlated with the ground truth
+
+838
+00:31:14,880 --> 00:31:15,830
+and thus
+
+839
+00:31:15,840 --> 00:31:19,840
+the final 3d shape is also
+
+840
+00:31:20,640 --> 00:31:22,789
+also coincides with the experimentally
+
+841
+00:31:22,799 --> 00:31:25,279
+found shape
+
+842
+00:31:25,679 --> 00:31:29,029
+there was there was uh that was
+
+843
+00:31:29,039 --> 00:31:31,430
+that was crazy now there is one more
+
+844
+00:31:31,440 --> 00:31:33,590
+question how do we initialize the
+
+845
+00:31:33,600 --> 00:31:36,630
+the files and the size initially uh
+
+846
+00:31:36,640 --> 00:31:39,430
+and what they did is they they use those
+
+847
+00:31:39,440 --> 00:31:39,830
+uh
+
+848
+00:31:39,840 --> 00:31:41,990
+predicted torsion angles which are not
+
+849
+00:31:42,000 --> 00:31:43,269
+depicted here they only show the
+
+850
+00:31:43,279 --> 00:31:44,310
+distance map
+
+851
+00:31:44,320 --> 00:31:46,789
+and they sample from those distributions
+
+852
+00:31:46,799 --> 00:31:48,070
+to get the initial
+
+853
+00:31:48,080 --> 00:31:51,350
+like uh uh configuration you can see it
+
+854
+00:31:51,360 --> 00:31:51,750
+here
+
+855
+00:31:51,760 --> 00:31:54,950
+this is the initial one and uh
+
+856
+00:31:54,960 --> 00:31:57,750
+it's getting crowded here um so
+
+857
+00:31:57,760 --> 00:31:59,190
+basically
+
+858
+00:31:59,200 --> 00:32:00,710
+that's how they initialize this they
+
+859
+00:32:00,720 --> 00:32:02,870
+randomly sample from that distribution
+
+860
+00:32:02,880 --> 00:32:04,950
+and then they do the optimization but
+
+861
+00:32:04,960 --> 00:32:06,710
+now uh what they
+
+862
+00:32:06,720 --> 00:32:08,870
+what they do they do one more thing
+
+863
+00:32:08,880 --> 00:32:09,750
+that's they
+
+864
+00:32:09,760 --> 00:32:12,789
+they keep a pool of um
+
+865
+00:32:12,799 --> 00:32:15,509
+a final structures so they keep like a
+
+866
+00:32:15,519 --> 00:32:16,389
+20
+
+867
+00:32:16,399 --> 00:32:19,509
+uh final structures so uh whatever they
+
+868
+00:32:19,519 --> 00:32:20,149
+get
+
+869
+00:32:20,159 --> 00:32:21,509
+at the end of these optimization
+
+870
+00:32:21,519 --> 00:32:23,269
+procedures uh
+
+871
+00:32:23,279 --> 00:32:24,870
+they minimize the potential and they
+
+872
+00:32:24,880 --> 00:32:26,389
+just keep those uh
+
+873
+00:32:26,399 --> 00:32:29,750
+in this pool and then they also sample
+
+874
+00:32:29,760 --> 00:32:31,509
+from deadpool so they take one of these
+
+875
+00:32:31,519 --> 00:32:33,269
+minimal configurations
+
+876
+00:32:33,279 --> 00:32:36,149
+and they randomly add noise to files and
+
+877
+00:32:36,159 --> 00:32:36,870
+size
+
+878
+00:32:36,880 --> 00:32:40,470
+so they kind of uh get uh
+
+879
+00:32:40,480 --> 00:32:41,669
+experimentally showed that they are
+
+880
+00:32:41,679 --> 00:32:44,350
+getting those are giving them better
+
+881
+00:32:44,360 --> 00:32:46,789
+initializations than just randomly
+
+882
+00:32:46,799 --> 00:32:48,149
+sampling from those
+
+883
+00:32:48,159 --> 00:32:50,789
+torsion angle maps so that's one more
+
+884
+00:32:50,799 --> 00:32:52,630
+detail i wanted to mention
+
+885
+00:32:52,640 --> 00:32:54,789
+and now we have the whole pipeline
+
+886
+00:32:54,799 --> 00:32:56,470
+hopefully uh
+
+887
+00:32:56,480 --> 00:32:59,110
+in place let me go once more uh like the
+
+888
+00:32:59,120 --> 00:33:00,549
+high level thing
+
+889
+00:33:00,559 --> 00:33:02,549
+we have the features related to amino
+
+890
+00:33:02,559 --> 00:33:04,950
+acids we do uh
+
+891
+00:33:04,960 --> 00:33:08,389
+basically convolutions uh over uh over
+
+892
+00:33:08,399 --> 00:33:09,029
+those
+
+893
+00:33:09,039 --> 00:33:12,389
+uh input maps we get the distance maps
+
+894
+00:33:12,399 --> 00:33:13,909
+we get the torsion angles
+
+895
+00:33:13,919 --> 00:33:16,070
+we get these uh secondary structure
+
+896
+00:33:16,080 --> 00:33:17,669
+predictions
+
+897
+00:33:17,679 --> 00:33:21,029
+and once we have those we we just freeze
+
+898
+00:33:21,039 --> 00:33:21,509
+it
+
+899
+00:33:21,519 --> 00:33:23,830
+and then we have an independent step and
+
+900
+00:33:23,840 --> 00:33:25,269
+that's the gradient descent
+
+901
+00:33:25,279 --> 00:33:28,630
+optimization uh they used lbfgs actually
+
+902
+00:33:28,640 --> 00:33:31,909
+forgot to mention that detail and they
+
+903
+00:33:31,919 --> 00:33:35,750
+basically are tweaking the files and
+
+904
+00:33:35,760 --> 00:33:38,230
+size so that the geometric model the 3d
+
+905
+00:33:38,240 --> 00:33:39,110
+coordinates
+
+906
+00:33:39,120 --> 00:33:41,750
+are getting in a configuration which
+
+907
+00:33:41,760 --> 00:33:43,350
+will produce
+
+908
+00:33:43,360 --> 00:33:45,750
+distance maps similar to the one that we
+
+909
+00:33:45,760 --> 00:33:49,120
+got that we got here
+
+910
+00:33:49,760 --> 00:33:51,909
+so that's a high level overview of how
+
+911
+00:33:51,919 --> 00:33:55,039
+it all fits together
+
+912
+00:33:55,200 --> 00:33:56,870
+okay that was the overview of the alpha
+
+913
+00:33:56,880 --> 00:33:58,870
+fold one uh hopefully that was
+
+914
+00:33:58,880 --> 00:34:00,870
+useful i know there was a lot of details
+
+915
+00:34:00,880 --> 00:34:02,950
+um let that sink in
+
+916
+00:34:02,960 --> 00:34:06,230
+um so regarding the alpha fault two
+
+917
+00:34:06,240 --> 00:34:08,629
+uh that's the main topic today but uh we
+
+918
+00:34:08,639 --> 00:34:09,750
+don't know much
+
+919
+00:34:09,760 --> 00:34:12,389
+so this is what we what we got from from
+
+920
+00:34:12,399 --> 00:34:13,190
+deepmind
+
+921
+00:34:13,200 --> 00:34:14,790
+so we trained this system on public
+
+922
+00:34:14,800 --> 00:34:17,589
+available data consisting of 170
+
+923
+00:34:17,599 --> 00:34:19,349
+000 protein structures from the protein
+
+924
+00:34:19,359 --> 00:34:20,710
+data bank so
+
+925
+00:34:20,720 --> 00:34:23,109
+we already mentioned this one uh
+
+926
+00:34:23,119 --> 00:34:25,589
+together with large bases blah blah blah
+
+927
+00:34:25,599 --> 00:34:29,190
+and so they they used um
+
+928
+00:34:29,200 --> 00:34:32,790
+128 tpuv3 cores for for maybe a couple
+
+929
+00:34:32,800 --> 00:34:34,470
+of weeks to train this thing
+
+930
+00:34:34,480 --> 00:34:37,750
+and um basically this is
+
+931
+00:34:37,760 --> 00:34:40,310
+this is the the diagram they gave us uh
+
+932
+00:34:40,320 --> 00:34:40,869
+and
+
+933
+00:34:40,879 --> 00:34:43,750
+the paper so uh they are preparing a
+
+934
+00:34:43,760 --> 00:34:44,470
+paper
+
+935
+00:34:44,480 --> 00:34:46,950
+uh to submit for a peer-reviewed uh
+
+936
+00:34:46,960 --> 00:34:48,550
+journal and
+
+937
+00:34:48,560 --> 00:34:50,470
+let me let me let me see what i can
+
+938
+00:34:50,480 --> 00:34:52,069
+deduce from from this
+
+939
+00:34:52,079 --> 00:34:55,669
+chart alone so basically um
+
+940
+00:34:55,679 --> 00:34:57,670
+what i expect here and they mean they
+
+941
+00:34:57,680 --> 00:35:00,230
+mention spatial graphs in the blog
+
+942
+00:35:00,240 --> 00:35:03,510
+so i won't get into any assumptions
+
+943
+00:35:03,520 --> 00:35:06,150
+aside from from from this one once the
+
+944
+00:35:06,160 --> 00:35:06,630
+paper
+
+945
+00:35:06,640 --> 00:35:09,829
+comes out i'll i'll i'll cover it but
+
+946
+00:35:09,839 --> 00:35:13,520
+for now let me just um
+
+947
+00:35:13,839 --> 00:35:16,390
+try and see what we can deduce here so
+
+948
+00:35:16,400 --> 00:35:18,470
+basically what i expect to happen
+
+949
+00:35:18,480 --> 00:35:22,550
+is because they were using um like uh
+
+950
+00:35:22,560 --> 00:35:26,950
+only 40 46 64 by 64
+
+951
+00:35:26,960 --> 00:35:30,230
+uh comp maps here is that
+
+952
+00:35:30,240 --> 00:35:33,190
+so basically you have the amino sequence
+
+953
+00:35:33,200 --> 00:35:34,069
+that's a bad
+
+954
+00:35:34,079 --> 00:35:37,670
+depiction of amino sequence and
+
+955
+00:35:37,680 --> 00:35:39,750
+basically until now they could only
+
+956
+00:35:39,760 --> 00:35:41,430
+model uh
+
+957
+00:35:41,440 --> 00:35:44,230
+they could model the long range like
+
+958
+00:35:44,240 --> 00:35:45,990
+throughout the sequence they could only
+
+959
+00:35:46,000 --> 00:35:48,950
+take chunks so so it's basically a form
+
+960
+00:35:48,960 --> 00:35:49,589
+of local
+
+961
+00:35:49,599 --> 00:35:53,990
+attention so um they could maybe model
+
+962
+00:35:54,000 --> 00:35:57,270
+uh like uh amino acids that
+
+963
+00:35:57,280 --> 00:36:00,390
+like close together if we are on the uh
+
+964
+00:36:00,400 --> 00:36:03,510
+main diagonal here so that's
+
+965
+00:36:03,520 --> 00:36:06,470
+so if we if if the com map is currently
+
+966
+00:36:06,480 --> 00:36:08,630
+maybe here
+
+967
+00:36:08,640 --> 00:36:10,950
+that's when we model that's when we
+
+968
+00:36:10,960 --> 00:36:12,310
+modeled uh
+
+969
+00:36:12,320 --> 00:36:15,349
+like the like uh local
+
+970
+00:36:15,359 --> 00:36:18,150
+local attention of of of close by uh
+
+971
+00:36:18,160 --> 00:36:19,190
+amino acids
+
+972
+00:36:19,200 --> 00:36:23,190
+if the uh if the comp map is maybe here
+
+973
+00:36:23,200 --> 00:36:26,800
+then what happens is the following
+
+974
+00:36:26,960 --> 00:36:31,270
+we can model maybe this group
+
+975
+00:36:31,280 --> 00:36:34,310
+and this group and all the interactions
+
+976
+00:36:34,320 --> 00:36:35,109
+between them
+
+977
+00:36:35,119 --> 00:36:37,349
+like this one corresponds to this one
+
+978
+00:36:37,359 --> 00:36:38,550
+and this one
+
+979
+00:36:38,560 --> 00:36:41,589
+etc so it becomes a mess really quick
+
+980
+00:36:41,599 --> 00:36:43,670
+but uh basically what i expect they will
+
+981
+00:36:43,680 --> 00:36:45,750
+do is they will use transformers
+
+982
+00:36:45,760 --> 00:36:49,510
+and they'll just have so their other use
+
+983
+00:36:49,520 --> 00:36:52,390
+they'll probably use some some efficient
+
+984
+00:36:52,400 --> 00:36:53,190
+transformer
+
+985
+00:36:53,200 --> 00:36:55,589
+a lot of them came out this year like uh
+
+986
+00:36:55,599 --> 00:36:58,150
+i know informer performer reformer
+
+987
+00:36:58,160 --> 00:37:00,870
+fill in the blank uh and basically uh
+
+988
+00:37:00,880 --> 00:37:01,670
+they'll
+
+989
+00:37:01,680 --> 00:37:05,270
+um they won't have to to create these
+
+990
+00:37:05,280 --> 00:37:07,430
+inductive biases that we currently have
+
+991
+00:37:07,440 --> 00:37:09,190
+and that's the like the intrinsic
+
+992
+00:37:09,200 --> 00:37:10,630
+property of convolutional neural
+
+993
+00:37:10,640 --> 00:37:12,310
+networks
+
+994
+00:37:12,320 --> 00:37:14,790
+um yeah that was that was it about the
+
+995
+00:37:14,800 --> 00:37:16,790
+the the second paper i won't get into
+
+996
+00:37:16,800 --> 00:37:19,030
+any more details i just want to uh tell
+
+997
+00:37:19,040 --> 00:37:19,910
+you about some
+
+998
+00:37:19,920 --> 00:37:22,790
+really cool repercussions uh that the
+
+999
+00:37:22,800 --> 00:37:23,750
+system will have
+
+1000
+00:37:23,760 --> 00:37:27,829
+uh in the like uh cavite 19 pandemic
+
+1001
+00:37:27,839 --> 00:37:30,950
+so basically they already helped
+
+1002
+00:37:30,960 --> 00:37:33,829
+us find structures of certain proteins
+
+1003
+00:37:33,839 --> 00:37:34,310
+uh
+
+1004
+00:37:34,320 --> 00:37:37,829
+that we that we that are present in
+
+1005
+00:37:37,839 --> 00:37:42,310
+in the in the source code of two virus
+
+1006
+00:37:42,320 --> 00:37:46,630
+one of those is orf-3a protein and
+
+1007
+00:37:46,640 --> 00:37:48,390
+what they can do is they can accelerate
+
+1008
+00:37:48,400 --> 00:37:50,470
+the pace of experimental methods
+
+1009
+00:37:50,480 --> 00:37:53,910
+they can they can predict the structure
+
+1010
+00:37:53,920 --> 00:37:55,589
+and then they can help the
+
+1011
+00:37:55,599 --> 00:37:57,109
+experimentation labs
+
+1012
+00:37:57,119 --> 00:37:58,950
+figure out the structure much faster
+
+1013
+00:37:58,960 --> 00:38:00,950
+than by doing it from scratch
+
+1014
+00:38:00,960 --> 00:38:04,150
+so yeah that was that was
+
+1015
+00:38:04,160 --> 00:38:07,109
+that was it uh hopefully uh you found
+
+1016
+00:38:07,119 --> 00:38:08,710
+this video insightful
+
+1017
+00:38:08,720 --> 00:38:11,190
+uh if you did uh go ahead and subscribe
+
+1018
+00:38:11,200 --> 00:38:12,310
+to my channel
+
+1019
+00:38:12,320 --> 00:38:14,390
+and click that bell icon to get notified
+
+1020
+00:38:14,400 --> 00:38:15,990
+when i upload a new video
+

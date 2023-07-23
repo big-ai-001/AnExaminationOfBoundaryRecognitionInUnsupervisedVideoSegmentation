@@ -1,0 +1,838 @@
+1
+00:00:00,240 --> 00:00:01,120
+all right um
+
+2
+00:00:03,120 --> 00:00:13,040
+the two questions i i want you to discuss in the 
+group and turn in jeweler the results right to ta
+
+3
+00:00:13,840 --> 00:00:20,480
+one of the question is about as a government 
+agency i said this national defense
+
+4
+00:00:22,320 --> 00:00:29,840
+departments so when we think about defense 
+national defense is something related to military
+
+5
+00:00:29,840 --> 00:00:37,040
+right it should be very complex so think about 
+it it's a complex system right complex system so
+
+6
+00:00:39,920 --> 00:00:47,120
+it is not a tiny one it is a big one 
+complex one and it should be very reliable
+
+7
+00:00:47,760 --> 00:00:57,920
+all right it has a bad line and it's a little 
+take it long right so then you can take out
+
+8
+00:00:57,920 --> 00:01:03,120
+some methodology that's not suitable you're not 
+going to use prototyping of course all right
+
+9
+00:01:05,440 --> 00:01:17,520
+so you should think about reliable you have longer 
+no time allowed to finish that so the best answer
+
+10
+00:01:18,640 --> 00:01:26,640
+should be water for water all right so you 
+better use waterfall because it's national or a
+
+11
+00:01:26,640 --> 00:01:36,560
+governmental agency they need the documents right 
+so use water for if your answer is apparel then
+
+12
+00:01:37,360 --> 00:01:51,520
+you you have enough staff to to group them and 
+then they conduct a sub sub project all right okay
+
+13
+00:01:52,480 --> 00:02:01,120
+so then you gotta address that well this project 
+is very very complex and they need the documents
+
+14
+00:02:01,680 --> 00:02:08,800
+and you have the deadline and the requirements 
+should be very stable right because they are
+
+15
+00:02:09,520 --> 00:02:18,320
+not going to to change that often so you're going 
+to use a structure methodology right it could be
+
+16
+00:02:18,320 --> 00:02:21,840
+waterfall and you said that's 
+all well we have an experience
+
+17
+00:02:23,840 --> 00:02:35,840
+project manager and they know or he or she knows 
+how to subdivide it that's the group into you know
+
+18
+00:02:36,480 --> 00:02:43,040
+this is a project right that can 
+shorten shortens the development spirits
+
+19
+00:02:43,040 --> 00:02:54,720
+then you you use apparel and so fine this and the 
+second question is about an executive ceo ryan
+
+20
+00:02:58,560 --> 00:03:03,840
+wants to have an innovative
+
+21
+00:03:06,080 --> 00:03:14,880
+innovative function that can help 
+drill down or have a quick summary
+
+22
+00:03:17,040 --> 00:03:20,800
+of the company all right quick summary
+
+23
+00:03:22,080 --> 00:03:31,840
+or drill down with a graphical 
+display all right so that function
+
+24
+00:03:32,720 --> 00:03:35,120
+it should be very new and fancy
+
+25
+00:03:35,840 --> 00:03:45,840
+all right so the best question would be 
+extreme programming all right because
+
+26
+00:03:46,800 --> 00:03:59,840
+in you might always the secretary of ceo 
+often write about the hint or get some
+
+27
+00:04:01,920 --> 00:04:12,320
+some requirement or needs of the ceo 
+and you just do it that that's right
+
+28
+00:04:12,320 --> 00:04:21,600
+and probably would change very often right 
+because even the ceo just has several notion about
+
+29
+00:04:24,080 --> 00:04:28,240
+the effects
+
+30
+00:04:28,240 --> 00:04:34,720
+to show right and you are 
+the member of the design team
+
+31
+00:04:36,640 --> 00:04:46,080
+you should propose and conduct the design 
+right in a quick way and changes often
+
+32
+00:04:46,960 --> 00:04:53,840
+right and meets the requirements of the 
+ceo in a very short time so the best
+
+33
+00:04:53,840 --> 00:05:02,080
+methodology will be extreme programming you 
+might say that i wanted to use scrum well scrum
+
+34
+00:05:04,800 --> 00:05:17,040
+could be right yeah that's the secondary choice 
+right because one you have a formal team right um
+
+35
+00:05:19,040 --> 00:05:26,160
+and you will yeah probably you can use the 
+scrums so scrum is more formal you have lots of
+
+36
+00:05:26,160 --> 00:05:34,800
+product made out and you have a fixed 
+schedule right it's a burn down chart because
+
+37
+00:05:35,600 --> 00:05:44,080
+you're going to finish that in a very very short 
+time to do the events like the activity right so
+
+38
+00:05:46,960 --> 00:05:53,840
+you can you can use scrum right 
+but school the team is bigger
+
+39
+00:05:54,880 --> 00:06:03,360
+than extreme programming so like ceos then 
+you actually you need to use scrum all right
+
+40
+00:06:04,400 --> 00:06:08,800
+but you wanted to use it that's the second 
+choice the best way would be extreme programming
+
+41
+00:06:09,680 --> 00:06:21,120
+okay so that's the two questions i want to 
+see the answer like that yeah okay it's alex
+
+42
+00:06:31,120 --> 00:06:37,360
+yes um i would like to ask a question where do we 
+draw the line between the project when we call it
+
+43
+00:06:37,360 --> 00:06:44,240
+this is um a long project and which one we 
+call this is a short project like where do
+
+44
+00:06:44,240 --> 00:06:49,280
+we divide the line is it like six months three 
+months a year two years ten years like that
+
+45
+00:06:49,280 --> 00:06:53,200
+okay it's pretty good okay good um question
+
+46
+00:06:55,520 --> 00:06:58,800
+so what do you think about it says um i wanted to
+
+47
+00:06:59,360 --> 00:07:04,320
+have this function in half an 
+year you think it's long or short
+
+48
+00:07:07,600 --> 00:07:12,000
+that's i would say it's a long project 
+i think it's such a long project
+
+49
+00:07:12,000 --> 00:07:20,320
+so well actually six months is quite short 
+right so yeah it is a question we don't have
+
+50
+00:07:21,760 --> 00:07:31,360
+a definite um or uh precise answer it's a good 
+good question well it's basic no basically you
+
+51
+00:07:31,360 --> 00:07:41,680
+want it if it is a project have any year right 
+six months we regard as a short right or a lot
+
+52
+00:07:41,680 --> 00:07:49,200
+of things like um we wanted to watch video right 
+i'll give you a video um well you got to watch
+
+53
+00:07:49,200 --> 00:08:00,000
+that's what what do you think about if i said 
+that's uh it's 30 minutes is it short or wrong
+
+54
+00:08:01,680 --> 00:08:07,280
+um well it depends on what kind of video if it's 
+documentary then it's short if it's like a movie
+
+55
+00:08:07,280 --> 00:08:13,280
+then it is short but if it's like a vlog and it 
+is long so depends on the video content yeah so
+
+56
+00:08:14,080 --> 00:08:20,320
+we don't have an exact answer all right so if 
+there's a government then usually this longer
+
+57
+00:08:20,320 --> 00:08:29,280
+take longer it's a complex it takes longer right 
+if that is a smaller company one year profits loan
+
+58
+00:08:31,200 --> 00:08:37,360
+okay so when i say that's on government 
+agency um you will not expect as a three
+
+59
+00:08:37,360 --> 00:08:43,680
+months or six months but this is 
+probably two years right two years
+
+60
+00:08:43,680 --> 00:08:50,720
+but there's a two year budget to do that 
+right um so yeah it's a good question
+
+61
+00:08:50,720 --> 00:08:57,680
+when i said that's um well it's a company 
+that's there that needs um a very innovative
+
+62
+00:09:00,480 --> 00:09:06,000
+design then it thinks that i cannot 
+wait for very long like a year to see
+
+63
+00:09:06,000 --> 00:09:13,680
+the results so it could be short right so it's 
+shorter than one year so half an year right yeah
+
+64
+00:09:14,960 --> 00:09:23,440
+okay any other question good that may 
+be heavier you raise questions again yes
+
+65
+00:09:31,040 --> 00:09:50,000
+okay uh well uh i'm going to skip some um 
+let's gonna jump to the unified process
+
+66
+00:09:50,000 --> 00:09:55,840
+today's lesson line of the day 
+today's uh instruction basically is an
+
+67
+00:09:57,280 --> 00:10:08,080
+extension of last week right because that is 
+and comes right introductions of the methodology
+
+68
+00:10:10,080 --> 00:10:16,080
+are not the same but they have something in 
+common all right there's something in common
+
+69
+00:10:16,080 --> 00:10:26,080
+the vegetable is something in common and part of 
+that is a different expression right so this one
+
+70
+00:10:26,080 --> 00:10:35,600
+unified process you can see that in both textbook 
+the tennis unified process is a unified process
+
+71
+00:10:36,400 --> 00:10:45,840
+but you can you cannot see this in 
+the methodology right so how come
+
+72
+00:10:48,240 --> 00:10:51,040
+it's unified process a methodology
+
+73
+00:10:52,160 --> 00:11:01,680
+both of the book says well probably not we 
+focus on process a unified process so labels
+
+74
+00:11:03,840 --> 00:11:08,080
+do not categorize it as one of the methodology
+
+75
+00:11:08,080 --> 00:11:18,960
+rights for any kind unified process or we 
+call as up in short up right you pee in short
+
+76
+00:11:20,320 --> 00:11:27,840
+it was proposed by a company 
+called rational right rational
+
+77
+00:11:35,440 --> 00:11:41,840
+so r u p unified
+
+78
+00:11:49,040 --> 00:11:50,000
+so originally
+
+79
+00:11:52,880 --> 00:12:07,600
+we call this rap because this company was 
+required acquired booked by ibm then ibm adopts
+
+80
+00:12:07,600 --> 00:12:21,600
+this and become up right so ibm implements their 
+project by using unified process a lot right
+
+81
+00:12:22,880 --> 00:12:32,720
+ibm is an international company we know it 
+right this very big company and they have
+
+82
+00:12:33,680 --> 00:12:44,960
+very big projects and very much complex all 
+right what do you use unified process right so
+
+83
+00:12:45,840 --> 00:12:53,760
+when we introduce different kinds of methodology i 
+said that if you are familiar with the methodology
+
+84
+00:12:53,760 --> 00:13:01,040
+you know how to combine stuff you are not 
+going to use just one methodology only
+
+85
+00:13:02,240 --> 00:13:08,560
+all right so you're going to combine 
+stats in this process unified process
+
+86
+00:13:08,560 --> 00:13:15,520
+because they use many kinds of methodology 
+inside that's right if you have documentation
+
+87
+00:13:16,800 --> 00:13:28,320
+right unified process but it is not a traditional 
+one okay and this process or this matter right
+
+88
+00:13:30,640 --> 00:13:39,680
+will produce different version all right 
+different version they have production right
+
+89
+00:13:39,680 --> 00:13:46,400
+different version and the the difference between 
+traditional methodology because you can see that
+
+90
+00:13:47,200 --> 00:13:54,640
+well um it has a supporting 
+activity a workflow so we can see
+
+91
+00:13:54,640 --> 00:14:01,840
+engineering workflow and support right it's a 
+supporting engineering and supporting workflow
+
+92
+00:14:02,960 --> 00:14:10,880
+so it's specified that well we're 
+not going um to only model something
+
+93
+00:14:10,880 --> 00:14:19,040
+at some time and then go to the next one not 
+that traditional methodology so we can see
+
+94
+00:14:21,440 --> 00:14:29,840
+somehow it's quite similar to you know 
+we start right planning is it inception
+
+95
+00:14:31,280 --> 00:14:39,280
+initialization similar inception training 
+when i use a different term elaboration do it
+
+96
+00:14:39,280 --> 00:14:50,480
+in detail and more so inception here it comes up 
+always y and here we have what and also have how
+
+97
+00:14:52,320 --> 00:15:01,280
+all right so when we see that it's it's not 
+like no like traditional workflow inception
+
+98
+00:15:01,280 --> 00:15:07,600
+we have the why why do we need to do that and we 
+also think about the supporting earthquake team
+
+99
+00:15:07,600 --> 00:15:17,040
+and we conducted so by using that because we have 
+a very complex system so you are not going to use
+
+100
+00:15:17,040 --> 00:15:29,040
+up right to to design a very tiny project no it 
+should be very complex so think about ibm they
+
+101
+00:15:29,040 --> 00:15:40,800
+help you understand that ibm is an international 
+company yeah many branches different wallets
+
+102
+00:15:44,080 --> 00:15:53,600
+and different world has its distinct culture 
+right so their system gotta be different all
+
+103
+00:15:53,600 --> 00:16:01,360
+right to suit the needs of different country 
+all right so make it shorter like seven eleven
+
+104
+00:16:02,720 --> 00:16:09,280
+right seven eleven is not just one 
+right one store that many branch
+
+105
+00:16:10,080 --> 00:16:18,800
+right chance to order a lot of store okay 
+so they should have a central processing
+
+106
+00:16:21,200 --> 00:16:27,200
+and also they need to take care of the transformer
+
+107
+00:16:28,480 --> 00:16:39,360
+right distributed management right so they need 
+to keep the data and then also you know well
+
+108
+00:16:43,440 --> 00:16:43,940
+allow
+
+109
+00:16:47,360 --> 00:16:56,000
+the chain store has its different needs all 
+right so it make it complex so like that
+
+110
+00:16:58,800 --> 00:17:05,280
+then you wanted to design a 
+system that complex situation
+
+111
+00:17:06,880 --> 00:17:12,240
+so a group of professional comes from 
+different areas need to talk about a lot
+
+112
+00:17:12,240 --> 00:17:19,440
+of things because it's a very big all 
+right and we might test some function
+
+113
+00:17:21,840 --> 00:17:32,400
+all right based on different needs so you're going 
+to see that you have idea and couple functions
+
+114
+00:17:34,000 --> 00:17:39,680
+based on the priority right we 
+might do some parts and test it
+
+115
+00:17:41,600 --> 00:17:52,160
+only my deploy means 
+implements in some chosen store
+
+116
+00:17:52,160 --> 00:17:59,840
+right so you can see the inception a little 
+bit so you can see the shaded shaded area
+
+117
+00:18:01,360 --> 00:18:02,960
+shaded smaller dash
+
+118
+00:18:05,600 --> 00:18:13,840
+in different phases right so inception 
+not just business modeling or requirements
+
+119
+00:18:15,600 --> 00:18:23,520
+some analysis design testing the 
+model s so for each phase model s
+
+120
+00:18:24,080 --> 00:18:29,920
+of the workflow including the 
+supporting supporting workflow all right
+
+121
+00:18:31,520 --> 00:18:37,920
+and if you see each phase we can 
+subdivide it partition it right
+
+122
+00:18:38,800 --> 00:18:46,880
+as iteration what is it different from traditional 
+one because iteration is not going to go back
+
+123
+00:18:48,480 --> 00:18:59,200
+let's go forward all right and do this stats and 
+then go forwards it will finish that as the first
+
+124
+00:18:59,200 --> 00:19:10,000
+version and come to the others and you're going to 
+see for example elaboration is a more requirements
+
+125
+00:19:10,880 --> 00:19:21,520
+let's come clear and more functions yeah 
+dance they're going to focus on so actually
+
+126
+00:19:21,520 --> 00:19:28,240
+no there's a lot of methodology 
+in this matter all right
+
+127
+00:19:30,480 --> 00:19:38,240
+oh you know it's concordance this is a 
+process right so this is unified alphabets
+
+128
+00:19:38,240 --> 00:19:48,640
+together and we also can see extension extensions 
+of the unified process right so extended modified
+
+129
+00:19:50,320 --> 00:20:06,320
+versions extension that because you're going to 
+see we have production whoops let me see which one
+
+130
+00:20:06,320 --> 00:20:19,840
+what's good
+
+131
+00:20:32,240 --> 00:20:33,840
+fish
+
+132
+00:20:50,320 --> 00:20:54,960
+this is same as uh previous one but 
+extension you're going to see the production
+
+133
+00:20:55,760 --> 00:21:03,040
+right production it's a release of the 
+the product line and the supporting ones
+
+134
+00:21:03,040 --> 00:21:08,960
+you're going to see that well you 
+have operation cell operation like
+
+135
+00:21:10,880 --> 00:21:16,880
+the contents of guinness chapter 
+ones on the new edition it adds
+
+136
+00:21:18,560 --> 00:21:27,600
+focus on operation right so you can see step 
+up dv op dev opposite that's the operation
+
+137
+00:21:28,160 --> 00:21:38,480
+in support and infrastructure management 
+all right so all the supporting referral
+
+138
+00:21:42,400 --> 00:21:49,040
+it does not have the um the budgets right 
+but all that well you can see that's on
+
+139
+00:21:49,840 --> 00:21:56,880
+that's included in the project management 
+so yeah configuration change management
+
+140
+00:21:57,520 --> 00:22:07,040
+change management is about version control 
+so change that it's a version one when we
+
+141
+00:22:10,320 --> 00:22:19,520
+when the change from the digits right so from 
+one to two there's a big change if there's one
+
+142
+00:22:19,520 --> 00:22:27,200
+third one one the two that that there's smaller 
+change right so that is the change management
+
+143
+00:22:27,200 --> 00:22:33,760
+it's about the version control so here you 
+can see setup iteration and incremental
+
+144
+00:22:34,480 --> 00:22:42,480
+right so incrementally from inception 
+a couple iteration each iteration
+
+145
+00:22:43,520 --> 00:22:53,840
+has the added value or increments function right 
+and go forwards until ends of production so
+
+146
+00:22:54,400 --> 00:23:04,400
+production that is the the result the end 
+product so no inception evaporation until okay
+
+147
+00:23:05,600 --> 00:23:13,680
+but for the supporting after after releasing 
+the the production then we still need to provide
+
+148
+00:23:13,680 --> 00:23:20,800
+a service right there a year or a maintenance 
+as a production we can see that so that is the
+
+149
+00:23:20,800 --> 00:23:35,840
+extension of unified process rather combines 
+two two books together it's gonna stats um
+
+150
+00:23:42,880 --> 00:23:43,760
+it's a longer time
+
+151
+00:23:46,800 --> 00:23:49,840
+all right
+
+152
+00:23:53,840 --> 00:23:55,680
+is any question but no
+
+153
+00:23:58,320 --> 00:24:06,560
+so which methodology to use right so last 
+time we got down to two questions and now
+
+154
+00:24:07,360 --> 00:24:17,840
+i want you to practice another two right 
+another two so it's just a new version
+
+155
+00:24:19,120 --> 00:24:26,160
+page 3 the new version page 
+3 do the exercise h and i
+
+156
+00:24:28,560 --> 00:24:31,840
+in a group
+
+157
+00:24:40,880 --> 00:24:43,040
+so h is the page 30
+
+158
+00:24:45,200 --> 00:24:54,960
+suppose you are an analyst right looking for a 
+small company to develop an accounting system
+
+159
+00:24:55,920 --> 00:25:00,960
+accounting so you're going 
+to develop an accounting
+
+160
+00:25:02,240 --> 00:25:08,880
+system we know that content is quite complex 
+even there's a smaller company right accounting
+
+161
+00:25:08,880 --> 00:25:20,640
+right support the salary wages right and 
+believe personal leave right so here and there
+
+162
+00:25:20,640 --> 00:25:28,000
+um that's accounting quite complex so would you 
+use the unified process to develop the system
+
+163
+00:25:28,000 --> 00:25:35,920
+or would you prefer one of the other approaches 
+and why so that is the first question right
+
+164
+00:25:38,640 --> 00:25:44,160
+smaller company needs a very 
+complex and difficult system
+
+165
+00:25:47,680 --> 00:25:55,840
+i suppose you are an analyst developing 
+a new information system to automate
+
+166
+00:25:56,640 --> 00:26:03,040
+the sales transaction and manage inventory 
+inventory for each retail store in large
+
+167
+00:26:03,760 --> 00:26:13,120
+chain the system should be installed at each store 
+and exchange data with the mainframe computer at
+
+168
+00:26:13,120 --> 00:26:21,280
+the company's head office which use the unified 
+process to develop the system or would you prefer
+
+169
+00:26:21,280 --> 00:26:31,680
+one of the other approaches oh why so these 
+two questions all right i'm going to give
+
+170
+00:26:31,680 --> 00:26:38,960
+you a round on because you're going to have 
+a break or i'm going to give you 25 minutes
+
+171
+00:26:43,360 --> 00:26:46,720
+right so these two questions if you don't have the
+
+172
+00:26:48,160 --> 00:26:58,560
+book take a picture here right h and i and 
+discuss in the group and turn into a result to ta
+

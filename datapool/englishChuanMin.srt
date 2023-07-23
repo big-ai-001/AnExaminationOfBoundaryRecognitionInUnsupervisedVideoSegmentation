@@ -1,0 +1,1151 @@
+0
+00:00:00,260 --> 00:00:04,550
+Hey, today is the 1st day of this
+
+1
+00:00:04,760 --> 00:00:11,140
+voice. Right? Um, I'm pleased to see you attend course sometime.
+
+2
+00:00:12,860 --> 00:00:16,140
+This is the 1st time for most of students.
+
+3
+00:00:16,270 --> 00:00:21,190
+You probably are not familiar with the detouring that I need.
+
+4
+00:00:22,840 --> 00:00:26,240
+Well, uh, it is not a traditional way.
+
+5
+00:00:26,560 --> 00:00:51,780
+I-I-I do hope that, um, during our lectureing, there will be a light discussion, and I'm going to raise questions, and you answer or, um, you might expect that, um, teacher through and students through, not traditional way.
+
+6
+00:00:51,790 --> 00:01:02,640
+So before, before this class, um, I hope that you are ready watch the video as the resources I gave.
+
+7
+00:01:03,520 --> 00:01:08,740
+So today I'm going to describe the course.
+
+8
+00:01:08,740 --> 00:01:10,820
+So it's, of course, this question.
+
+9
+00:01:12,700 --> 00:01:15,780
+Here we go. So we have a syllabus.
+
+10
+00:01:16,980 --> 00:01:31,060
+That is the syllabus. That means we could use schedule and the purpose of these schools, the requirements that, um, you should have, and the grading policy.
+
+11
+00:01:31,360 --> 00:01:34,900
+So 1st of all, I'm going to explain that, right?
+
+12
+00:01:36,100 --> 00:01:41,570
+We have a syllabus, right? Um, right?
+
+13
+00:01:41,630 --> 00:01:44,630
+Of course, make sure they come to the right class.
+
+14
+00:01:44,930 --> 00:01:49,490
+I 1st one is system analysis and Design game.
+
+15
+00:01:49,810 --> 00:02:08,010
+And we're going to announce any message where on it's going to upload course resources on the trunk, trunk class, right?
+
+16
+00:02:08,170 --> 00:02:17,760
+So I hope that you, you know, the place to download all the resources before you come the including the service.
+
+17
+00:02:18,180 --> 00:02:20,760
+So the service, uh, is going to explain that?
+
+18
+00:02:21,160 --> 00:02:25,620
+Well, you know, um, I say, that's UH.
+
+19
+00:02:25,780 --> 00:02:33,730
+This course provides very very the proposal this course.
+
+20
+00:02:33,990 --> 00:02:47,370
+This course is enable you to do system analysis and design, or, you call this S-A or S-A-D, system analysis and design.
+
+21
+00:02:47,880 --> 00:02:59,140
+I said do because a lot of practice, it's not just freely based, so you buy things that's, well, this course belong to management, you know.
+
+22
+00:02:59,180 --> 00:03:17,150
+But actually, I get a lot of technical aspects in this course, so it's hard to say that this management course, again, but a lot of practice, you know, that's based on theory, the theory days.
+
+23
+00:03:17,570 --> 00:03:23,110
+So unless you understand the theory, then you can, you can put this into practice, right?
+
+24
+00:03:23,270 --> 00:03:41,700
+And this is an unusual oriented course, but, uh, I will use some Chinese to explain that particular today, as because I know that most students were not, um, well, to take it, even assets.
+
+25
+00:03:41,860 --> 00:03:47,400
+Will prepare some in terms of language and course, contents.
+
+26
+00:03:47,830 --> 00:03:50,630
+The course is, it's not that easy.
+
+27
+00:03:51,070 --> 00:03:54,340
+I gotta say, it's very difficult, right?
+
+28
+00:03:54,640 --> 00:03:58,240
+Because it combines management and technology.
+
+29
+00:03:58,400 --> 00:04:04,010
+We put it all together, and you're going to do a lot of exercise, right?
+
+30
+00:04:04,430 --> 00:04:08,630
+It is not, um, just actual management.
+
+31
+00:04:08,790 --> 00:04:17,670
+Not not at all. Right? Um, many of you, you you use English often, so I know it.
+
+32
+00:04:18,030 --> 00:04:28,740
+This is a natural fault. I would say, that because we don't, we don't have the English speaking environments that baby your daily life.
+
+33
+00:04:28,900 --> 00:04:30,940
+You don't use English often, right?
+
+34
+00:04:31,100 --> 00:04:44,320
+So this the situation, right? And we try to create this, ah, english speaking, and listening, rolling, even writing, right?
+
+35
+00:04:44,560 --> 00:04:57,510
+These are and create these environments because it is a global, you know, global competitions there by, particularly in your generation.
+
+36
+00:04:57,880 --> 00:05:03,260
+And even even though we can teach us in Chinese, no problem at all.
+
+37
+00:05:03,600 --> 00:05:09,500
+But eventually you're going to compete with many people from different country.
+
+38
+00:05:09,880 --> 00:05:13,000
+So that's why we have this mission.
+
+39
+00:05:13,160 --> 00:05:17,420
+As mission is to teach what to teach English.
+
+40
+00:05:17,420 --> 00:05:25,910
+Um, not focus on others. Teach English, teach the course in English.
+
+41
+00:05:26,310 --> 00:05:28,670
+Actually, I don't focus on English.
+
+42
+00:05:28,830 --> 00:05:36,030
+I focus on the contents. But English is also a tour right to make you familiar with this kind of
+
+43
+00:05:36,360 --> 00:05:41,720
+situation, that or someday, you got to listen, engage your listen.
+
+44
+00:05:42,240 --> 00:05:46,040
+They're listening to other people from different countries.
+
+45
+00:05:46,380 --> 00:05:59,160
+After you graduate, you go to encounter the situation, and you're going to have different students from around the The words are not this discourse, I know it.
+
+46
+00:05:59,420 --> 00:06:06,120
+But some of the courses we recruit, pleasure, recruits another foreigner come to our departments.
+
+47
+00:06:06,500 --> 00:06:17,380
+And genius is coming interdisciplinary. And yeah, so tower set ups are 2023.
+
+48
+00:06:17,500 --> 00:06:21,300
+Are we going to reach dealer language?
+
+49
+00:06:22,060 --> 00:06:35,600
+So with this kind of policy, so we are going to promote a lot of professor right to use English as a medium of teaching.
+
+50
+00:06:35,880 --> 00:06:40,640
+Right? So that is, that's the way.
+
+51
+00:06:41,140 --> 00:06:47,700
+Well, we want to enhance your English listening comprehension skills, right?
+
+52
+00:06:48,080 --> 00:06:58,510
+So if you cannot understand totally, then you know, that's okay, right?
+
+53
+00:06:58,850 --> 00:07:06,130
+But I hope that, to hope that day by day is going to enhance on your comprehension again.
+
+54
+00:07:06,290 --> 00:07:14,520
+And I said that this course is to do, I do S-A-D, that just but you got to practice it, right?
+
+55
+00:07:14,680 --> 00:07:22,070
+And I, and I also, um, instead the design thinking of the chorus, right?
+
+56
+00:07:22,230 --> 00:07:31,020
+Of course, design thinking that, um, well, it it is, um, knowledge sharing.
+
+57
+00:07:31,460 --> 00:07:37,710
+All right. If you understand more, share to your team members.
+
+58
+00:07:37,890 --> 00:07:52,950
+So we group you. So even though you choose your team members, but we have a couple of group, you study in a group, then you got a problem, you ask for your team members, or even T-A-M-E, right?
+
+59
+00:07:53,130 --> 00:07:56,350
+And you came on interrupt me.
+
+60
+00:07:56,570 --> 00:08:16,720
+Raise your hand. Ask question, order, ask, yes, the, um, the pace, you know, yeah, a kind of use a quick, quick way to to talk by so you can't, if you can't always your hand as still, mean, right?
+
+61
+00:08:16,840 --> 00:08:23,070
+So here you are, understanding participates in the course discussion, right?
+
+62
+00:08:23,370 --> 00:08:26,710
+And don't punctual. You come here now on time.
+
+63
+00:08:27,090 --> 00:08:45,200
+So that's the requirements. And the objective of the course is to make you understand that how system is created, right, how to initialize your ideal, and how to analyze this design it.
+
+64
+00:08:45,620 --> 00:08:57,080
+John Eventually we have that after the schools, that you understand that own system, so not just components, but how system media design.
+
+65
+00:08:58,040 --> 00:09:04,500
+Then I rephrase it by using Chinese What?
+
+66
+00:09:13,230 --> 00:09:26,800
+Sure? Yeah, you should dig a curtain on the curtain to show line.
+
+67
+00:09:26,960 --> 00:09:48,770
+In cities, world system sushi, they don't whole clean.
+
+68
+00:09:49,090 --> 00:10:01,310
+Bartana City Improvement. Try now take a picture.
+
+69
+00:10:02,050 --> 00:10:14,690
+No number Hangzhou don't engage time to win.
+
+70
+00:10:14,850 --> 00:10:21,350
+On to the our race question on the monkey Freedom.
+
+71
+00:10:26,310 --> 00:10:29,110
+No, no, no, no. Joe He kick out.
+
+72
+00:10:30,870 --> 00:10:34,510
+You should. Wu Hei
+
+73
+00:10:34,530 --> 00:10:37,670
+Changsha Young Zhang Jie
+
+74
+00:10:37,970 --> 00:10:41,610
+Is Xiang does even were you from you?
+
+75
+00:10:41,960 --> 00:10:57,410
+What curtain? Queen Three. Friend too.
+
+76
+00:10:57,730 --> 00:11:00,970
+We're sure to show that to learn.
+
+77
+00:11:03,520 --> 00:11:18,990
+Okay, bangzhou, one meal. Um, take a machine on go.
+
+78
+00:11:19,150 --> 00:11:32,190
+Would you like? Shanghai. China is Resources from trunk class summit Lesbian church.
+
+79
+00:11:32,210 --> 00:11:37,210
+China. Shan Xi Down. That sounds the part way promptly.
+
+80
+00:11:37,630 --> 00:12:00,820
+Yeah, I'm instant. What you want?
+
+81
+00:12:00,980 --> 00:12:08,410
+Jiang Gong Xiang You t shirt in England?
+
+82
+00:12:19,460 --> 00:12:27,310
+Well, so she in England. Nine, some cold now, that's great.
+
+83
+00:12:35,460 --> 00:13:04,660
+Three. Okay, oh, that we don't have time.
+
+84
+00:13:04,820 --> 00:13:26,030
+Jumped on far to three, bunny, the UK The leads.
+
+85
+00:13:31,470 --> 00:13:37,910
+Okay, um. Well, so you can't help yourself, before you come, you preview, right?
+
+86
+00:13:38,330 --> 00:13:41,190
+And discuss or ask question to your team members.
+
+87
+00:13:41,370 --> 00:13:43,390
+Of course, we kept T-A and me.
+
+88
+00:13:43,820 --> 00:13:47,480
+I have my office already. I'm talk about that, right?
+
+89
+00:13:47,660 --> 00:13:51,420
+So this is the objective, by the teaching objective.
+
+90
+00:13:51,480 --> 00:14:05,770
+I hope that you, you know, that the whole system creates right and process, I, um, well, the the matter I use, right?
+
+91
+00:14:05,990 --> 00:14:20,220
+I the, well, the teaching matter can be been many kinds right er to use, interactive by communication.
+
+92
+00:14:20,600 --> 00:14:23,970
+So that's why I give you the the video.
+
+93
+00:14:24,130 --> 00:14:27,850
+Right? So the video is about active learning lines.
+
+94
+00:14:28,010 --> 00:14:34,560
+I hope you follow that active learning, because you are the main road to learn something, right?
+
+95
+00:14:34,720 --> 00:14:39,020
+So after learning, we are not going to use the passive way, traditional way.
+
+96
+00:14:39,210 --> 00:14:44,050
+Right? So I am not, I am not a knowledge trust major.
+
+97
+00:14:44,210 --> 00:14:48,350
+No, no, if I-I-I am that role, right?
+
+98
+00:14:48,660 --> 00:14:54,020
+That, um, you, you just pass the receive anything.
+
+99
+00:14:54,180 --> 00:14:56,360
+You don't have any feedback. I don't like that.
+
+100
+00:14:56,700 --> 00:14:59,980
+So you probably have very bright and brilliant ideas.
+
+101
+00:15:00,140 --> 00:15:02,240
+I wanted to hear from you, right?
+
+102
+00:15:02,500 --> 00:15:16,460
+And I also wanted to to know how much you have done the preparation so that that I wanted to use this kind of matter like part of that I will lecture by television.
+
+103
+00:15:16,620 --> 00:15:18,680
+I will, I will lecture that a new lesson.
+
+104
+00:15:19,160 --> 00:15:24,570
+And that you my, ah, compare about what you
+
+105
+00:15:24,930 --> 00:15:29,150
+already read and with my teacher.
+
+106
+00:15:29,310 --> 00:15:37,270
+All right, so probably some of that will solve your problem, or, um, raise you more question problem.
+
+107
+00:15:37,710 --> 00:15:40,430
+The expectation activity that's a focus
+
+108
+00:15:40,750 --> 00:15:45,210
+on a cure and activities that to facilitate HR Thinking.
+
+109
+00:15:45,280 --> 00:15:50,580
+HR Well, so it's quite normal, right?
+
+110
+00:15:50,740 --> 00:16:01,250
+Very flexible stimulate that you're thinking and you want to participate in And this kind of way, I want to use secure activities, right?
+
+111
+00:16:01,410 --> 00:16:03,010
+So you got a preview, right?
+
+112
+00:16:03,170 --> 00:16:10,950
+Preview the readings or the chapters I-I assigned I for based on the surface.
+
+113
+00:16:11,110 --> 00:16:13,770
+Again, I hope that you come here on time.
+
+114
+00:16:13,770 --> 00:16:19,370
+Good is a punctuation. Punctuation. And you will come here.
+
+115
+00:16:19,530 --> 00:16:24,630
+I come here on time. Yeah, because that's your responsibility to come here on time.
+
+116
+00:16:24,670 --> 00:16:30,430
+But, you know, sometimes unexpectedly you might help, know, something that you will try.
+
+117
+00:16:30,450 --> 00:16:38,850
+You No, that? Um, well, just tell me that the late for a couple of minutes, such as this matter, right?
+
+118
+00:16:39,150 --> 00:16:45,550
+But, um, for some reason you cannot come, right, and let me know in advance.
+
+119
+00:16:45,710 --> 00:16:55,190
+Or you you praise or praise the application of leave for that kind of It is adjustable.
+
+120
+00:16:55,270 --> 00:17:10,870
+Reason is okay, so, uh, I'm going to evaluate your performance based on your participation by participation, and I'm going to assign to to examination.
+
+121
+00:17:11,090 --> 00:17:12,910
+I meet and and find an examination.
+
+122
+00:17:13,150 --> 00:17:18,730
+And you have teamwork to teamwork this to this.
+
+123
+00:17:18,890 --> 00:17:21,710
+Teamwork. Teamwork one and teamwork to are correlated.
+
+124
+00:17:22,260 --> 00:17:25,920
+Um, okay, so that's how I grade you.
+
+125
+00:17:26,080 --> 00:17:32,770
+So about a great policy, great in parts of how I greet you, how you vary your performance.
+
+126
+00:17:33,210 --> 00:17:39,820
+This one is about, um, the the letter, little, great letter s.
+
+127
+00:17:39,980 --> 00:17:54,190
+ABC Everybody little grades a plus if score 100 and ABCD until that's But about the participation, or participation?
+
+128
+00:17:54,350 --> 00:17:56,680
+You may get a price, right?
+
+129
+00:17:57,000 --> 00:18:04,900
+It depends on your contribution, contribution to to the course on that day, right?
+
+130
+00:18:05,060 --> 00:18:09,840
+So I'll probably, I think that, well, you answer is perfect, right?
+
+131
+00:18:10,020 --> 00:18:15,290
+Perfect as beyond my expectation, then that might give you a price.
+
+132
+00:18:15,470 --> 00:18:20,200
+That means you you got it for school, 100 for that week, right?
+
+133
+00:18:20,960 --> 00:18:31,800
+I'm already just answered yes, no, or very simple questions, and you got a basic C minus.
+
+134
+00:18:31,960 --> 00:18:41,110
+It means you pass. Right? When are you just sit still, do nothing, say nothing.
+
+135
+00:18:41,550 --> 00:18:48,490
+Then it's 50, around 50. Are you your absence?
+
+136
+00:18:49,950 --> 00:18:59,550
+Show up? Zero. A nice. Now you you have a personal living reason, right?
+
+137
+00:18:59,990 --> 00:19:03,690
+So that that is how I evaluate you.
+
+138
+00:19:03,850 --> 00:19:10,120
+Great Participation occupies the 21st of the grade, so it's a lot.
+
+139
+00:19:10,360 --> 00:19:22,120
+So participation is you usually sit without doing anything that well.
+
+140
+00:19:22,280 --> 00:19:31,100
+Any good habitats. Teamwork, teamwork are occupied 30, 30 %.
+
+141
+00:19:31,260 --> 00:19:33,200
+We have teamwork for one for 15.
+
+142
+00:19:33,680 --> 00:19:39,190
+The 30% meet And final examination is your personal right?
+
+143
+00:19:39,350 --> 00:19:44,590
+Is personal grades. So it's have that right.
+
+144
+00:19:44,750 --> 00:19:51,660
+So even though, um, you're perfect, you're pretty good at, ah, taking an examination.
+
+145
+00:19:51,980 --> 00:19:54,520
+Nobody can do that. It's 50, right?
+
+146
+00:19:54,680 --> 00:19:59,170
+You got 50, but you don't participate in your teamwork.
+
+147
+00:20:00,330 --> 00:20:20,500
+The teamwork, your member or the group leader, is going to give you very low great So so I hope that this course can encourage you, you know, to know how to cooperate with your team members and to know your responsibility, right?
+
+148
+00:20:20,660 --> 00:20:24,550
+Because I said that on that's a preparation for this course.
+
+149
+00:20:24,710 --> 00:20:33,070
+You come here with some questions, that that's good, because you prebuilt the resources I gave you, and they
+
+150
+00:20:33,230 --> 00:20:35,910
+would stimulate your your question before you come here.
+
+151
+00:20:36,070 --> 00:20:43,870
+Bye. You come here to to have some answer.
+
+152
+00:20:43,990 --> 00:20:51,170
+Um. Well, traditionally, on teacher is a knowledge transmitter.
+
+153
+00:20:51,170 --> 00:20:51,230
+Why?
+
+154
+00:20:51,310 --> 00:20:53,330
+It just said to do nothing.
+
+155
+00:20:53,490 --> 00:21:00,270
+That is very easy for for the professor and student, because he just said, and I just talk, that's it.
+
+156
+00:21:00,430 --> 00:21:12,360
+I probably read the powerpoint. It's very easy, but for active learning, very hard to implement it, because your responsibility gets more you walk your world study role, right?
+
+157
+00:21:12,520 --> 00:21:20,480
+And I have to think about how to design my course for those parts well, or difficult.
+
+158
+00:21:20,960 --> 00:21:31,350
+But study shows that, um, this way, you know, student centers that can enhance your understand more than traditional one.
+
+159
+00:21:31,510 --> 00:21:55,880
+Right? So this is how I, um, how puts this um activity and, um, the office hour again, down Thursday at the flight, ten to six afternoon, right time my study as M-A, three, three, six, my appointments.
+
+160
+00:21:56,040 --> 00:22:08,560
+So if only to come to ask me questions that are let me know in advance that I'm going to stay there and wait for you, and we can't have a chat, right?
+
+161
+00:22:08,940 --> 00:22:30,630
+Okay, what would I take? Okay, we expect this John School Provider.
+
+162
+00:22:30,790 --> 00:22:51,480
+You just need the money. So, you know, three, sometimes, bush and telephones.
+
+163
+00:22:51,820 --> 00:22:55,700
+Okay, down in I was eating your technology.
+
+164
+00:22:55,860 --> 00:23:01,340
+Hong Kong. No, not that larger.
+
+165
+00:23:01,660 --> 00:23:04,080
+Now, shanghai? No, you should go.
+
+166
+00:23:04,240 --> 00:23:11,360
+You fudo, the teacher, general bathroom.
+
+167
+00:23:11,520 --> 00:23:17,100
+Sure not. The girl get a label tone to go.
+
+168
+00:23:17,280 --> 00:23:21,420
+Or any cloning. Friendly dogma like immuting job.
+
+169
+00:23:21,620 --> 00:23:24,400
+We really changed other nets. Was a becoming change.
+
+170
+00:23:24,660 --> 00:23:28,720
+Shopping Beijing Milk change. Let's book out a photo.
+
+171
+00:23:29,480 --> 00:23:59,900
+Average, three little contribution to zip.
+
+172
+00:23:59,920 --> 00:24:28,670
+Go. Okay. Shouted. Make team to see.
+
+173
+00:24:37,650 --> 00:25:10,060
+Now, what participation on the New York Oh no.
+
+174
+00:25:10,220 --> 00:25:23,050
+You even draw down on that job, you will not mean if I find what to eat by you.
+
+175
+00:25:23,210 --> 00:25:43,990
+Hi. No. Oh
+
+176
+00:25:49,150 --> 00:25:53,390
+yeah.
+
+177
+00:26:03,590 --> 00:26:11,820
+Off. Okay, um. Now we will.
+
+178
+00:26:11,980 --> 00:26:31,160
+Officer Um. Xiao. Mao Wu is wanting on that two, 70 or dark E you email the function on that email.
+
+179
+00:26:31,320 --> 00:26:42,380
+Do your tdo camera smell give you.
+
+180
+00:26:43,120 --> 00:26:46,120
+You can question. Email me. Right?
+
+181
+00:26:46,500 --> 00:26:49,000
+So, okay, my name is Jenny, right?
+
+182
+00:26:49,600 --> 00:26:53,540
+Is there some students are merely by using campus mail?
+
+183
+00:26:53,700 --> 00:26:55,050
+I can always see with some.
+
+184
+00:26:55,210 --> 00:26:56,490
+For some, I am going to Ms.
+
+185
+00:26:56,650 --> 00:27:03,130
+Some right said here, I remember that my study, I study this.
+
+186
+00:27:09,650 --> 00:27:16,950
+Should I may sense a new feeling designer the unusual three English John study.
+
+187
+00:27:17,750 --> 00:27:19,820
+So I'll say that's my study.
+
+188
+00:27:19,980 --> 00:27:22,720
+No, so this is my study.
+
+189
+00:27:23,960 --> 00:27:25,960
+I go in one the jujiangs.
+
+190
+00:27:26,000 --> 00:27:39,600
+I mean, okay, so you can email me and make a point of me, or you you probably have very simple questions and just email me.
+
+191
+00:27:39,660 --> 00:27:42,340
+And I think that's well, I can answer that.
+
+192
+00:27:42,560 --> 00:27:47,120
+For some reason, you are probably we can have a video conference, right?
+
+193
+00:27:51,590 --> 00:27:58,570
+Okay? And today, I insist that today I make announcements, right?
+
+194
+00:27:58,730 --> 00:28:03,930
+Announcements about prerequisite requirements, about that, and, of course, description.
+
+195
+00:28:04,090 --> 00:28:06,450
+I hope that you, you understand that.
+
+196
+00:28:06,610 --> 00:28:14,470
+So any question about the course description, any question about that?
+
+197
+00:28:14,670 --> 00:28:24,950
+Okay, um. What day are I'm going to stop the course so on.
+
+198
+00:28:24,990 --> 00:28:39,550
+Well, before, um, that, I'm going to, you know, how to pronounce your name, and then next hour it's going to kick up the our course.
+
+199
+00:28:40,990 --> 00:28:47,520
+We have two textbook right? Um, what is the, the new version?
+
+200
+00:28:48,560 --> 00:28:53,130
+What is Okay, oh yeah. This is here, right?
+
+201
+00:28:53,430 --> 00:28:55,390
+This is the textbook. Is a new version.
+
+202
+00:28:55,550 --> 00:28:57,570
+I hope that you got one right.
+
+203
+00:28:57,930 --> 00:29:11,960
+2021, it's a new version. Or probably you said that, you, you you hold an old version, is fine, but of course, new version will be different from the option.
+
+204
+00:29:12,140 --> 00:29:22,220
+You know, said that addition, if they change the version, well, they have on purpose a new or change the contents.
+
+205
+00:29:22,400 --> 00:29:24,760
+So I hope that you you got a new one, right?
+
+206
+00:29:24,920 --> 00:29:27,500
+But for some reason, you still can't hold it down.
+
+207
+00:29:27,700 --> 00:29:31,200
+The old version from your your senior life.
+
+208
+00:29:31,360 --> 00:29:35,620
+Probably it promise already bought the the old ones.
+
+209
+00:29:35,780 --> 00:29:43,620
+No problems of arts, right? It's a new version and other book, and they will be used in the order next semester.
+
+210
+00:29:43,780 --> 00:29:58,030
+But, uh, I will teach some chapters, because the contents of the chapter colleague correlegates with SA, right about down the formal ports that I'm going to use it.
+
+211
+00:29:58,190 --> 00:30:00,970
+So you're going to have to textbook, right?
+
+212
+00:30:01,600 --> 00:30:10,260
+Um, yeah. So this is the new one.
+
+213
+00:30:10,420 --> 00:30:11,920
+I hope you you can have that.
+
+214
+00:30:12,240 --> 00:30:15,920
+But even things, um, well, it is very expensive.
+
+215
+00:30:16,020 --> 00:30:17,100
+I don't know how much is.
+
+216
+00:30:17,100 --> 00:30:20,310
+Probably a couple hundreds. I don't, I don't know.
+
+217
+00:30:20,330 --> 00:30:34,750
+It's, I don't know how much it's, um, you wanted to copy that down down blenders, not to the classroom, because I don't want to see that for copyright consideration.
+
+218
+00:30:34,910 --> 00:30:49,710
+So gotta respect that crime. How were they are
+
+219
+00:30:58,070 --> 00:31:02,230
+Machine
+
+220
+00:31:03,950 --> 00:31:07,550
+Bunny.
+
+221
+00:31:07,780 --> 00:31:12,560
+That's three. You will needs you even in how to hike.
+
+222
+00:31:12,980 --> 00:31:25,490
+Can't you? Your sing bad The figures usually sell carpet your sign Girl on.
+
+223
+00:31:25,930 --> 00:31:31,250
+Just work in your party gang on top point.
+
+224
+00:31:31,400 --> 00:31:37,660
+Now, unit three Were you gonna tell me to contract bush?
+
+225
+00:31:37,820 --> 00:31:41,140
+Something cold? No spoon. Can point on.
+
+226
+00:31:41,300 --> 00:31:48,220
+You will share your fate. Hundred restrictions that you You are not a student to discourse you.
+
+227
+00:31:48,380 --> 00:31:51,520
+You are not allowed to, you download powerpoints.
+
+228
+00:31:51,820 --> 00:31:58,160
+All right, so, um and um, if you have, um, no money, need training.
+
+229
+00:31:59,280 --> 00:32:15,350
+Copy the dictionary. Woman Anyway, you don't share.
+
+230
+00:32:15,510 --> 00:32:47,040
+Sorry. T Go. Mm billion in infantong to Eating out.
+
+231
+00:32:48,680 --> 00:32:52,400
+Not sure the old version or new version?
+
+232
+00:32:52,640 --> 00:33:13,460
+No, no, no. What are you eating?
+
+233
+00:33:13,620 --> 00:33:16,130
+Eating your Nothing better until two down.
+
+234
+00:33:16,290 --> 00:33:21,270
+So okay, so I announce it's the copy rights are consideration.
+
+235
+00:33:21,570 --> 00:33:25,670
+All right, um, just any any questions?
+
+236
+00:33:26,670 --> 00:33:32,190
+Oh, you mean what? Alright, there's any question for now.
+
+237
+00:33:32,230 --> 00:33:39,710
+So I hope that I clearly describe the closest description in some announcements, right?
+
+238
+00:33:39,740 --> 00:33:45,340
+I order that out. You will achieve something right after the class.
+
+239
+00:33:47,300 --> 00:33:50,980
+And further that, you're going to have to teamwork.
+
+240
+00:33:51,080 --> 00:33:58,700
+All right, so this is the we could schedule all we might change the robots based on your pace.
+
+241
+00:33:58,860 --> 00:34:10,340
+All right, um, basically, I thought that something you got to tell you that because we have lots of students in this course, right?
+
+242
+00:34:10,760 --> 00:34:34,050
+So you have ten group that if you make the presentation, then are we cannot finishes in 3 h So it's going to brass for two weeks, so, but for no convenience or then, to be fair, I put this in one week, So you're going to see this, right?
+
+243
+00:34:34,890 --> 00:34:38,950
+Teamwork, one presentation. We are going to use video, right?
+
+244
+00:34:39,330 --> 00:34:54,570
+So video base this E class, and this week, the previous week is no class, because I'm going to, uh, occupy a set of 6 h right?
+
+245
+00:34:54,870 --> 00:34:57,590
+Seven, yes? What's going to tell you how to do that?
+
+246
+00:34:58,830 --> 00:35:06,610
+They don't. And we have chapter eight.
+
+247
+00:35:06,770 --> 00:35:16,880
+Chapter nine. You are your class, because they're going to have the old presentations on using two weeks.
+
+248
+00:35:16,920 --> 00:35:23,530
+So you schedule with slightly different from the other class, two year class, right?
+
+249
+00:35:23,690 --> 00:35:27,790
+Take that for a week, and you only have three.
+
+250
+00:35:28,430 --> 00:35:37,310
+If you want to wash the video, you probably can ask on T-A to help you.
+
+251
+00:35:38,710 --> 00:35:42,170
+I know class the same, right?
+
+252
+00:35:42,510 --> 00:35:49,710
+Woman The question you Presentation
+
+253
+00:35:55,550 --> 00:36:02,700
+one. Chen not use? No
+
+254
+00:36:02,840 --> 00:36:18,670
+problem. Okay. Tina Wang Oh, then enjoy your uh book the time your session Reserved.
+
+255
+00:36:18,850 --> 00:36:26,350
+Volunteer Wang Hoi Culturally. Okay. I'd the other thing that's on examination that happened and downsets.
+
+256
+00:36:26,390 --> 00:36:30,990
+Well, I met to examination because we all have two classes, right?
+
+257
+00:36:32,300 --> 00:36:35,220
+You're going to take exams the same time?
+
+258
+00:36:35,480 --> 00:36:40,220
+All right, so they will be there on evening.
+
+259
+00:36:40,890 --> 00:36:45,670
+By evenings, the two cars? No, take the exam.
+
+260
+00:36:45,830 --> 00:37:47,700
+Sometimes we are not going to No, today to come here and have the same question, actually, tijong team culture Do he mm and senior to Tuesday, friday, evening, deal down, joking, down, doing ship one year right now, presentations, or I may know, well, I'm using class now.
+
+261
+00:37:47,860 --> 00:37:51,220
+If some topic, no, it's very feasible.
+
+262
+00:37:51,600 --> 00:37:54,560
+Or, that's, that's nice for for you.
+
+263
+00:37:54,580 --> 00:38:01,520
+Cross. I'm going to sets. She started a question, or mission I should show this.
+
+264
+00:38:01,840 --> 00:38:09,860
+Can use topic, would you? Woman Could you exhaust the sugar?
+
+265
+00:38:10,020 --> 00:38:15,970
+Can move each question. It's young.
+
+266
+00:38:16,150 --> 00:38:17,490
+I'm going to tell you that.
+
+267
+00:38:18,770 --> 00:38:34,010
+That's about that. Remember a coach and empire going way you found Jiang.
+
+268
+00:38:34,930 --> 00:38:39,290
+Are you dog? Evening. Yours. Yours.
+
+269
+00:38:41,320 --> 00:38:50,620
+The internal terracotta. Chinese And come from Hunan Music.
+
+270
+00:38:50,780 --> 00:39:02,720
+Chapter eight Nine The girl Tom use the national car.
+
+271
+00:39:02,800 --> 00:39:07,750
+He launched the new bill. Can come the video right?
+
+272
+00:39:07,910 --> 00:39:14,210
+Joking. Zhujiang Welcome to the Please follow me.
+
+273
+00:39:14,630 --> 00:39:17,190
+Like li Jiangshu Taroon. They go.
+
+274
+00:39:17,370 --> 00:39:24,490
+Chapter eight and nine, not one.
+
+275
+00:39:24,650 --> 00:39:33,220
+You can see that, because it's going to take two weeks, around seven weeks, something you need to come Why?
+
+276
+00:39:33,380 --> 00:39:37,320
+Because I-I already checked through your but not class.
+
+277
+00:39:38,120 --> 00:39:48,230
+I-I make a review nemensity, and she mail No class does the why it can pass you.
+
+278
+00:39:52,550 --> 00:39:55,970
+That may be one type that he can't handle.
+
+279
+00:39:56,130 --> 00:40:11,770
+The video right? It also shows you can also, so I put it here, right?
+
+280
+00:40:12,820 --> 00:40:19,620
+Why you also, well, I don't think you can come to the other class because you have a required course there.
+
+281
+00:40:20,180 --> 00:40:25,760
+Remember, I don't want you But to show your name, go hold your coat again.
+
+282
+00:40:25,860 --> 00:40:29,620
+That is all about that. Then a question.
+
+283
+00:40:32,170 --> 00:40:35,170
+You want to stand everything? And question you can ask.
+
+284
+00:40:35,350 --> 00:40:39,290
+No problem of that. Right? 10 min break.
+
+285
+00:40:44,560 --> 00:40:54,990
+I'll go outside. Good woman. You Gong Gong show you.
+
+286
+00:40:55,240 --> 00:40:59,610
+Ben. Thank you. All right. Thank you.
+
+287
+00:40:59,710 --> 00:41:05,990
+Soccer.

@@ -1,0 +1,2463 @@
+0
+00:00:02,340 --> 00:00:05,270
+I'd like to take
+
+1
+00:00:05,520 --> 00:00:11,390
+a picture.
+
+2
+00:00:19,650 --> 00:00:20,070
+And
+
+3
+00:00:20,230 --> 00:00:34,490
+I think that's that's the way it is, and that's the way it is, and that's the way it is.
+
+4
+00:00:41,330 --> 00:01:49,710
+I'm going to you, and I'm going to take you with you, and I'm not sure if I'm the one, that's the one, that's the one, that's the one, that's the one, I'm going to be the one that's the one, that's the one, that's the one, that's the one Hey, teacher and classmate, we are Go on.
+
+5
+00:01:49,870 --> 00:01:55,010
+And David, this is our team member, tiffany.
+
+6
+00:01:55,310 --> 00:02:02,260
+If Dennis can a little more, peter if I and Scott.
+
+7
+00:02:03,860 --> 00:02:13,060
+Our topic is Intelligent Appliance. This is our content.
+
+8
+00:02:13,220 --> 00:02:18,020
+1st is introduction. So is a use case and use case discretion.
+
+9
+00:02:18,260 --> 00:02:22,650
+Then is a activity diagram sequence tiger and class.
+
+10
+00:02:22,810 --> 00:02:25,790
+Tiger loss is a be behavior.
+
+11
+00:02:26,150 --> 00:02:32,920
+Stay machine now and introduce our system.
+
+12
+00:02:37,080 --> 00:02:43,180
+Our project is to define a system of intelligent intelligence appliance.
+
+13
+00:02:43,560 --> 00:03:06,100
+Is I-A-A small system. When user recedator, temperature and aircraft for the sensor, according to according to the data, the user can decide to turn on or turn off, turn off the devices, air conditioner and air pfas.
+
+14
+00:03:06,360 --> 00:03:10,840
+Also, the user can choose other model.
+
+15
+00:03:11,000 --> 00:03:22,720
+After that, the system will provide benchmark following use such as the temperature and air quality to turn on or turn off.
+
+16
+00:03:22,940 --> 00:03:30,770
+Then the system will besides those follow used to control devices for extent.
+
+17
+00:03:32,410 --> 00:03:41,660
+The temperature is money is 22 degrees, but increase to 29.
+
+18
+00:03:41,820 --> 00:03:55,400
+Eight meal. Our system will open air, conditional by the users, setting or not five use the temperature variation.
+
+19
+00:03:56,960 --> 00:04:06,170
+The development time is short, our technology is not very good, and we want to profile to eat user after we are done.
+
+20
+00:04:06,330 --> 00:04:22,840
+So we decide to adopted the face in environment mystology for for this, we can make the main function 1st and then lead the program execute.
+
+21
+00:04:23,000 --> 00:04:31,650
+If we need to edit new function or find improving function, we can update the program to make up for it.
+
+22
+00:04:32,070 --> 00:04:41,250
+Hope you so can understand 1st, 1st our system, then follow up to new ideal question.
+
+23
+00:04:51,970 --> 00:05:01,010
+Okay, I'm Raymond. This part is use case diagram, and we choose intelligence applying system to be our project.
+
+24
+00:05:01,270 --> 00:05:09,280
+And this is our use case, diagram Intelligence Appliance System has four use cases, and there are two actors user and sensor.
+
+25
+00:05:09,740 --> 00:05:17,890
+The user has a relationship with control devices and too small, and the sensor has a relationship with client environment, data, control
+
+26
+00:05:18,070 --> 00:05:22,030
+devices and check devices. Connections are a relationship of crew.
+
+27
+00:05:22,070 --> 00:05:23,250
+The users start
+
+28
+00:05:23,490 --> 00:05:26,490
+the system, and it will check the connection 1st.
+
+29
+00:05:26,830 --> 00:05:33,670
+When the collection is successful, user can use the choose more function to select automatic or mono mode.
+
+30
+00:05:34,010 --> 00:05:41,290
+And in these two months, the sensor will be responsible for collecting environmental data and pass the data to the system.
+
+31
+00:05:41,470 --> 00:05:42,890
+This is the end of my part.
+
+32
+00:05:50,210 --> 00:06:06,850
+Hi, I'm Tiffany. Now I'm going to introduce use case discretion On use case diagram, we choose collect environment data, use case to write use case description.
+
+33
+00:06:07,110 --> 00:06:12,270
+Its idea is one an important level is high poverty.
+
+34
+00:06:12,450 --> 00:06:19,050
+Actor is sensor. Use case type is detail and essential stakeholders.
+
+35
+00:06:19,210 --> 00:06:24,130
+And interest is that sensor wants to get temperature and air quality.
+
+36
+00:06:24,730 --> 00:06:32,190
+Birth description is that this use case describes how the system collect temperature and air quality.
+
+37
+00:06:33,470 --> 00:06:38,890
+It trigger every minute. And its type is internal.
+
+38
+00:06:39,450 --> 00:06:47,560
+This use case is association with sensor Normal flow of events.
+
+39
+00:06:47,900 --> 00:06:54,690
+1st users does the system, then system will do convention checking.
+
+40
+00:06:55,090 --> 00:07:02,190
+If check device connection is failed more than five times, then the system will shut down.
+
+41
+00:07:02,270 --> 00:07:07,990
+But before actually shut down, it will send notification to user.
+
+42
+00:07:09,040 --> 00:07:16,600
+If it is less than five times, then it will send notification to user and check connection again.
+
+43
+00:07:16,850 --> 00:07:22,450
+If it is success, then user can choose the minimum mode or automo.
+
+44
+00:07:23,750 --> 00:07:30,790
+Then after user choose the mode, the system receives data from the sensor.
+
+45
+00:07:32,820 --> 00:07:37,260
+Then system check out the model that the user chose.
+
+46
+00:07:37,700 --> 00:07:52,020
+If the mode is equal to manual, according to the environment data, the user can decide to turn on or turn off the air conditioner and air purifier.
+
+47
+00:07:52,470 --> 00:08:09,090
+If the mode is equal to auto, based on the environment data we receive, according to the benchmark values, then the control unit will turn on or turn off the air conditioner and air purifier.
+
+48
+00:08:14,980 --> 00:08:19,630
+Hi, anyone? Next, I will introduce our activity diagram.
+
+49
+00:08:21,950 --> 00:08:28,830
+The activity diagram shows the interaction of the activity in the clear environment data use case.
+
+50
+00:08:29,000 --> 00:08:38,470
+At the beginning, the user will start the system, and then the system will connect the intelligent appliance and sensor at the same time.
+
+51
+00:08:38,630 --> 00:08:45,050
+After checking if the connection is successful, it will enter the two small stage.
+
+52
+00:08:45,210 --> 00:08:54,650
+If the connection checks fails more than five times, the system will be forced to shut down and return to the home page of the user's mobile phone.
+
+53
+00:08:54,710 --> 00:09:04,910
+And if the failure is less than or equal to five times, a notification later will be sent to the user, and user will be asked to check again.
+
+54
+00:09:14,540 --> 00:09:21,630
+Hi, I am Peter. At the stage of truth, more, the user can choose between automatic and manual mode.
+
+55
+00:09:21,810 --> 00:09:31,620
+If the automatic mode is selected, the user need to beset the benchmark value condition, including the temperature and air quality status.
+
+56
+00:09:31,940 --> 00:09:40,420
+E.g., when a temperature benchmark value is set to 30 degrees, the air conditioner will be automatic, typically turned on.
+
+57
+00:09:40,980 --> 00:09:48,960
+In the next step, the system will receive the data from the sensor to judge the current temperature and air quality.
+
+58
+00:09:49,220 --> 00:10:06,230
+The cover, that is the user, previously slave take the most automatic the system will be well compared with the data transmitted from the sensor to the benchmark value condition set by the user in advance.
+
+59
+00:10:06,510 --> 00:10:17,790
+If it matches, the system will automatically turn on or turn off the relevant intelligence appliance under the corresponding condition, although
+
+60
+00:10:17,950 --> 00:10:23,820
+we also send a message to inform the user which intelligence appliance the system has turned
+
+61
+00:10:23,980 --> 00:10:39,420
+on, over, turn off. Finally, the homepage of the system, information such as the current temperature and air quality status, as well as which connected intelligence appliances are on or off, will be displayed.
+
+62
+00:10:45,860 --> 00:10:49,750
+OK? This part is Secostiagram and Dennis.
+
+63
+00:10:49,910 --> 00:11:06,890
+There are to report in this section, me and Scott and I will introduce the 1st health And we we have one user and six are object.
+
+64
+00:11:06,910 --> 00:11:15,640
+And we will show the interaction with user going and control and sensor air conditioner and air purifier.
+
+65
+00:11:17,020 --> 00:11:40,020
+Everyone in the college, call in college environment, data, process, process user, start up the system at 1st, then control control, check the connection with sensor when checker conditions and a film.
+
+66
+00:11:40,050 --> 00:11:53,800
+Then five times, and and before the system is completely shut down, and user will get a notification from going.
+
+67
+00:12:00,970 --> 00:12:15,140
+If the connection is normal, it will enter the station stage stage, and the user can select the model to be menu of automatic through the screen display.
+
+68
+00:12:15,160 --> 00:12:24,750
+By the going, the control will start temperature information and air quality status in korea's air in four through a sensor.
+
+69
+00:12:24,910 --> 00:12:29,500
+And then the control will confine the model use by the user.
+
+70
+00:12:34,300 --> 00:12:57,740
+Okay, I'm Scott. If the user choose the manual mode, the controller will pass it to the page, slept by the Green, and the user will choose whether to open the air conditioner and air purify through the screen display.
+
+71
+00:12:57,900 --> 00:13:20,560
+By way, if the user choose choose the automatically mode, the controller will collect the information of current air info and compare the temperature and air quality states set by the user to automatically turn on or turn off the air condition and air purify.
+
+72
+00:13:20,970 --> 00:14:05,570
+After today, the controller returned the information to the queen and the user of ten After they the controller returned information to the GUI, and the user obtained the information through by the We finally, after the enter the system of the controller in shut down, it will return the temperature and air quality stay to the Greek, and we will display it to the users to obtain information.
+
+73
+00:14:11,250 --> 00:14:15,370
+Hi. And if now, I will introduce orcasta again.
+
+74
+00:14:16,190 --> 00:14:28,920
+In the photo, you can see all cats, dog have five cases control case to rent air information, cats, sensor cats, air purifier cats and air conditioner cats.
+
+75
+00:14:29,010 --> 00:14:44,900
+1st Control control case. This case, have temperature, air check, sensor, air purifier, air conditioner attributes, and have turned on or turn off air purified method.
+
+76
+00:14:45,060 --> 00:14:48,000
+Turn on or turn off air conditioning method.
+
+77
+00:14:48,220 --> 00:14:53,480
+These methods are let the user decide to turn on or turn off the devices.
+
+78
+00:14:53,620 --> 00:15:02,840
+Then the control case will ask a purifier class over air conditioner cats to turn on or turn off.
+
+79
+00:15:03,260 --> 00:15:09,880
+So you can see control cats, air purified cats and air conditioner cats have these methods.
+
+80
+00:15:11,720 --> 00:15:13,030
+Get an
+
+81
+00:15:13,260 --> 00:15:21,990
+information method. The control case can call this method to ask sensor cats get the temperature and air quality.
+
+82
+00:15:22,250 --> 00:15:24,090
+So you can see a control case.
+
+83
+00:15:24,250 --> 00:15:29,830
+And since the case has this method, check device connection method,
+
+84
+00:15:30,590 --> 00:15:42,460
+this method in the control case is used to connect with sensor case, auto turn air conditioner method and autotton air.
+
+85
+00:15:42,620 --> 00:15:54,020
+PM fire method. These methods are lay the control can scale of data from the sensor case like it will compare with benchmark values.
+
+86
+00:15:54,240 --> 00:16:01,450
+If it's match, then the control cans will do these methods shut up.
+
+87
+00:16:01,610 --> 00:16:15,020
+MR If the connection is far more than five times, then the control case will do shut down method to kill device, slack mode and check mode.
+
+88
+00:16:15,080 --> 00:16:26,820
+2nd modern method is for user to seek out a manual mode, then the control class can check one more use a choose through check model method.
+
+89
+00:16:28,380 --> 00:16:35,900
+John to enter air information. Case these cats have temperature and air attributes.
+
+90
+00:16:36,350 --> 00:16:43,670
+Since a case, these cats have temperature and air attributes and have sensor method.
+
+91
+00:16:44,070 --> 00:16:55,090
+Get an information method. Hi, I'm Ken.
+
+92
+00:16:55,390 --> 00:16:57,970
+I'm talking about the behaviors the machine.
+
+93
+00:16:58,910 --> 00:17:02,830
+In our system, the basis class is a sensor.
+
+94
+00:17:02,910 --> 00:17:17,950
+So steam machine is written with a sensor, which will 1st establish a connection with a controller, and then collecting data and sending data to the controller.
+
+95
+00:17:18,070 --> 00:17:24,320
+After it, you will finish. Thanks for listening.
+
+96
+00:17:34,040 --> 00:17:40,720
+Thank you for your presentation. And I have a couple of questions about your project, right?
+
+97
+00:17:40,880 --> 00:17:51,260
+So, um, you said your project wanted to control the devices manually, order automatically.
+
+98
+00:17:51,680 --> 00:18:00,700
+Right? How many devices you want to control to to Yes.
+
+99
+00:18:01,120 --> 00:18:06,890
+What? What are the two? Air condition and air purify?
+
+100
+00:18:07,410 --> 00:18:12,090
+Air Conditioner an air purifier? Yes.
+
+101
+00:18:12,380 --> 00:18:15,460
+Okay, so that is your project, right?
+
+102
+00:18:15,880 --> 00:18:18,100
+So air conditioner and air purify.
+
+103
+00:18:19,270 --> 00:18:28,270
+So you have sensor, right? And this sensor keeps sensing, detecting, or can stop?
+
+104
+00:18:28,870 --> 00:18:31,210
+Yes. What would what do mean?
+
+105
+00:18:31,270 --> 00:18:38,870
+Yes, it keeps sensing, detecting the the air, penalty and temperature.
+
+106
+00:18:39,030 --> 00:18:41,650
+Keep doing this, or stop it.
+
+107
+00:18:43,420 --> 00:18:51,300
+You can detail a temperature and keep detecting.
+
+108
+00:18:51,830 --> 00:18:56,430
+Yes. Keep detecting without without stopping.
+
+109
+00:18:56,730 --> 00:19:06,160
+Keep doing that? Yes, yes, I shall keep detecting, then see your behavior.
+
+110
+00:19:06,320 --> 00:19:10,740
+Stay machine, your behaviors. Dimension is disconnect.
+
+111
+00:19:11,980 --> 00:19:16,540
+So that is a sensor. They should keep detecting.
+
+112
+00:19:18,300 --> 00:19:21,900
+Okay, so I-I don't quite understand about this.
+
+113
+00:19:21,980 --> 00:19:28,260
+And you have only two devices you use phase development methodology.
+
+114
+00:19:28,760 --> 00:19:37,120
+You said that? Well, they are the most important one we want to design at 1st.
+
+115
+00:19:37,340 --> 00:19:42,420
+That's the rest. Then we're going to probably add.
+
+116
+00:19:42,540 --> 00:19:44,790
+But you only have two, right?
+
+117
+00:19:44,790 --> 00:19:51,790
+Two devices. What about the plan for the next version?
+
+118
+00:19:53,170 --> 00:19:58,770
+So the function, unit ia system, for function?
+
+119
+00:19:58,820 --> 00:20:01,080
+What function is the 1st version?
+
+120
+00:20:01,240 --> 00:20:20,760
+Or order system? It's the 1st phase, because that's quite simple.
+
+121
+00:20:20,780 --> 00:20:25,830
+I very use face.
+
+122
+00:20:26,180 --> 00:20:28,740
+We will add a new device,
+
+123
+00:20:29,530 --> 00:20:37,750
+new device, you add new device, then it's still easy listen.
+
+124
+00:20:37,910 --> 00:20:42,270
+Choose mode is too small a function,
+
+125
+00:20:43,120 --> 00:20:56,620
+because you describe it in the collect in environment data, and you can see correct environment data by the sensor actor, without any user involvement.
+
+126
+00:20:56,820 --> 00:21:03,540
+But your description describe correct environment, daytime user.
+
+127
+00:21:03,920 --> 00:21:12,130
+But I don't see an association between you, sir, and the function.
+
+128
+00:21:15,250 --> 00:21:17,610
+I see your use case description.
+
+129
+00:21:25,870 --> 00:21:30,260
+Collect Collect environment data a year.
+
+130
+00:21:30,420 --> 00:21:37,820
+This is user by user. Start system every time.
+
+131
+00:21:38,120 --> 00:21:43,720
+Let this pictures. If you have this intelligent province.
+
+132
+00:21:44,080 --> 00:21:54,470
+All right, user enter the room, probably has on the cell phone, you get, well, I need to use the system.
+
+133
+00:21:54,690 --> 00:22:00,620
+What what about the sensor? The sensor Take rest or keep detecting?
+
+134
+00:22:00,880 --> 00:22:03,940
+You said, keep detecting the temperature and purified.
+
+135
+00:22:05,340 --> 00:22:11,060
+Then every time we need to start the system, this start system.
+
+136
+00:22:11,430 --> 00:22:39,040
+Or you just do that. If we use automatic mode, then keep detecting and then turn it on, because says, gotta maintain the temperature, and then user turn it off, turn it off, or is manual, then user turn it off.
+
+137
+00:22:39,200 --> 00:22:44,340
+I don't see any intelligence. Well, this is intelligent.
+
+138
+00:22:44,560 --> 00:22:49,190
+We start the system and then collect the information.
+
+139
+00:22:49,350 --> 00:22:51,490
+Probably, you have your cell phone.
+
+140
+00:22:51,530 --> 00:22:57,370
+Your cell phone shows at the temperature is three and humanity, ryan oil.
+
+141
+00:22:57,530 --> 00:23:01,750
+Well, the air is not so clean, right?
+
+142
+00:23:01,910 --> 00:23:12,290
+It sound quality, so you you get value, and then decide to chen on excessive intelligence.
+
+143
+00:23:12,450 --> 00:23:23,310
+I don't see its intelligence. I cannot get it.
+
+144
+00:23:24,180 --> 00:23:30,980
+And user control, device, check, device connection, the function.
+
+145
+00:23:31,310 --> 00:23:37,850
+What about the intelligence? I-I really don't don't know your your point about this project.
+
+146
+00:23:44,600 --> 00:23:51,050
+So can what working? Say that if, if you want to, then I want to ask you a question, right?
+
+147
+00:23:51,850 --> 00:24:07,410
+If we need to add more devices, then you only to turn it on, or for we add the device, what kind of design pattern you're going to use?
+
+148
+00:24:12,450 --> 00:24:17,850
+Try to use design pattern structure to describe it.
+
+149
+00:24:19,370 --> 00:24:22,270
+Because you only need to control, right?
+
+150
+00:24:22,630 --> 00:24:30,150
+Probably use your cell phone as controller in making intelligence.
+
+151
+00:24:30,310 --> 00:24:44,300
+I don't see the intelligence part can answer me about your face development methodology and your idea about this, because I cannot see any intelligence or innovative idea.
+
+152
+00:24:44,720 --> 00:25:11,500
+Nothing general can answer this. You want to make intelligence, let me know at right And if you want to add more devices, think about any design pattern, structure you can.
+
+153
+00:25:11,760 --> 00:25:13,900
+You can use it and make it intelligent.
+
+154
+00:25:14,720 --> 00:25:30,580
+Because I don't see your idea for for your project, anything you wanted to to explain otherwise.
+
+155
+00:25:30,920 --> 00:25:36,230
+The 2nd assignment, you got to make very big modification, because I don't see any sense
+
+156
+00:25:38,260 --> 00:25:39,790
+what this
+
+157
+00:25:44,740 --> 00:25:50,630
+can next him.
+
+158
+00:25:51,640 --> 00:25:58,830
+I go to, please go to
+
+159
+00:26:01,840 --> 00:26:35,520
+Thank you for your presentation. Teacher only.
+
+160
+00:26:53,480 --> 00:27:24,440
+Oh, maybe So it's very test.
+
+161
+00:27:25,080 --> 00:27:29,780
+Okay, so good evening, everyone. We are good too.
+
+162
+00:27:30,300 --> 00:27:35,500
+Today, we're going to introduce automatic local system.
+
+163
+00:27:36,660 --> 00:27:45,370
+Before the reports begins, I want to talk about why we choose it as our topic.
+
+164
+00:27:47,170 --> 00:28:04,930
+When we were discussing, we all, we already some students who ore the teacher took a local again during the class.
+
+165
+00:28:05,210 --> 00:28:09,710
+This situations leads to us wasting time.
+
+166
+00:28:11,310 --> 00:28:21,540
+So get down to business. Let me start with introduction.
+
+167
+00:28:54,620 --> 00:29:14,510
+So, oh, when the student is entering or leaving the classroom, the facial recognition system will re recognize the student.
+
+168
+00:29:15,110 --> 00:29:21,810
+After that, according to the curriculum schedule.
+
+169
+00:29:21,970 --> 00:29:30,490
+We important before determine whether it is time for class.
+
+170
+00:29:35,180 --> 00:29:56,740
+Based on this result, record students absent after status next benefit for user.
+
+171
+00:29:56,920 --> 00:30:01,900
+For students, the rate of absence will be lower.
+
+172
+00:30:02,460 --> 00:30:09,540
+Not like digital local system, which can be cracked by classmates.
+
+173
+00:30:11,500 --> 00:30:18,400
+Moreover, radar Local system also can be treated by an emulator.
+
+174
+00:30:18,840 --> 00:30:22,000
+And the last one is QR corocal system.
+
+175
+00:30:23,110 --> 00:30:26,670
+I have to say, it's so terrible for students.
+
+176
+00:30:28,150 --> 00:30:33,630
+For present students, it's difficult to skin.
+
+177
+00:30:34,230 --> 00:30:40,330
+Unfortunately for absent students, it still can be cracked by classmates.
+
+178
+00:30:44,490 --> 00:30:52,230
+Next benefit for the teacher. It can save time and make the teacher focus on
+
+179
+00:30:52,560 --> 00:31:01,110
+the class from another perspective. It can avoid the teacher from getting
+
+180
+00:31:01,750 --> 00:31:03,710
+upset by the absent
+
+181
+00:31:06,090 --> 00:31:06,150
+students.
+
+182
+00:31:14,230 --> 00:31:19,240
+I'm UK, I will introduce Methodology 1st.
+
+183
+00:31:19,280 --> 00:31:28,280
+We only have few times to do this work, so structures development is not our consideration.
+
+184
+00:31:28,960 --> 00:31:38,850
+Next, we don't have related professional knowledge, and we also need to learn other courses.
+
+185
+00:31:39,170 --> 00:31:43,770
+Daily meeting is not suitable for our team.
+
+186
+00:31:44,150 --> 00:31:49,950
+So XB and Strong are on city last.
+
+187
+00:31:50,370 --> 00:32:16,110
+This work is just a demo, and we don't have a lot of time to do it, so we choose prototype prototyping I'm talking about.
+
+188
+00:32:16,270 --> 00:32:19,970
+You start good, and this diagram is wrong.
+
+189
+00:32:27,930 --> 00:32:31,250
+I'll talk about what here is wrong later.
+
+190
+00:32:31,330 --> 00:32:34,330
+They take students, is our main function.
+
+191
+00:32:34,530 --> 00:32:50,330
+They take students and recording the absence, 1st human detection, identify whether someone has placed the door, if the human detection is successful, passing with those subsequent action.
+
+192
+00:32:50,730 --> 00:33:09,580
+Camera sensor is a camera. Let's take image for human detection as facial recognizing monitor displays the image culture by camera sensor database is starving data.
+
+193
+00:33:09,700 --> 00:33:33,570
+The private PVD is wrong. We found that it is not comfort to our distress if the human dictation is fair and Israel not do down to the here.
+
+194
+00:33:34,370 --> 00:33:37,830
+So we change a new diagram.
+
+195
+00:33:50,190 --> 00:33:53,780
+Next week. Hi, my name is Leo Nice.
+
+196
+00:33:53,940 --> 00:34:06,850
+We going to talking about a description in normal For 1st, the system will detect the students who enter in classroom, and recognition sub for or some four will be performed.
+
+197
+00:34:10,530 --> 00:34:34,490
+The recognition will do a far release following action, use human detect to recognize where to have any student is passing to confirm facial recognition to success of not effect recognition, it's success.
+
+198
+00:34:34,870 --> 00:34:37,970
+Far floor will keep going to next normal floor.
+
+199
+00:34:38,250 --> 00:34:44,390
+In face recognition, it's failed. Goes to alternated for one.
+
+200
+00:34:45,830 --> 00:34:57,030
+In alternative for one, the camera will capture the student pictures and send it to the teacher s email.
+
+201
+00:35:00,530 --> 00:35:07,350
+This next of normal floor is according to class timetable to the design.
+
+202
+00:35:07,510 --> 00:35:09,570
+Now is cost time or not.
+
+203
+00:35:09,780 --> 00:35:15,940
+Judge student student is entering or lifting the classroom.
+
+204
+00:35:17,950 --> 00:35:31,550
+If student is entering, I will do except for two If students let off for curse of of a ten minute, say it.
+
+205
+00:35:31,850 --> 00:35:35,390
+Say that student workers state is late.
+
+206
+00:35:36,270 --> 00:35:45,710
+If student it's late for more than half a class, say that the student record state is absent.
+
+207
+00:35:46,500 --> 00:35:50,760
+If the student is leaving, then suffer free
+
+208
+00:35:50,860 --> 00:35:56,520
+is will be performed when students live in the class.
+
+209
+00:35:58,930 --> 00:36:00,070
+Set the student
+
+210
+00:36:00,410 --> 00:36:18,160
+state to record numbers time. Next step is when the cars already and end, then some four, four will be performed.
+
+211
+00:36:18,800 --> 00:36:23,230
+After finish, the class will put do s lancas time.
+
+212
+00:36:23,390 --> 00:36:27,270
+If student lanks time, often learn one 1st.
+
+213
+00:36:27,960 --> 00:36:34,560
+Then let's let the student record record is excused.
+
+214
+00:36:34,650 --> 00:36:42,750
+If students on cost time of them want half, then the student record record is absent.
+
+215
+00:36:52,030 --> 00:36:57,390
+Okay, we we all show the activity diagram by the PDF.
+
+216
+00:36:57,610 --> 00:37:08,570
+Yes. Okay. I'm Eric. I will use this activity diagram to introduce this system.
+
+217
+00:37:10,890 --> 00:37:15,830
+All the system has to do is check.
+
+218
+00:37:15,990 --> 00:37:32,780
+And we will post camera at the door of the cartoon to continues detect faith and human figure and her human figure and face Is that detect?
+
+219
+00:37:32,940 --> 00:37:36,170
+We will identify the the face?
+
+220
+00:37:36,590 --> 00:37:41,770
+Yes, we Tomato will be needed.
+
+221
+00:37:42,080 --> 00:37:44,600
+Here is one and this one.
+
+222
+00:37:45,020 --> 00:38:01,720
+And when we successfully computer identification, we will change the state of the student changes, changes students instead of student.
+
+223
+00:38:08,280 --> 00:38:30,350
+And that or absent? Yes. And we have a mistake in here, a if a class is now over, yet it should be a error from here back to here.
+
+224
+00:38:30,950 --> 00:38:36,340
+To continue detail the human figure and face, yes.
+
+225
+00:38:37,500 --> 00:39:03,930
+And we have to avoid some big guy who want to sneak in or thinking or without being discovered, or some students who who are recur as absent for things to identify, yes, your happiness is failed.
+
+226
+00:39:04,130 --> 00:39:09,530
+Yeah, we will tell a picture in India and send it to the future.
+
+227
+00:39:12,360 --> 00:39:18,600
+And after the class, we will come come the long class time.
+
+228
+00:39:18,640 --> 00:39:47,290
+And if the time is over, all over of the class, we will let a student be absent, and and after all of the counting an hour record is done, we will let all of the students record that the accident.
+
+229
+00:39:47,450 --> 00:40:12,230
+Thank you. Okay, hi. I'm how y.
+
+230
+00:40:12,530 --> 00:40:14,990
+Now I'm introduced the sequence diagram.
+
+231
+00:40:15,120 --> 00:40:29,510
+After the deadline, we have some change process the end of the lifeline, like this, because we mistake its meaning, so we delete it.
+
+232
+00:40:29,860 --> 00:40:38,800
+Then then t says, G-I may be a hardware interface.
+
+233
+00:40:38,960 --> 00:40:49,110
+So we turned camera. We turned the camera job, we turned came out to behind the student to be our U-Y.
+
+234
+00:40:49,830 --> 00:40:55,010
+The last is Self Cool Tuesday.
+
+235
+00:40:55,170 --> 00:41:09,470
+Medical mistakes, of course, usage. So we changed starts to recognize the after human detection, it will co recognizer to start recognize moreover show image will combine with the sand
+
+236
+00:41:09,700 --> 00:41:30,130
+image to send and show and check if and check if it class time, become to call by recognizer.
+
+237
+00:41:32,210 --> 00:41:54,300
+Otherwise, human Detection Execution appearance. This other ten classmates tell us it doesn't draw a full lifeline, which works wrong continuously, only show the parts where both are related.
+
+238
+00:41:58,660 --> 00:42:01,960
+Okay, let's the change of our sequence.
+
+239
+00:42:02,140 --> 00:42:16,910
+Let's run the system 1st students through the door and camera co human coachman detections, dot detect and detection could recognise historic mice.
+
+240
+00:42:17,990 --> 00:42:22,550
+Then the recognizer request the info to database.
+
+241
+00:42:24,060 --> 00:42:34,780
+We use, we use return because we think student info is the most important used dictate student and which is the most important function to our system.
+
+242
+00:42:34,870 --> 00:42:55,510
+After that, send photo, use book barking, barking, because we think the photo may be Stanfield, but detects should be real time and prompt, so if it didn't get right away, we throw did the same argument.
+
+243
+00:42:55,670 --> 00:43:05,700
+Send image, and the show is talking to after after that.
+
+244
+00:43:05,920 --> 00:43:18,800
+There's a lot of judgment to record those student state state, but the activity just mentioned, so I passed it.
+
+245
+00:43:18,870 --> 00:43:22,950
+I'd like to hand over to Stephen to explain class diagram.
+
+246
+00:43:24,830 --> 00:43:30,540
+Hi, I am Stephen, and there are six class in the diagram.
+
+247
+00:43:30,740 --> 00:43:52,450
+The student class is to determine if the student goes through the door or not, and the state controller class will check their class name and determine if the student go go in or out, call that ex time and record attend, absent late, excuse students.
+
+248
+00:43:52,930 --> 00:43:57,210
+All of the information will stand to the database place.
+
+249
+00:43:59,390 --> 00:44:03,450
+They recognize class is to recognize the student.
+
+250
+00:44:03,610 --> 00:44:14,250
+If it for you, will go to the camera class to take a photo and send it to the database place, then email to the teacher.
+
+251
+00:44:14,690 --> 00:44:25,220
+It recognized success. It will go to the database close to protect the students each time and change the students date.
+
+252
+00:44:26,490 --> 00:44:30,170
+And the monitor is to show a live image.
+
+253
+00:44:45,010 --> 00:44:49,710
+An Aquitta is talking about behaviour.
+
+254
+00:44:49,870 --> 00:45:03,010
+Steam machine Winners system will set on deten detention and star winners student to the town.
+
+255
+00:45:03,730 --> 00:45:09,990
+I have in adding identify reader.
+
+256
+00:45:10,310 --> 00:45:20,890
+They are Record and image. If you can recognize 700, recognize it, she said.
+
+257
+00:45:21,230 --> 00:45:27,090
+And recognize if you can can recognize is bell system.
+
+258
+00:45:27,250 --> 00:45:38,790
+Leader Receive talking bottle and photographing child again.
+
+259
+00:45:38,950 --> 00:45:49,320
+the recording and recording. Any class is over, the teacher will interrupt the system.
+
+260
+00:45:59,000 --> 00:46:03,390
+Thank you for listening. Have a good day.
+
+261
+00:46:09,950 --> 00:46:11,230
+What your
+
+262
+00:46:11,390 --> 00:46:15,790
+project is? And, oh my God, project
+
+263
+00:46:20,320 --> 00:46:22,380
+I really don't know how we
+
+264
+00:46:22,540 --> 00:46:31,080
+ask question. This is, give me a break for now.
+
+265
+00:46:31,520 --> 00:46:45,840
+I don't see Team one and Team two can conduct 2nd assignment based on your after you not even close.
+
+266
+00:46:48,460 --> 00:46:51,700
+So I-I don't know how to help you.
+
+267
+00:46:52,190 --> 00:47:04,040
+This is another project. So I said it is an, oh my God, project, really?
+
+268
+00:47:04,200 --> 00:47:06,060
+It's not. Is it another project?
+
+269
+00:47:07,600 --> 00:47:10,740
+So I-I intend to interrupt you.
+
+270
+00:47:10,760 --> 00:47:17,160
+No, no, meat, but it's okay, let you know, finish your presentation.
+
+271
+00:47:17,420 --> 00:47:24,350
+But I gotta tell you that, no, not even close everything.
+
+272
+00:47:24,510 --> 00:47:30,810
+How can I help you? Anyway, thank you for your presentation.
+
+273
+00:47:30,970 --> 00:48:04,700
+That's a lot of problem. Let's go through to help everything.
+
+274
+00:48:05,140 --> 00:48:23,580
+Or they have good perspectives, we win.
+
+275
+00:48:24,160 --> 00:48:27,400
+Hello everyone. We are group three, and my name is Jack.
+
+276
+00:48:27,440 --> 00:48:30,160
+This is our teamwork. Wang Smart Teach.
+
+277
+00:48:30,160 --> 00:49:10,090
+And our team member is j Alan, eric, danny, jeff, richard, edward, tina and Erin introduction, our system will collect the data of generate ditch in various places to judge whether the generate efficiency efficiency is too low, or there is a flooding, and notify the relevant personnel to deal with it.
+
+278
+00:49:14,090 --> 00:49:26,380
+And this is our contest. We use prototyping 1st car.
+
+279
+00:49:26,440 --> 00:49:39,160
+Cost useful, having to continuously demonstrate and correct features that need to be implemented safely, stay within without without footing, cost the wrong direction.
+
+280
+00:49:39,320 --> 00:49:47,430
+That's saving cost. Uncomocated project. Our system is not a large and complex system.
+
+281
+00:49:47,590 --> 00:49:52,210
+Short time, the time limit is about three months, not a lot of time.
+
+282
+00:49:53,250 --> 00:49:58,250
+Rapid repeatedly convert the design direction.
+
+283
+00:49:59,290 --> 00:50:02,430
+Here we are using red, not agile.
+
+284
+00:50:02,590 --> 00:50:09,660
+We have a mistake, because the come condition of the challenge equipment is different in each place.
+
+285
+00:50:09,660 --> 00:50:17,440
+The design will be modified according to the conditions that often occur in the In the place, e.g.
+
+286
+00:50:17,580 --> 00:50:21,020
+it is often flooded with heavy rain or damage.
+
+287
+00:50:21,240 --> 00:50:24,020
+System is easy to block incorporation.
+
+288
+00:50:24,040 --> 00:50:32,280
+It is necessary to confront the need step by step, to the local area and the final reach and finally reach the consensus.
+
+289
+00:50:33,000 --> 00:50:38,200
+And high school and high schedule.
+
+290
+00:50:38,460 --> 00:50:43,070
+Visibility a need to be complete within a limited time schedule.
+
+291
+00:50:43,230 --> 00:50:50,730
+Compassibility is important. I am Jack.
+
+292
+00:50:50,990 --> 00:50:53,210
+This is our use case diagram.
+
+293
+00:50:53,290 --> 00:50:58,050
+We have five use case Monitor the train.
+
+294
+00:50:58,440 --> 00:51:04,740
+Hello, data from sensor and show whether the journey is in good condition.
+
+295
+00:51:05,310 --> 00:51:07,390
+Judge problem, use
+
+296
+00:51:07,650 --> 00:51:14,350
+the data collected from the sensor to just possible costs of floating in the area near
+
+297
+00:51:14,700 --> 00:51:26,230
+guter won the problem. One environmental potential agency that there is a floating problem in this area.
+
+298
+00:51:28,290 --> 00:51:38,880
+So problem. Let's find a chief of village or cleaning staff to solve the problem according to the cause of the flooding.
+
+299
+00:51:48,800 --> 00:51:51,520
+So here is our use case description.
+
+300
+00:51:51,910 --> 00:51:56,390
+1st use case name is Power Judgment and Solution.
+
+301
+00:51:56,750 --> 00:52:09,280
+In the 2nd impartuity is the Environment Protection Agency to know the situation of our ditch on system.
+
+302
+00:52:09,440 --> 00:52:14,860
+In our primary item is Immoding Protection Agency.
+
+303
+00:52:15,100 --> 00:52:31,480
+And trigger is when census taste value reach a red level in our precondition.
+
+304
+00:52:31,640 --> 00:52:35,640
+Is something star in this show, then boy is too heavy.
+
+305
+00:52:35,800 --> 00:52:50,730
+That teacher can have food. And there is, they are three, number four, and somebody is speaking the 1st two is, no, I don't what label things of what four things, god away.
+
+306
+00:52:50,890 --> 00:52:55,230
+Signal. And look, you see you're very single now.
+
+307
+00:52:55,430 --> 00:53:07,710
+And and learn the ju then the system will charge your problem.
+
+308
+00:53:08,070 --> 00:53:30,380
+However, however, the problem is the the suburb, one in several, two, one in the notice will be show on the screen in saying, professional to solve a problem will all be performed.
+
+309
+00:53:30,540 --> 00:53:43,480
+A lesson the next is activity diagram.
+
+310
+00:53:43,640 --> 00:53:46,980
+In our active diagram, it shows that how the system works.
+
+311
+00:53:47,150 --> 00:53:49,570
+Start with the amount of condition.
+
+312
+00:53:49,730 --> 00:53:53,710
+If the system not find any problems, you will do this action repeatedly.
+
+313
+00:53:54,140 --> 00:53:58,280
+If it does find problems, it will consider it is some stocking.
+
+314
+00:53:58,620 --> 00:54:01,640
+Then the season will ask cleaning steps to go troubleshooting.
+
+315
+00:54:02,200 --> 00:54:17,210
+After that, if John John g efficient efficiency still bad, the system will call environmental Protection Agency to solve it, lest the result will be return and saved.
+
+316
+00:54:17,370 --> 00:54:34,060
+Real truly progress. This is our sequence diagram.
+
+317
+00:54:35,740 --> 00:54:43,160
+The actor has Environment Protection Agency, chief of village and cleaning staff.
+
+318
+00:54:45,280 --> 00:54:51,420
+Next, we will divide into three parts to explain how the smart ditch works.
+
+319
+00:54:51,680 --> 00:54:55,940
+1ST sensor controller, mountain level, sensor and flow sensor.
+
+320
+00:54:56,160 --> 00:55:03,610
+And then they look for problems from But Jane, then you will return problems to sensor controller.
+
+321
+00:55:03,690 --> 00:55:24,840
+If there is no problem, this processor will always run, I'm Richard, we you see optional fragment.
+
+322
+00:55:25,000 --> 00:55:33,780
+When sensor finds problem, then sensor will send order to sister, and system will show warning on green and notice chief.
+
+323
+00:55:33,780 --> 00:55:50,810
+Then we use the alternative fragment when chief finding it is a serious problem to feel, call the Environmental Protection Agency to that clean step to declining the trend and return the problem information.
+
+324
+00:55:51,070 --> 00:55:56,710
+Otherwise, chief will clean the drain and return the problem information by himself.
+
+325
+00:56:00,670 --> 00:56:11,270
+When John is all clean, system controller will turn any problem to force, and system will show all fine on the ground.
+
+326
+00:56:13,390 --> 00:56:20,460
+Oh, my name is Danny, and that is our class diagram at the beginning of our system.
+
+327
+00:56:20,480 --> 00:56:52,330
+And deep manager functions hold by system are harmonizing different part of the market, such as sensor going and deep manager following this, sorry, following the Deep Manager responsible for communicating with database, while the resources need to write in American And is our sensor controller.
+
+328
+00:56:52,490 --> 00:56:59,610
+Sensor controller is used to control all sensor that need to be used in the system, including flow, sensor and level.
+
+329
+00:56:59,670 --> 00:57:10,940
+Sensor Less is going GUI is mainly used to display message and is divided into send the interface and report interface.
+
+330
+00:57:20,140 --> 00:57:24,900
+Hi, I'm Eric. This is our behaviors that machine.
+
+331
+00:57:28,790 --> 00:57:32,630
+I will extend this part with the whole system.
+
+332
+00:57:32,920 --> 00:57:36,060
+At the beginning, the system will start 1st.
+
+333
+00:57:36,360 --> 00:57:51,950
+After start up, the style will change to monitoring the ditch, and all sensors will start mandatory less Once the sensor finds any problem, the relevant people are called in to deal with it.
+
+334
+00:57:51,990 --> 00:57:57,660
+At the same time, the stay will change to waiting for a result data.
+
+335
+00:57:57,840 --> 00:58:04,740
+When the results are returned to the sensor, the system saves the results to the database.
+
+336
+00:58:04,850 --> 00:58:13,930
+The final steps will change to the display state, and it is up to the system to continue mandatory.
+
+337
+00:58:15,990 --> 00:58:22,110
+This is our teamwork. One. Thank you for listening.
+
+338
+00:58:23,010 --> 00:58:32,520
+The Well, this is a no no, no project.
+
+339
+00:58:34,920 --> 00:58:39,510
+The complexity, it's beyond your ability to deal with that.
+
+340
+00:58:39,890 --> 00:58:41,930
+So it's not a right topic.
+
+341
+00:58:42,090 --> 00:58:45,240
+You cannot deal with that. Too big.
+
+342
+00:58:45,840 --> 00:58:48,460
+You know, you're not able to do this.
+
+343
+00:58:48,620 --> 00:58:54,740
+You got to change topic. Guess all the way.
+
+344
+00:58:54,900 --> 00:58:56,600
+I when I do through that.
+
+345
+00:58:58,280 --> 00:59:04,000
+No, it's not acceptable, because you cannot do there is.
+
+346
+00:59:04,720 --> 00:59:09,000
+I cannot agree with that. All right, thank you for your presentation next.
+
+347
+00:59:22,960 --> 00:59:59,870
+Thank you. I see.
+
+348
+01:00:01,060 --> 01:00:05,510
+Hello everyone. We are grateful. Today we will talk about our project, encouraging
+
+349
+01:00:05,920 --> 01:00:10,490
+course. Rick. This is Contents, and I'm Danny.
+
+350
+01:00:10,910 --> 01:00:14,560
+The 1st far is introduction in Taiwan.
+
+351
+01:00:14,720 --> 01:00:22,860
+The frequent rains cause as many troubles the lakes get, where on the balcony is one of them.
+
+352
+01:00:23,040 --> 01:00:31,080
+So we decided to make a intelligent coursework for people who living in the running place, or who often need to go on.
+
+353
+01:00:31,240 --> 01:00:33,580
+It will keep the cause from getting away.
+
+354
+01:00:34,640 --> 01:00:38,900
+This is comparison between encouraging cars wreck and ordinary clothes.
+
+355
+01:00:39,060 --> 01:00:44,960
+Wreck concentrate. Intanging clothes. Reck can automatically concentrate cause.
+
+356
+01:00:45,260 --> 01:00:50,430
+Any encouraging clothes reckon has the only to prevent the cause from getting away.
+
+357
+01:00:50,790 --> 01:00:57,030
+Clothes something. it can help us get the start of the course in real time.
+
+358
+01:00:57,360 --> 01:01:03,460
+Remote control With the app, user can remotely control the cross wreck.
+
+359
+01:01:04,930 --> 01:01:30,120
+The army is equipped with raindrop sensor with because intanging cross wreck is used on the balcony with the roof, we decided the Army to be vertical to help the cross avoid splashing rain when the rain is too heavy, when the rain is too heavy, the army will automatically offer user can also manually open it through the app.
+
+360
+01:01:30,920 --> 01:01:39,410
+The app we decide, can clearly hang out a larger time set, take the course time, and remind the user when the time is up.
+
+361
+01:01:39,410 --> 01:01:46,850
+It can also cooperate with Western and humidity sensor to help us get the starts of the cause.
+
+362
+01:01:47,200 --> 01:01:54,400
+It can also use concentrate close button to lay the cross wreck automatically concentrate Close.
+
+363
+01:01:54,690 --> 01:01:56,270
+This is ending of my part.
+
+364
+01:02:01,670 --> 01:02:05,270
+I'm heady. Next, I will introduce our methodology.
+
+365
+01:02:07,700 --> 01:02:12,100
+Our methodology is gone. Here are some reasons why we choose it.
+
+366
+01:02:12,320 --> 01:02:15,140
+1st, we are smoking, only have nine people.
+
+367
+01:02:15,180 --> 01:02:18,300
+2nd, we are a beginner in citizen development.
+
+368
+01:02:18,720 --> 01:02:24,700
+3rd, because we have only three to four months, school is suitable for short term development.
+
+369
+01:02:24,830 --> 01:02:30,910
+1st, we have clear product requirements, and need to get started quickly.
+
+370
+01:02:31,170 --> 01:02:39,690
+Last, we need to iterate better encouragement product features one by one, get feedback and adjust direction.
+
+371
+01:02:41,780 --> 01:02:54,190
+But have frequent meetings. Each team member knows exactly what responsibilities are, and tries to complete the back luck in each spring so that we can be sure the project is on track.
+
+372
+01:02:54,530 --> 01:03:01,430
+We use spring review to get feedback from skateholders on the output and operation.
+
+373
+01:03:01,790 --> 01:03:11,100
+Afterwards, each team member get opinions from outside, and we can get star improving items from next spring.
+
+374
+01:03:11,260 --> 01:03:13,440
+So this is why we choose score.
+
+375
+01:03:18,030 --> 01:03:21,130
+Hi, I'm Cara. Now we talk about your case.
+
+376
+01:03:21,290 --> 01:03:28,220
+Diagram Open earning use raindrop sensor and waste sensors to determine the amount of rainfall.
+
+377
+01:03:28,450 --> 01:03:31,910
+When the rain is heavy, the onion will open automatically.
+
+378
+01:03:32,150 --> 01:03:38,110
+When the rain is light, the egg will notify the user whether to manually open the onion.
+
+379
+01:03:39,220 --> 01:03:45,940
+Check out status use this sensor because you need to recall the weight and humidity data regularly.
+
+380
+01:03:46,330 --> 01:03:57,290
+From this data, we cannot correct status of the work of the cause and then decide whether to open the army collect clothes.
+
+381
+01:03:57,450 --> 01:04:08,700
+Will use the weight and humidity data to determine whether to notify the user to collect the costs, or any will automatically collect the cost to one side.
+
+382
+01:04:09,220 --> 01:04:18,480
+Cross collection standard is determined according to weight and humidity difference recorded by the weight and humidity senses during drawing time.
+
+383
+01:04:18,860 --> 01:04:23,930
+When the users start to hang close, the weight and humanity will be recorded.
+
+384
+01:04:23,930 --> 01:04:27,930
+The weight and humanity will continue to decrease with time.
+
+385
+01:04:28,210 --> 01:04:34,390
+When the weight and humidity no longer change, the system will automatically collect the close to one side.
+
+386
+01:04:34,600 --> 01:04:41,780
+Next. Hi, I'm Alex. How far I'm going to talk about use case description?
+
+387
+01:04:43,520 --> 01:04:49,040
+We choose open only to describe, because it's the most important function of our project.
+
+388
+01:04:49,550 --> 01:04:53,910
+I will introduce the overfield relationship and full of events.
+
+389
+01:04:54,910 --> 01:04:58,930
+1st part, it's easy to see the name ID.
+
+390
+01:04:59,310 --> 01:05:03,810
+Importantly for in primary it and its type is detailing essential.
+
+391
+01:05:04,120 --> 01:05:12,430
+There are three stake holders and interest 1st user wants to use and only to prevent calls from being spread with rainwater.
+
+392
+01:05:12,600 --> 01:05:18,780
+Next, raindrop sensor detects whether it is raining and determine the rainfall is heavy or light.
+
+393
+01:05:18,780 --> 01:05:19,390
+Last
+
+394
+01:05:19,560 --> 01:05:22,300
+one, what sensor detect the cause weight?
+
+395
+01:05:23,380 --> 01:05:24,120
+Then I
+
+396
+01:05:24,240 --> 01:05:27,240
+will describe it briefly this use case.
+
+397
+01:05:27,540 --> 01:05:37,830
+According to the rainfall and cost data, decide whether to open the only when user has a cause on our cost rick, it will be triggered and triggers.
+
+398
+01:05:37,990 --> 01:05:49,140
+Type is external. Next, open only has association relationship with three actors user ranger sensor and weight sensor.
+
+399
+01:05:49,230 --> 01:05:53,230
+It also has extend relationships with another use case.
+
+400
+01:05:53,490 --> 01:06:09,150
+Checkout status. The following is main Part number four of event.
+
+401
+01:06:09,230 --> 01:06:13,590
+After user hands a cause, her wet sensor will detect weight.
+
+402
+01:06:14,470 --> 01:06:24,290
+To get initial weight. If we sensor has detected weight, the floor will go to step four, otherwise a few will go to the end.
+
+403
+01:06:24,690 --> 01:06:27,390
+Step four. Her range of sensor detection.
+
+404
+01:06:27,510 --> 01:06:30,710
+If it is raining the floor will go to step six.
+
+405
+01:06:30,760 --> 01:06:34,000
+In contrast, a firm will go back to step two.
+
+406
+01:06:39,120 --> 01:06:45,360
+Step six, the white sensor detects weight again, because we need to know the change in cause weight.
+
+407
+01:06:45,720 --> 01:06:52,130
+Then if the rainfall is light and cause weight didn't increase, the suffer one will be performed.
+
+408
+01:06:53,890 --> 01:06:57,540
+In this condition, the app will notice user.
+
+409
+01:06:57,700 --> 01:06:59,800
+The user can check cross status.
+
+410
+01:07:00,220 --> 01:07:04,040
+If user wants to open the only, the floor will go to step eight.
+
+411
+01:07:04,360 --> 01:07:07,560
+On the contrary, the floor will go back to step two.
+
+412
+01:07:08,160 --> 01:07:10,400
+Let's go back to step seven.
+
+413
+01:07:10,740 --> 01:07:14,320
+If a rainfall is heavy, all the cost weight increased.
+
+414
+01:07:14,660 --> 01:07:16,480
+Her sub photo will be performed.
+
+415
+01:07:21,750 --> 01:07:27,190
+In this case, the app will send a notification to open it, on it and forward.
+
+416
+01:07:27,350 --> 01:07:37,470
+Go to step eight. Step eight, the system open.
+
+417
+01:07:37,630 --> 01:07:46,600
+Stick. Only after that user can check whether it is still running and decide press cause button or not.
+
+418
+01:07:47,020 --> 01:07:50,280
+If user press the close button, the floor will go to the end.
+
+419
+01:07:50,520 --> 01:07:53,160
+However, the floor will go back to step nine.
+
+420
+01:07:53,580 --> 01:08:01,890
+My party is over. Hello, I'm Bunny Pa Far.
+
+421
+01:08:01,950 --> 01:08:04,070
+I will talk about activity. Diagram.
+
+422
+01:08:05,030 --> 01:08:23,400
+We star activity diagram. At the initial node, user hands up the cause, and white sensor begins to detect weight, and then goes to the decision Not If there is white on the onion, the activity goes down to detect rain, but if it is weightless, our activity will stop.
+
+423
+01:08:23,560 --> 01:08:27,000
+Here. Now goes to our 2nd decision.
+
+424
+01:08:27,020 --> 01:08:33,990
+Not if the raindrop, sensor detect no rain, return to detect weight, and the system continue to judge the way.
+
+425
+01:08:34,270 --> 01:08:43,010
+But if raindrops, sensor detection, the wet sensor will execute again, goes through our 3rd decision node.
+
+426
+01:08:43,170 --> 01:08:56,790
+If the rainfall is less and the weight of cloth is no different between 1st and 2nd detection, the system will send a message to the user, and the user can immediately check course status and choose whether to open on it.
+
+427
+01:08:56,950 --> 01:09:02,680
+At this time, if user doesn't choose open, only the activity will go back to detect weight.
+
+428
+01:09:03,720 --> 01:09:06,440
+There are two ways to open the army.
+
+429
+01:09:06,580 --> 01:09:09,540
+The 1st, its user choose open only.
+
+430
+01:09:09,800 --> 01:09:19,600
+The 2nd, if the rainfall is heavy or the weight of cloth is increased, the system will send open message to your user, and the only will open.
+
+431
+01:09:20,440 --> 01:09:26,350
+After open on it, user can check rent status and decide when to turn off.
+
+432
+01:09:26,510 --> 01:09:32,250
+Only At any time, when user press the closed button, the activity diagram will end.
+
+433
+01:09:32,640 --> 01:09:37,780
+My part is off. Hi, I'm Amelia.
+
+434
+01:09:37,780 --> 01:09:41,740
+Sister and I are going to talk about our sequence dialogue.
+
+435
+01:09:43,650 --> 01:09:47,070
+We choose to describe the most important parts.
+
+436
+01:09:47,230 --> 01:10:00,390
+Open only the play, sparked in red on what we have modified 1st When the user starts to use the cost record for the 1st time, the user needs to make a connection.
+
+437
+01:10:00,550 --> 01:10:07,110
+The user will click the connect button and connect half bus of the clothes rick.
+
+438
+01:10:07,430 --> 01:10:19,670
+Then the user enters the wifi name and pays war to be given to the close rig and the close wreck control will receive the information and request the wifi to do the connecting.
+
+439
+01:10:19,800 --> 01:10:23,460
+If the connection failed, a failed message is displayed and
+
+440
+01:10:23,680 --> 01:10:27,320
+escalopy the user to enter it again.
+
+441
+01:10:27,720 --> 01:10:27,870
+If the
+
+442
+01:10:27,900 --> 01:10:41,380
+connection is successful, the main view of the application will be displayed, the system will start to enter the detention phase.
+
+443
+01:10:41,620 --> 01:10:44,960
+These stations are continuous, so writer it's in a loop.
+
+444
+01:10:45,220 --> 01:10:54,070
+When the system is in Canada state, it can work normally when detecting the user can still operate the clothes rick.
+
+445
+01:10:54,230 --> 01:10:58,770
+So here we use parallel in order to know whether the user is hanging close.
+
+446
+01:10:58,930 --> 01:11:16,630
+Now, the West failure must be greater than the usual, so after debating the weight, cross wreck control will determine whether it is the state of paying close a user is having close, raindrop, humidity, weight will detect and store the value in a database.
+
+447
+01:11:16,950 --> 01:11:22,190
+After that, we will judge to conditions to change room for status.
+
+448
+01:11:22,590 --> 01:11:25,630
+The 1st judgment basis is rainfall.
+
+449
+01:11:25,810 --> 01:11:33,500
+We will experiment and find a rainfall video that will not be spread on the clothes.
+
+450
+01:11:33,660 --> 01:11:36,660
+In most cases, the order is the weight.
+
+451
+01:11:36,820 --> 01:11:42,650
+If the waste of the clothes increase, its means that the clouds are sprayed with red.
+
+452
+01:11:42,730 --> 01:12:00,660
+When rainfall is greater than the assist rainfall of the waiter increase, changing force status to heavy when rainfall is equally rule changing for status to no rain when it is Other conditions changing for status too little fine.
+
+453
+01:12:00,680 --> 01:12:03,600
+Here is the process of condition to detention.
+
+454
+01:12:03,780 --> 01:12:06,840
+It is up to trace time to describe a rest.
+
+455
+01:12:10,070 --> 01:12:16,790
+Hi, my name is Trista. Now I'm going to introduce the rest of our sequence diagram.
+
+456
+01:12:19,540 --> 01:12:42,830
+OK? At the same time of detection, the if the connection status is true, the look fragment will execute the following Two options are used to determine whether the oning is open when Hancock status is true and open only status is false.
+
+457
+01:12:42,830 --> 01:12:53,280
+If the rainfall status is heavy, the clothes right controller will let the only open.
+
+458
+01:12:53,500 --> 01:13:00,920
+When the only is successfully open, it will return a success message to the close right controller.
+
+459
+01:13:01,450 --> 01:13:10,290
+The crosswalk controller will likely show the open message, and the open only status will change to true and be updated.
+
+460
+01:13:13,020 --> 01:13:17,220
+This option is used when the rainforest status is little.
+
+461
+01:13:17,310 --> 01:13:21,470
+If user has not been notified of the right message.
+
+462
+01:13:21,850 --> 01:13:31,260
+Iran, the controller will likely show the red message to notify user like it is running.
+
+463
+01:13:31,420 --> 01:13:39,560
+Now, this option is used when the user wants to open the onion.
+
+464
+01:13:39,960 --> 01:13:42,720
+User needs to click the open button.
+
+465
+01:13:42,880 --> 01:13:51,140
+When they want to open Langui will send the open message to the close right controller to open the owning.
+
+466
+01:13:51,490 --> 01:13:55,510
+If the only is opened, it will return the success message.
+
+467
+01:13:55,890 --> 01:13:59,630
+Language will show the open message to let user know it.
+
+468
+01:14:00,060 --> 01:14:06,540
+The close will controller will change and update the open only status to true.
+
+469
+01:14:08,180 --> 01:14:19,770
+This option is used when the open only status is true and user wants to close the only user needs to click the close oning button.
+
+470
+01:14:19,930 --> 01:14:25,270
+Then we will send a close message to the close right controller to close the owner.
+
+471
+01:14:25,700 --> 01:14:29,640
+If the only is close, it will return the success message.
+
+472
+01:14:29,680 --> 01:14:33,720
+Language will show the close message to notify you, sir.
+
+473
+01:14:34,100 --> 01:14:39,800
+The closer controller will change and update the open only status to force.
+
+474
+01:14:42,070 --> 01:14:50,400
+This option is used when user wants to check the close status, usually needs to click the check button.
+
+475
+01:14:50,740 --> 01:14:54,280
+Language will request the close status data.
+
+476
+01:14:54,670 --> 01:15:03,310
+The close red controller will get the rainfall, weight and humidity records from database and return this record.
+
+477
+01:15:03,510 --> 01:15:10,910
+User can see these records and their record time on the going, so they can decide whether to open
+
+478
+01:15:11,160 --> 01:15:14,740
+across the only according to this record.
+
+479
+01:15:15,180 --> 01:15:16,110
+This is our
+
+480
+01:15:16,420 --> 01:15:23,920
+sequence diagram. Hello and you. The next part to introduce is the class diagram.
+
+481
+01:15:24,140 --> 01:15:27,190
+I will illustrate the function of each class.
+
+482
+01:15:28,160 --> 01:15:30,880
+The 1st is the user interface.
+
+483
+01:15:31,120 --> 01:15:36,860
+The class is responsible for the communication between the user and system, e.g.
+
+484
+01:15:37,040 --> 01:15:44,650
+allowing users to check the statues of growth in real time, such as close weight, environment, humidity.
+
+485
+01:15:44,730 --> 01:15:54,590
+It can also notify users when it runs, whether the only is open or closed, remind the user that it is time to collect the clothes.
+
+486
+01:15:56,620 --> 01:16:04,340
+Cause re controller. It controls the flow of the entire system, and it is the core part of the system.
+
+487
+01:16:04,540 --> 01:16:10,460
+It receives user operations from the GI and controls each class from it.
+
+488
+01:16:10,620 --> 01:16:18,060
+You can know the statues of hanging clouds, rainfall, connect teen and only statues.
+
+489
+01:16:19,740 --> 01:16:22,940
+Next is the child class of the controller.
+
+490
+01:16:23,000 --> 01:16:31,340
+These classes control different sensors. Respectively, raindrop can detect the rainfall and get the rainfall value.
+
+491
+01:16:31,500 --> 01:16:34,640
+Weight can detect weight and get the wet value.
+
+492
+01:16:34,720 --> 01:16:38,780
+Humidity can detect the humidity and get the humidity value.
+
+493
+01:16:38,940 --> 01:16:44,320
+We will store the data of these sensors in data pits from subsequent judgment.
+
+494
+01:16:46,600 --> 01:17:04,670
+Wifi is responsible for connecting to the Internet through The only class we can control the appointment and clothing of only collect is the part that controls the cross re collection when the user uses the automatic collection function.
+
+495
+01:17:04,830 --> 01:17:10,770
+These cars will be called The above is an introduction to the class diagram.
+
+496
+01:17:13,780 --> 01:17:19,740
+Hi, I'm Carlen. Now I'm going to introduce part a behavior state machine.
+
+497
+01:17:20,120 --> 01:17:22,520
+This is behavior steam machine of the ironing.
+
+498
+01:17:22,680 --> 01:17:26,700
+The only is one of the most important parts of our clothes rake.
+
+499
+01:17:26,940 --> 01:17:35,580
+And we can see that the only is created, and the stay will be closed, then the the only will open automatically.
+
+500
+01:17:35,740 --> 01:17:37,800
+Any state will change to open.
+
+501
+01:17:41,480 --> 01:17:53,530
+Then only if the sensor shows that rainbow status is equal to little app will show a message to you, sir.
+
+502
+01:17:53,690 --> 01:17:59,070
+If you should check the open only button, then the only state will change to open.
+
+503
+01:18:01,140 --> 01:18:08,130
+If you use Clean your clothes, close only button, then if they will return to close.
+
+504
+01:18:08,310 --> 01:18:10,430
+Listen the end of our presentation.
+
+505
+01:18:10,590 --> 01:18:30,990
+Thank you for listening. Um, I don't see it.
+
+506
+01:18:31,430 --> 01:18:36,170
+Particle of your project is it often rains.
+
+507
+01:18:36,550 --> 01:18:39,850
+You can have a dryer. I stop everything, right?
+
+508
+01:18:40,170 --> 01:18:46,760
+It often rains. Then you want to design this open arm.
+
+509
+01:18:47,720 --> 01:18:55,230
+It's a Keep it open. What do you want to every don't see is practical, really.
+
+510
+01:18:55,230 --> 01:19:02,870
+He said, when the rain is a happy rain and open it, it's too late, right?
+
+511
+01:19:03,030 --> 01:19:09,220
+Then you have the rope, the wreck to sense the weight, right?
+
+512
+01:19:09,440 --> 01:19:14,820
+Since the weight. And what about the the bluetooth?
+
+513
+01:19:15,060 --> 01:19:18,100
+Where? Where are you? Where are the user?
+
+514
+01:19:18,400 --> 01:19:25,660
+If you are away from from the sensor, how can you get this signal at home?
+
+515
+01:19:25,690 --> 01:19:28,810
+When you're at home, then you can do this by yourself.
+
+516
+01:19:31,090 --> 01:19:41,470
+I don't see this kind of design his markets know, who is going to to buy this.
+
+517
+01:19:41,530 --> 01:19:45,630
+But is this intelligence? I really don't know it.
+
+518
+01:19:45,790 --> 01:19:51,850
+You know, you have a cross wreck, according to the wide broadcast.
+
+519
+01:19:52,120 --> 01:19:53,280
+Now you want to spend that today?
+
+520
+01:19:53,440 --> 01:19:58,180
+You know, it rains, so we don't, we don't put a store room.
+
+521
+01:19:58,700 --> 01:20:05,250
+You want to hang your laundry outside, then it's going to have an orange.
+
+522
+01:20:08,050 --> 01:20:12,700
+I really don't think it's practical.
+
+523
+01:20:14,250 --> 01:20:14,310
+And
+
+524
+01:20:14,780 --> 01:20:30,070
+just say, said, you said you were, you introduction the oven rings a use the dryer, I can stop everything.
+
+525
+01:20:30,370 --> 01:20:33,550
+So any question I already don't see is practical.
+
+526
+01:20:45,110 --> 01:20:56,280
+According to your activity diagram, I see you the way you judge is little rain or heavy rain is by the weight.
+
+527
+01:20:56,920 --> 01:21:09,910
+But if, but I think it is, when you detect is heavy rain, that mean your cause is already very, very, very Wait.
+
+528
+01:21:10,070 --> 01:21:17,160
+So I think it's not possible to use weights to determine is little or heavy?
+
+529
+01:21:18,640 --> 01:21:26,090
+Yes, and practical. And your behavior?
+
+530
+01:21:26,250 --> 01:21:33,610
+Steam machine, uh, is the on you choose all in this case.
+
+531
+01:21:33,770 --> 01:21:44,410
+But is this is your most compass class, or okay, maybe you don't?
+
+532
+01:21:45,470 --> 01:21:49,270
+Is this is your more compass class?
+
+533
+01:21:52,710 --> 01:22:12,960
+Okay, it's okay. Hey teacher. Can we answer a question?
+
+534
+01:22:13,500 --> 01:22:17,620
+Sure. OK about the activity diagram?
+
+535
+01:22:21,540 --> 01:22:25,690
+Tell me that's on. Why do you have this idea?
+
+536
+01:22:26,650 --> 01:22:28,910
+It is not practical at all.
+
+537
+01:22:29,070 --> 01:22:31,170
+What do you think the value of this project?
+
+538
+01:22:32,390 --> 01:22:43,150
+Our use is means, who doesn't have time to collect cost immediately when it rains so you're away from the home?
+
+539
+01:22:44,850 --> 01:22:49,190
+The brutal They cannot detect that long if you have that.
+
+540
+01:22:49,350 --> 01:22:55,980
+No, that's impractical. This is too late when you got the message.
+
+541
+01:22:57,760 --> 01:23:01,200
+If it is, no, this is not practical.
+
+542
+01:23:01,460 --> 01:23:06,430
+And if today, no, we the the weather.
+
+543
+01:23:06,790 --> 01:23:08,610
+You know that it's going to rain.
+
+544
+01:23:08,770 --> 01:23:09,990
+You're not going to do that.
+
+545
+01:23:11,550 --> 01:23:18,170
+We we have the weather forecast, so we can forecast the weather.
+
+546
+01:23:18,590 --> 01:23:20,930
+It's going to rain. So you're not going to do that.
+
+547
+01:23:21,550 --> 01:23:35,520
+And you get to invest a lot to have this device, the rack a student thing, it's open the the army.
+
+548
+01:23:35,860 --> 01:23:50,530
+This is often that the old way, then we solve the problem because the costs need some to sunshine, yet sunshine in sunshine.
+
+549
+01:23:50,950 --> 01:23:57,990
+Well, um, no, I think we we can prevent that from happening.
+
+550
+01:23:58,070 --> 01:24:04,330
+And I said that if you want to use Bluetooth, then you're away from home.
+
+551
+01:24:04,370 --> 01:24:11,340
+No, you cannot accept. Can have this signal.
+
+552
+01:24:21,780 --> 01:24:28,070
+And we put clothes rack on balcony, you're balcony, right?
+
+553
+01:24:28,230 --> 01:24:30,850
+If it is some balcony, you should balcony now.
+
+554
+01:24:30,930 --> 01:24:34,290
+Is it covered the roof cover?
+
+555
+01:24:35,250 --> 01:24:39,310
+And if you want to put as a based on experience, you understand that.
+
+556
+01:24:39,470 --> 01:24:40,870
+Well, it's going to rain now.
+
+557
+01:24:41,030 --> 01:24:42,250
+We're not going to do that.
+
+558
+01:24:43,020 --> 01:24:48,360
+Must be bus balcony. And you have big opening.
+
+559
+01:24:48,520 --> 01:24:53,430
+I know that you said the balcony probably very big opening, right?
+
+560
+01:24:53,590 --> 01:24:58,550
+The rain is going to spread to your laundry, right across.
+
+561
+01:25:08,670 --> 01:25:12,770
+If you have this kind of design that that's not not the focus on the clothes.
+
+562
+01:25:12,930 --> 01:25:17,170
+It says, tomorrow. Smart design. Well, we can detect that.
+
+563
+01:25:17,570 --> 01:25:17,630
+Okay?
+
+564
+01:25:17,930 --> 01:25:20,840
+Well, it's going to rain then.
+
+565
+01:25:21,000 --> 01:25:22,590
+All the window you can, you can
+
+566
+01:25:22,860 --> 01:25:28,510
+go to window automatically to that's useful
+
+567
+01:25:28,840 --> 01:25:31,780
+for people. They wanted to use they would not use that.
+
+568
+01:25:34,040 --> 01:25:34,390
+I
+
+569
+01:25:34,620 --> 01:25:40,480
+said that if you have a driver, or it says all the way the the raining, right?
+
+570
+01:25:40,740 --> 01:26:01,520
+The rainy season is coming. Well, if you need a hand, you cross outside and think that humanity could be very heavy, even even though is it's not rain but the humidity is happy that you're not going to expect it's going to dry.
+
+571
+01:26:02,240 --> 01:26:06,600
+Yeah, that? So everything is practical.
+
+572
+01:26:08,400 --> 01:26:16,650
+Yeah. In addition, because it's important, is is a doable that the previous team the drainage, right?
+
+573
+01:26:16,810 --> 01:26:19,670
+This is not doable. The government s agency.
+
+574
+01:26:19,830 --> 01:26:21,610
+No. This is not your ability.
+
+575
+01:26:21,990 --> 01:26:29,800
+You can deal with that. And for this, I don't think Particle and the 2nd team, well, I says, oh my God.
+
+576
+01:26:30,040 --> 01:26:41,670
+And so no. And the other thing is, um, you were for each question.
+
+577
+01:26:43,790 --> 01:26:49,150
+In addition to that, you are description about the use case, right?
+
+578
+01:26:49,570 --> 01:26:55,470
+In this case, descriptions a lot of mistake if it works, but no.
+
+579
+01:26:56,630 --> 01:27:04,660
+And like, um, tears. That's about your same machine skills.
+
+580
+01:27:05,820 --> 01:27:20,820
+If you were in the targets, you want to describe the States because it's very complex, or no, the the stay can be changed.
+
+581
+01:27:25,460 --> 01:27:38,110
+No, I don't see. Okay, you got to change children your project.
+
+582
+01:27:38,750 --> 01:27:48,290
+This is not practical. It cost me that, um last time when I announced.
+
+583
+01:27:48,780 --> 01:27:52,780
+I want to describe our project.
+
+584
+01:27:54,500 --> 01:28:05,290
+Are you there? Yes. Okay. The dates are from Team four, right?
+
+585
+01:28:05,850 --> 01:28:10,690
+24, four, but not team one, two, three, no.
+
+586
+01:28:10,850 --> 01:28:18,930
+Five. Okay, no. It is not acceptable.
+
+587
+01:28:19,090 --> 01:28:22,530
+Sorry for that. Thank you for your presentation.
+
+588
+01:28:31,350 --> 01:28:33,430
+Okay, we're going to finish soon.
+
+589
+01:28:34,070 --> 01:28:56,510
+I particularly, I because I-A review you were your project before, and I-I know how to rearrange the order of your presentation, right in an evening, evening, foreign for good.
+
+590
+01:28:56,670 --> 01:28:58,190
+Um, I'm sorry to say that.
+
+591
+01:28:58,350 --> 01:29:07,860
+Um, well, it's not acceptable. And the morning, the morning, everything has its, um, some team.
+
+592
+01:29:08,740 --> 01:29:12,900
+It's a pretty good idea, but it just cannot walk it out.
+
+593
+01:29:13,160 --> 01:29:15,600
+I said, it doesn't matter if you can improve it.
+
+594
+01:29:15,760 --> 01:29:17,160
+I said that you became improve it.
+
+595
+01:29:17,320 --> 01:29:21,950
+Um till the 2nd assignments, you improve us.
+
+596
+01:29:22,110 --> 01:29:24,110
+I'm going back to correct you.
+
+597
+01:29:24,270 --> 01:29:31,900
+Great. What? What? Genius student unpied was changing?
+
+598
+01:29:32,080 --> 01:29:38,980
+Kindly made on the report. Three Chairman Chemist team.
+
+599
+01:29:39,460 --> 01:29:44,030
+Would you say, oh my God, they don't project or China?
+
+600
+01:29:44,190 --> 01:30:12,320
+No. So now you know, hong Kong teacher e Jing Ginging.
+
+601
+01:30:12,500 --> 01:30:19,030
+Now, what pushes the man demand effort
+
+602
+01:30:20,140 --> 01:30:26,460
+idea? Um, even this is the chen Jie boy.
+
+603
+01:30:26,480 --> 01:30:42,310
+Hong Kong Danny needs workboard The 2nd assignment even.
+
+604
+01:30:45,570 --> 01:31:14,230
+All right, china, would you, in a tony mind, need a project?
+
+605
+01:31:14,410 --> 01:31:23,990
+Names were Li Jed On take the 2nd assignments.
+
+606
+01:31:24,150 --> 01:31:31,260
+I doubt it apparen'tly. you cannot do it.
+
+607
+01:31:31,750 --> 01:32:05,690
+Unit Joe It should be easy.
+
+608
+01:32:05,850 --> 01:32:06,950
+You know, it should be easy.
+
+609
+01:32:07,250 --> 01:32:09,990
+Should be I hope it should be easy.
+
+610
+01:32:10,070 --> 01:32:14,950
+Okay, so does it so cost?
+
+611
+01:32:15,110 --> 01:32:41,950
+Dismiss? I hope it now compares Good luck Game Market Empire.
+
+612
+01:32:59,870 --> 01:33:26,430
+I'm going to have to go, and I'm going to have to go, and I'm going to have to go, and I'm going, I'm going to have to have to have a meeting with the children.
+
+613
+01:33:26,590 --> 01:33:47,310
+And I'm going to have to, have to, have to, have to, have to, have to have to, I can't wait to have you any more.
+
+614
+01:34:00,310 --> 01:34:07,030
+I'm going to have to go to the library.
+
+615
+01:34:19,830 --> 01:34:54,950
+I'm going to you and I'm going to you, I can't wait for it to be you.

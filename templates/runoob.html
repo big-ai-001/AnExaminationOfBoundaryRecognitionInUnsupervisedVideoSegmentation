@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='/style.css') }}">
+<!--     <link rel="stylesheet" href="./1.css"> -->
+    <title>影片自動分段摘要系統</title>
+</head>
+
+{% raw %}
+
+<body>
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">
+        <heads></heads>
+        <mains></mains>
+        <h3></h3>
+    </div>
+
+    <script type="module">
+        const vapp = Vue.createApp({})
+
+        vapp.component('heads', {
+            data() {
+                return {
+
+                }
+            },
+            template: `
+            <div class="head">
+                <div class="headinner">
+                    <h1 class="inner">影片自動分段摘要系統</h1>
+                    <button id="mode">
+                        <svg class="night" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                            <path
+                                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="sun"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            `
+        })
+
+        vapp.component('mains', {
+            data() {
+                return {
+                    run: false,
+                    video: true,
+                    filename: '',
+                    files: '',
+                    output: [['00:00 無keyword'], ['00:00 無seq']],
+                    mode: 0,
+                    chioce: 0,
+                    load: 1,
+                    id: '',
+                    vars: 0.75,
+                    lenvar: 50,
+                    url: "",
+                    refresh: -1,
+                }
+            },
+            computed: {
+                modeType() {
+                    if (this.mode == 0) {
+                        return "keword"
+                    } else {
+                        return "seq"
+
+                    }
+                },
+                videoType() {
+                    if (this.video == 0) {
+                        return "video"
+                    } else {
+                        return "srt"
+                    }
+                },
+                outputs() {
+                    if (this.mode == 0) {
+                        return this.output[0]
+                    } else {
+                        return this.output[1]
+                    }
+                },
+                src() {
+                    let id = this.id.slice(this.id.indexOf("?v=") + 3, this.id.indexOf("?v=") + 14);
+                    let time = String(Number(this.outputs[this.chioce].slice(0, 2)) * 60 + Number(this.outputs[this.chioce].slice(3, 5)));
+                    // console.log(time)
+                    if (this.chioce == -1) {
+                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=0&amp";
+                    } else {
+                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=0&amp&start=" + time;
+                    }
+                },
+            },
+            methods: {
+                reload() {
+                    this.load = 0;
+                    this.$nextTick(function () {
+                        this.load = 1
+                    })
+
+                },
+                submit() {
+                    this.url = "https://fakeimg.pl/1200x400/";
+                    this.$forceUpdate();
+                    this.run = true;
+                    if (this.video) {
+                        fetch('/url/', {
+                            method: 'POST',
+                            body: JSON.stringify({
+                                url: this.id,
+                                vars: this.vars,
+                                lenvar: this.lenvar
+                            }),
+                            headers: new Headers({
+                                'Content-Type': 'application/json'
+                            })
+                        }).then((res) => {
+                            const data = res.json();
+                            return data;
+                        }).then((data) => {
+                            this.output = data.message;
+                            this.run = false;
+                            this.url = "/wc/" + this.output[2] + ".png";
+                            this.$forceUpdate();
+                            this.refresh = Math.random() ;
+                        });
+                    } else {
+                        let form = new FormData();
+                        form.append("SRT", this.files)
+                        form.append('vars', this.vars)
+                        form.append('lenvar', this.lenvar)
+                        fetch('/upload/', {
+                            method: 'POST',
+                            body: form,
+                        }).then((res) => {
+                            const data = res.json();
+                            return data;
+                        }).then((data) => {
+                            this.output = data.message;
+                            this.run = false;                         
+                            this.url = "/wc/" + this.output[2] + ".png";
+                            this.$forceUpdate();
+                            this.refresh = Math.random() ;
+                        });
+                    }
+                },
+                showfile(e) {
+                    let tmp = e.target.files[0];
+                    if (tmp != null) {
+                        if (tmp.name.slice(-3) == 'srt' && !this.filename.includes(tmp.name)) {
+                            this.files = tmp
+                            this.filename = tmp.name;
+                        }
+                    }
+                },
+                uploadForm: function (e) {
+                    var formElement = document.querySelector('#upload-form'),
+                        fileElement = document.querySelector('#file-field'),
+                        request = new XMLHttpRequest(),
+                        data = new FormData(formElement);
+                    request.open('POST', '/upload/', true);
+                    request.send(data);
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+            },
+            template: `
+            <div class="main">
+                <div class="block">
+                    <div class="blockhead">
+                        <h2>上傳STR字幕檔案</h2>
+                        <button class="submitbut" @click="video = !video">{{videoType}}</button>
+                    </div>
+                    <div class="blockmain">
+                        <div v-if="video">
+                            <input class='sinput' type="text" v-model="id" placeholder="Input URL">
+                            <iframe
+                                class="file-input"
+                                v-if="load"
+                                :src="src" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div v-else>
+                            <label for="file" class="file-input">
+                                <div class="drop-zone">
+                                    <p>Select a file or drop it here!</p>
+                                </div>
+                                <input @change='showfile' type="file" accept=".srt">
+                            </label>
+                            <h3>{{ filename }}</h3>
+                        </div>
+                        <div class="flexbox">
+                            <div>
+                                <h3>分割敏感度 {{ vars }}</h3>
+                                <label for="cowbell">少</label>
+                                <input type="range" id="cowbell" name="cowbell" v-model="vars" min="0.5" max="1.0" step="0.01">
+                                <label for="cowbell">多</label>
+                            </div>
+                            <div>
+                                <h3>摘要長 {{ lenvar }}</h3>
+                                <input type="range" id="cowbell" name="cowbell" v-model="lenvar" min="15" max="100" step="5">
+                            </div>
+                        </div>
+                        <input @click='submit' type="button" class="submitbut" value="Submit">
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockhead">
+                        <h2>結果</h2>
+                        <button class="submitbut" @click="mode = !mode;chioce = 0">{{modeType}}</button>
+                    </div>
+                    <div class="blockmain">
+                        <div v-if="run" class="loader"></div>
+                        <div v-else>
+                            <img :key="refresh" :src="url" alt="">
+                            <p @click="chioce = index;reload()" v-for="(i, index) in outputs">{{ i }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `
+        })
+
+        vapp.mount('#app')
+
+        var preferredTheme;
+        try {
+            preferredTheme = localStorage.getItem("theme");
+        } catch (err) { }
+        function setTheme(newTheme) {
+            // console.log(newTheme);
+            if (newTheme !== document.body.className) {
+                window.__theme = newTheme;
+                preferredTheme = newTheme;
+                document.body.className = newTheme;
+            }
+        }
+        window.__setPreferredTheme = function (newTheme) {
+            // console.log(newTheme);
+            try {
+                if (newTheme !== preferredTheme) {
+                    localStorage.setItem("theme", newTheme);
+                }
+            } catch (err) { }
+            setTheme(newTheme);
+        };
+        var darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+        darkQuery.addListener(function (e) {
+            window.__setPreferredTheme(e.matches ? "dark" : "light");
+        });
+        setTheme(preferredTheme || (darkQuery.matches ? "dark" : "light"));
+        var button = document.querySelector("#mode");
+        button.addEventListener(
+            "click",
+            function () {
+                if (preferredTheme != 'dark') {
+                    window.__setPreferredTheme('dark');
+                } else {
+                    window.__setPreferredTheme();
+                }
+            },
+        );
+    </script>
+
+
+</body>
+{% endraw %}
+
+</html>
