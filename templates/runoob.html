@@ -104,9 +104,9 @@
                     let time = String(Number(this.outputs[this.chioce].split(":")[0]) * 60 + Number(this.outputs[this.chioce].split(":")[1].slice(0, 2)));
                     // console.log(time)
                     if (this.chioce == -1) {
-                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=0&amp";
+                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&amp";
                     } else {
-                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=0&amp&start=" + time;
+                        return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=1&amp&start=" + time;
                     }
                 },
             },
