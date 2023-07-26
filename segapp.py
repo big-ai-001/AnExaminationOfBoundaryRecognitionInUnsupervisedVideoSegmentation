@@ -37,9 +37,9 @@ from transformers import BartTokenizer, TFBartForConditionalGeneration
 from transformers import BertTokenizer, TFBertForNextSentencePrediction, TFBertModel
 
 # +
-config_path = "./model/uncased_L-12_H-768_A-12/bert_config.json"
-checkpoint_path = './model/uncased_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = './model/uncased_L-12_H-768_A-12/vocab.txt'
+config_path = "./model/bert_config.json"
+checkpoint_path = './model/bert_model.ckpt'
+dict_path = './model/vocab.txt'
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 
 model_nsp = TFBertForNextSentencePrediction.from_pretrained("bert-base-uncased")

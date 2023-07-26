@@ -4,7 +4,7 @@
         "dockerfile": "Dockerfile",
         "context": "../"
     },
-    // "postAttachCommand": "/usr/bin/python -m pip install --upgrade pip && pip install pip setuptools wheel -U && cd /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation && pip install -r ./code/requirements.txt && python ./code/init.py && python -m spacy download en_core_web_trf && cd ./code/model && wget https://storage.googleapis.com/bert_models/2020_02_20/uncased_L-12_H-768_A-12.zip && unzip uncased_L-12_H-768_A-12.zip",
+    "postAttachCommand": "mkdir -p /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && cd /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && if [ $(ls -A1 | wc -l) -eq 0 ]; then wget https://storage.googleapis.com/bert_models/2020_02_20/uncased_L-12_H-768_A-12.zip && unzip uncased_L-12_H-768_A-12.zip; fi",
     "customizations": {
         "vscode": {
           "extensions": ["ms-python.python"]

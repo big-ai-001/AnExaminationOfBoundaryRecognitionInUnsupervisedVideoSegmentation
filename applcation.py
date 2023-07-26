@@ -102,9 +102,9 @@ R_tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 R_model = RobertaModel.from_pretrained("roberta-base").to(device)
 
 # +
-config_path = "./model/uncased_L-12_H-768_A-12/bert_config.json"
-checkpoint_path = './model/uncased_L-12_H-768_A-12/bert_model.ckpt'
-dict_path = './model/uncased_L-12_H-768_A-12/vocab.txt'
+config_path = "./model/bert_config.json"
+checkpoint_path = './model/bert_model.ckpt'
+dict_path = './model/vocab.txt'
 tokenizer = Tokenizer(dict_path, do_lower_case=True)
 
 model_nsp = build_transformer_model(config_path=config_path, checkpoint_path=checkpoint_path, with_nsp=True)
