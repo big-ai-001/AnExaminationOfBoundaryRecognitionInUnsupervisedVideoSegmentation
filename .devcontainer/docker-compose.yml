@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  anexaminationofboundaryrecognitioninunsupervisedvideosegmentation:
-    image: anexaminationofboundaryrecognitioninunsupervisedvideosegmentation
-    build:
-      context: .
-      dockerfile: ./Dockerfile
