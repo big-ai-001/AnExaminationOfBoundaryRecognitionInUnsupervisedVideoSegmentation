@@ -14,5 +14,5 @@ spacy
 bert-extractive-summarizer 
 pytube 
 beautifulsoup4 
-wordcloud 
+wordcloud==1.8.0
 youtube-transcript-api

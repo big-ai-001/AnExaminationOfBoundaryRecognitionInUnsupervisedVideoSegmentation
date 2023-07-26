@@ -1,13 +1,14 @@
 {
-    "name": "AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": "../"
-    },
-    "postAttachCommand": "mkdir -p /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && cd /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && if [ $(ls -A1 | wc -l) -eq 0 ]; then wget https://storage.googleapis.com/bert_models/2020_02_20/uncased_L-12_H-768_A-12.zip && unzip uncased_L-12_H-768_A-12.zip; fi",
-    "customizations": {
-        "vscode": {
-          "extensions": ["ms-python.python"]
-        }
-      }
+  "name": "AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "../"
+  },
+  "postAttachCommand": "mkdir -p /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && cd /workspaces/AnExaminationOfBoundaryRecognitionInUnsupervisedVideoSegmentation/model && if [ $(ls -A1 | wc -l) -eq 0 ]; then wget https://storage.googleapis.com/bert_models/2020_02_20/uncased_L-12_H-768_A-12.zip && unzip uncased_L-12_H-768_A-12.zip; fi",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "runArgs": ["--gpus", "all"]
 }

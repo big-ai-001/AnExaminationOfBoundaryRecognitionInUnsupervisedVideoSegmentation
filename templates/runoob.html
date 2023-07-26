@@ -101,7 +101,7 @@
                 },
                 src() {
                     let id = this.id.slice(this.id.indexOf("?v=") + 3, this.id.indexOf("?v=") + 14);
-                    let time = String(Number(this.outputs[this.chioce].slice(0, 2)) * 60 + Number(this.outputs[this.chioce].slice(3, 5)));
+                    let time = String(Number(this.outputs[this.chioce].split(":")[0]) * 60 + Number(this.outputs[this.chioce].split(":")[1].slice(0, 2)));
                     // console.log(time)
                     if (this.chioce == -1) {
                         return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&controls=0&amp";
